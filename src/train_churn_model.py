@@ -606,3 +606,59 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+  # ── PREDICTIONS EXPORT FOR EXCEL ──────────────────────────────
+# Add this right after: joblib.dump(model_artifact, ...)
+
+# Get XGBoost predictions on test set
+xgb_threshold = results_df[results_df['Model'] == 'XGBoost']['Best Threshold'].values[0]
+y_prob_xgb    = xgb_model.predict_proba(X_test)[:, 1]
+y_pred_xgb    = (y_prob_xgb >= xgb_threshold).astype(int)
+
+# Build predictions dataframe
+predictions_df = pd.DataFrame({
+    'Actual':           y_test.values,
+    'Predicted':        y_pred_xgb,
+    'Churn_Probability': np.round(y_prob_xgb, 4),
+    'Risk_Segment':     pd.cut(
+                            y_prob_xgb,
+                            bins=[0, 0.30, 0.50, 0.70, 1.0],
+                            labels=['Low Risk', 'Med-Low Risk', 'Med-High Risk', 'High Risk']
+                        )
+})
+predictions_df['Actual_Label']    = predictions_df['Actual'].map({0: 'No Churn', 1: 'Churn'})
+predictions_df['Predicted_Label'] = predictions_df['Predicted'].map({0: 'No Churn', 1: 'Churn'})
+predictions_df['Correct']         = (predictions_df['Actual'] == predictions_df['Predicted'])
+
+predictions_df.to_csv(PLOTS_DIR / 'predictions.csv', index=False)
+
+# ── ROI CALCULATOR DATA ────────────────────────────────────────
+total_customers     = len(y_test) + len(y_train)   # full dataset
+avg_monthly_revenue = 64.76
+high_risk_count     = (y_prob_xgb >= 0.70).sum()   # threshold for "High Risk"
+high_risk_pct       = high_risk_count / len(y_prob_xgb) * 100
+
+roi_data = []
+for retention in [0.20, 0.30, 0.40]:
+    roi_data.append({
+        'Retention_Rate':         f'{int(retention*100)}%',
+        'High_Risk_Customers':    high_risk_count,
+        'Avg_Monthly_Revenue':    avg_monthly_revenue,
+        'Monthly_Revenue_Saved':  round(high_risk_count * avg_monthly_revenue * retention, 2),
+        'Annual_Revenue_Saved':   round(high_risk_count * avg_monthly_revenue * retention * 12, 2)
+    })
+
+roi_df = pd.DataFrame(roi_data)
+roi_df.to_csv(PLOTS_DIR / 'roi_calculator.csv', index=False)
+
+# ── PRINT SUMMARY ─────────────────────────────────────────────
+print("\n" + "="*55)
+print("EXCEL EXPORT SUMMARY")
+print("="*55)
+print(f"predictions.csv rows     : {len(predictions_df)}")
+print(f"High Risk (prob >= 0.70) : {high_risk_count} customers ({high_risk_pct:.1f}%)")
+print(f"\nROI SCENARIOS:")
+print(roi_df.to_string(index=False))
+print(f"\nSaved to: {PLOTS_DIR.resolve()}")
+
