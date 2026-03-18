@@ -67,6 +67,16 @@ pip install -r requirements.txt
 python src/train_churn_model.py
 ```
 
+Optional run modes:
+
+```powershell
+# Optimize search by ROC-AUC instead of accuracy
+python src/train_churn_model.py --optimize-metric roc_auc
+
+# Use SMOTE on the training split
+python src/train_churn_model.py --use-smote
+```
+
 ## Implemented Workflow
 
 ### 1) Excel Preparation
@@ -107,9 +117,11 @@ Reference: sql/churn_rfm_features.sql
 Models trained:
 
 - Logistic Regression
-- Random Forest (100 estimators)
+- Random Forest
 - Gradient Boosting
 - XGBoost
+- CatBoost (native categorical handling)
+- Soft Voting Ensemble (top-3 model probabilities)
 
 Metrics reported for each:
 
@@ -119,14 +131,16 @@ Metrics reported for each:
 - F1
 - ROC-AUC
 
-The script prints a model comparison table sorted by ROC-AUC.
+The script prints a model comparison table sorted by Accuracy and ROC-AUC, and saves both metrics and best hyperparameters.
 
 ### 5) Evaluation Artifacts
 
-- Combined ROC curves for all four models.
+- Combined ROC curves for all trained models.
 - Confusion Matrix for XGBoost.
 - Precision-Recall curve for XGBoost.
 - SHAP summary plot for XGBoost feature importance.
+- Test-set predictions export with risk segmentation.
+- ROI scenario table for retention planning.
 
 ## Output Files
 
@@ -141,23 +155,32 @@ Generated in outputs/plots:
 - 07_precision_recall_xgboost.png
 - 08_shap_summary_xgboost.png
 - pivot_churn_by_contract.csv
+- model_comparison_metrics.csv
+- model_best_params.csv
+- predictions.csv
+- roi_calculator.csv
 
 Saved model:
 
 - outputs/models/xgb_churn_model.pkl
 
+## Reproducibility Notes
+
+- Script paths are resolved relative to the repository root, so the pipeline can be launched from any working directory.
+- The test set is an 80/20 stratified holdout split on churn labels using random state 42.
+- One-hot encoding is applied after train/test split to avoid preprocessing leakage.
+- Decision thresholds are selected on a validation split from training data before final test-set scoring.
+- The training script validates required input columns before model execution.
+
 ## Latest Run Snapshot
 
 - Observed churn rate: 26.54%
-- Best ROC-AUC in current baseline run: 0.8337
-- XGBoost baseline: Accuracy 0.7779, ROC-AUC 0.8291
-
-After expanded CV tuning and stronger feature engineering:
-
-- Logistic Regression: Accuracy 0.7913, ROC-AUC 0.8394
-- XGBoost: Accuracy 0.7828, ROC-AUC 0.8250
-- Random Forest: Accuracy 0.7786, ROC-AUC 0.8243
-- Gradient Boosting: Accuracy 0.7700, ROC-AUC 0.8208
+- CatBoost Raw: Accuracy 0.8041, ROC-AUC 0.8450
+- Soft Voting Ensemble: Accuracy 0.8034, ROC-AUC 0.8467
+- Logistic Regression: Accuracy 0.8020, ROC-AUC 0.8437
+- XGBoost: Accuracy 0.8013, ROC-AUC 0.8472
+- Gradient Boosting: Accuracy 0.7999, ROC-AUC 0.8460
+- Random Forest: Accuracy 0.7999, ROC-AUC 0.8420
 
 Target criteria:
 

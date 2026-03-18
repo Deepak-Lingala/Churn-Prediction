@@ -1,5 +1,8 @@
-import warnings
+import argparse
+import json
+import shutil
 from pathlib import Path
+from datetime import datetime
 
 import joblib
 import matplotlib.pyplot as plt
@@ -22,24 +25,115 @@ from sklearn.metrics import (
     roc_auc_score,
     roc_curve,
 )
+from sklearn.base import clone
 from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 
-warnings.filterwarnings("ignore")
-
 RANDOM_STATE = 42
-DATA_PATH = Path("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
-PLOTS_DIR = Path("outputs/plots")
-MODELS_DIR = Path("outputs/models")
-OPTIMIZE_METRIC = "accuracy"
-USE_SMOTE_FOR_TRAINING = False
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_PATH = BASE_DIR / "data" / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+PLOTS_DIR = BASE_DIR / "outputs" / "plots"
+MODELS_DIR = BASE_DIR / "outputs" / "models"
+RUNS_DIR = BASE_DIR / "outputs" / "runs"
+DEFAULT_OPTIMIZE_METRIC = "accuracy"
+DEFAULT_USE_SMOTE_FOR_TRAINING = False
+REQUIRED_COLUMNS = {
+    "customerID",
+    "Churn",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "Contract",
+    "SeniorCitizen",
+    "PaymentMethod",
+    "Partner",
+    "Dependents",
+}
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Train and evaluate Telco churn models.")
+    parser.add_argument(
+        "--optimize-metric",
+        default=DEFAULT_OPTIMIZE_METRIC,
+        choices=["accuracy", "roc_auc", "f1"],
+        help="Scoring metric for randomized hyperparameter search.",
+    )
+    parser.add_argument(
+        "--use-smote",
+        action="store_true",
+        default=DEFAULT_USE_SMOTE_FOR_TRAINING,
+        help="Apply SMOTE to the training split before model fitting.",
+    )
+    parser.add_argument(
+        "--run-name",
+        default=None,
+        help="Optional name for this run snapshot folder under outputs/runs.",
+    )
+    parser.add_argument(
+        "--no-run-snapshot",
+        action="store_true",
+        help="Disable automatic snapshot copy to outputs/runs.",
+    )
+    return parser.parse_args()
 
 
 def ensure_output_dirs() -> None:
     PLOTS_DIR.mkdir(parents=True, exist_ok=True)
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def resolve_run_name(args: argparse.Namespace) -> str:
+    if args.run_name:
+        return args.run_name.strip().replace(" ", "_")
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    smote_tag = "smote" if args.use_smote else "no_smote"
+    return f"{timestamp}_{args.optimize_metric}_{smote_tag}"
+
+
+def snapshot_run_outputs(
+    args: argparse.Namespace,
+    results_df: pd.DataFrame,
+) -> Path:
+    run_name = resolve_run_name(args)
+    run_dir = RUNS_DIR / run_name
+    run_plots_dir = run_dir / "plots"
+    run_models_dir = run_dir / "models"
+    run_plots_dir.mkdir(parents=True, exist_ok=True)
+    run_models_dir.mkdir(parents=True, exist_ok=True)
+
+    for file_path in PLOTS_DIR.glob("*"):
+        if file_path.is_file():
+            shutil.copy2(file_path, run_plots_dir / file_path.name)
+
+    for file_path in MODELS_DIR.glob("*"):
+        if file_path.is_file():
+            shutil.copy2(file_path, run_models_dir / file_path.name)
+
+    metadata = {
+        "run_name": run_name,
+        "created_at": datetime.now().isoformat(timespec="seconds"),
+        "optimize_metric": args.optimize_metric,
+        "use_smote": args.use_smote,
+        "random_state": RANDOM_STATE,
+        "best_model": str(results_df.iloc[0]["Model"]),
+        "best_accuracy": float(results_df.iloc[0]["Accuracy"]),
+        "best_roc_auc": float(results_df.iloc[0]["ROC-AUC"]),
+    }
+    with (run_dir / "run_metadata.json").open("w", encoding="utf-8") as f:
+        json.dump(metadata, f, indent=2)
+
+    return run_dir
+
+
+def validate_input_columns(df: pd.DataFrame) -> None:
+    missing_cols = sorted(REQUIRED_COLUMNS.difference(df.columns))
+    if missing_cols:
+        raise ValueError(f"Dataset missing required columns: {missing_cols}")
 
 
 def clean_and_prepare_data(data_path: Path) -> pd.DataFrame:
@@ -50,6 +144,7 @@ def clean_and_prepare_data(data_path: Path) -> pd.DataFrame:
         )
 
     df = pd.read_csv(data_path)
+    validate_input_columns(df)
     df = df.drop_duplicates(subset=["customerID"]).copy()
 
     # Fix blank TotalCharges values and enforce numeric dtype.
@@ -206,6 +301,7 @@ def train_and_evaluate_models(
     y_train: pd.Series,
     X_test: pd.DataFrame,
     y_test: pd.Series,
+    optimize_metric: str,
 ) -> tuple[pd.DataFrame, dict, dict]:
     model_spaces = {
         "Logistic Regression": {
@@ -277,12 +373,20 @@ def train_and_evaluate_models(
         "XGBoost": 32,
     }
 
+    X_threshold_train, X_threshold_val, y_threshold_train, y_threshold_val = train_test_split(
+        X_train,
+        y_train,
+        test_size=0.2,
+        random_state=RANDOM_STATE,
+        stratify=y_train,
+    )
+
     for name, config in model_spaces.items():
         search = RandomizedSearchCV(
             estimator=config["estimator"],
             param_distributions=config["params"],
             n_iter=n_iter_map[name],
-            scoring=OPTIMIZE_METRIC,
+            scoring=optimize_metric,
             cv=cv,
             random_state=RANDOM_STATE,
             n_jobs=-1,
@@ -290,9 +394,14 @@ def train_and_evaluate_models(
         )
         search.fit(X_train, y_train)
 
-        best_model = search.best_estimator_
-        y_train_proba = best_model.predict_proba(X_train)[:, 1]
-        best_threshold, best_train_acc = find_best_threshold(y_train, y_train_proba)
+        tuned_model = clone(config["estimator"]).set_params(**search.best_params_)
+        tuned_model.fit(X_threshold_train, y_threshold_train)
+
+        y_val_proba = tuned_model.predict_proba(X_threshold_val)[:, 1]
+        best_threshold, best_threshold_val_acc = find_best_threshold(y_threshold_val, y_val_proba)
+
+        best_model = clone(config["estimator"]).set_params(**search.best_params_)
+        best_model.fit(X_train, y_train)
 
         y_proba = best_model.predict_proba(X_test)[:, 1]
         y_pred = (y_proba >= best_threshold).astype(int)
@@ -307,7 +416,7 @@ def train_and_evaluate_models(
             "F1": f1_score(y_test, y_pred, zero_division=0),
             "ROC-AUC": roc_auc_score(y_test, y_proba),
             "Best Threshold": best_threshold,
-            "Train Accuracy": best_train_acc,
+            "Threshold Validation Accuracy": best_threshold_val_acc,
             "CV Accuracy": search.best_score_,
         }
         rows.append(metrics)
@@ -316,8 +425,8 @@ def train_and_evaluate_models(
         best_params[name] = search.best_params_
         best_cv_scores[name] = search.best_score_
         best_thresholds[name] = best_threshold
-        best_oof_accuracy[name] = best_train_acc
-        train_prob_map[name] = y_train_proba
+        best_oof_accuracy[name] = best_threshold_val_acc
+        train_prob_map[name] = best_model.predict_proba(X_train)[:, 1]
         test_prob_map[name] = y_proba
 
     top_models = sorted(best_oof_accuracy, key=best_oof_accuracy.get, reverse=True)[:3]
@@ -341,7 +450,7 @@ def train_and_evaluate_models(
             "F1": f1_score(y_test, ensemble_pred, zero_division=0),
             "ROC-AUC": roc_auc_score(y_test, ensemble_test_proba),
             "Best Threshold": ensemble_best_threshold,
-            "Train Accuracy": ensemble_train_acc[ensemble_best_idx],
+            "Threshold Validation Accuracy": ensemble_train_acc[ensemble_best_idx],
             "CV Accuracy": float(np.mean([best_cv_scores[m] for m in top_models])),
         }
     )
@@ -366,7 +475,7 @@ def train_and_evaluate_models(
             {
                 "Model": model_name,
                 "Best_Threshold": best_thresholds[model_name],
-                "Train_Accuracy_At_Best_Threshold": best_oof_accuracy[model_name],
+                "Threshold_Validation_Accuracy_At_Best_Threshold": best_oof_accuracy[model_name],
                 "Best_CV_Accuracy": best_cv_scores[model_name],
                 "Best_Params": str(params),
             }
@@ -387,6 +496,7 @@ def train_and_evaluate_catboost_raw(
     y_train: pd.Series,
     X_test_raw: pd.DataFrame,
     y_test: pd.Series,
+    optimize_metric: str,
 ) -> tuple[dict, tuple[np.ndarray, np.ndarray, float], CatBoostClassifier, dict]:
     cat_cols = list(X_train_raw.select_dtypes(include=["object", "category"]).columns)
 
@@ -417,7 +527,7 @@ def train_and_evaluate_catboost_raw(
         estimator=estimator,
         param_distributions=params,
         n_iter=24,
-        scoring=OPTIMIZE_METRIC,
+        scoring=optimize_metric,
         cv=cv,
         random_state=RANDOM_STATE,
         n_jobs=-1,
@@ -442,12 +552,12 @@ def train_and_evaluate_catboost_raw(
         "F1": f1_score(y_test, y_test_pred, zero_division=0),
         "ROC-AUC": roc_auc_score(y_test, y_test_proba),
         "Best Threshold": best_threshold,
-        "Train Accuracy": best_val_acc,
+        "Threshold Validation Accuracy": best_val_acc,
         "CV Accuracy": search.best_score_,
     }
     meta = {
         "Best_Threshold": best_threshold,
-        "Train_Accuracy_At_Best_Threshold": best_val_acc,
+        "Threshold_Validation_Accuracy_At_Best_Threshold": best_val_acc,
         "Best_CV_Accuracy": search.best_score_,
         "Best_Params": str(search.best_params_),
         "cat_features": cat_cols,
@@ -494,7 +604,7 @@ def plot_precision_recall_best(model, X_test: pd.DataFrame, y_test: pd.Series) -
     plt.close()
 
 
-def plot_shap_summary(model, X_train: pd.DataFrame, X_test: pd.DataFrame) -> None:
+def plot_shap_summary(model, X_test: pd.DataFrame) -> None:
     sample_size = min(1000, len(X_test))
     X_test_sample = X_test.sample(n=sample_size, random_state=RANDOM_STATE)
 
@@ -508,7 +618,70 @@ def plot_shap_summary(model, X_train: pd.DataFrame, X_test: pd.DataFrame) -> Non
     plt.close()
 
 
+def export_predictions_and_roi(
+    xgb_model: XGBClassifier,
+    results_df: pd.DataFrame,
+    X_test: pd.DataFrame,
+    y_test: pd.Series,
+) -> None:
+    xgb_row = results_df[results_df["Model"] == "XGBoost"]
+    if xgb_row.empty:
+        raise ValueError("XGBoost row not found in results; cannot export predictions and ROI.")
+
+    xgb_threshold = float(xgb_row["Best Threshold"].iloc[0])
+    y_prob_xgb = xgb_model.predict_proba(X_test)[:, 1]
+    y_pred_xgb = (y_prob_xgb >= xgb_threshold).astype(int)
+
+    predictions_df = pd.DataFrame(
+        {
+            "Actual": y_test.values,
+            "Predicted": y_pred_xgb,
+            "Churn_Probability": np.round(y_prob_xgb, 4),
+            "Risk_Segment": pd.cut(
+                y_prob_xgb,
+                bins=[0, 0.30, 0.50, 0.70, 1.0],
+                labels=["Low Risk", "Med-Low Risk", "Med-High Risk", "High Risk"],
+            ),
+        }
+    )
+    predictions_df["Actual_Label"] = predictions_df["Actual"].map({0: "No Churn", 1: "Churn"})
+    predictions_df["Predicted_Label"] = predictions_df["Predicted"].map({0: "No Churn", 1: "Churn"})
+    predictions_df["Correct"] = predictions_df["Actual"] == predictions_df["Predicted"]
+    predictions_df.to_csv(PLOTS_DIR / "predictions.csv", index=False)
+
+    avg_monthly_revenue = 64.76
+    high_risk_count = int((y_prob_xgb >= 0.70).sum())
+    high_risk_pct = (high_risk_count / len(y_prob_xgb)) * 100
+
+    roi_data = []
+    for retention in [0.20, 0.30, 0.40]:
+        roi_data.append(
+            {
+                "Retention_Rate": f"{int(retention * 100)}%",
+                "High_Risk_Customers": high_risk_count,
+                "Avg_Monthly_Revenue": avg_monthly_revenue,
+                "Monthly_Revenue_Saved": round(high_risk_count * avg_monthly_revenue * retention, 2),
+                "Annual_Revenue_Saved": round(high_risk_count * avg_monthly_revenue * retention * 12, 2),
+            }
+        )
+
+    roi_df = pd.DataFrame(roi_data)
+    roi_df.to_csv(PLOTS_DIR / "roi_calculator.csv", index=False)
+
+    print("\n" + "=" * 55)
+    print("EXCEL EXPORT SUMMARY")
+    print("=" * 55)
+    print(f"predictions.csv rows     : {len(predictions_df)}")
+    print(f"High Risk (prob >= 0.70) : {high_risk_count} customers ({high_risk_pct:.1f}%)")
+    print("\nROI SCENARIOS:")
+    print(roi_df.to_string(index=False))
+    print(f"\nSaved to: {PLOTS_DIR.resolve()}")
+
+
 def main() -> None:
+    args = parse_args()
+    np.random.seed(RANDOM_STATE)
+
     ensure_output_dirs()
 
     df = clean_and_prepare_data(DATA_PATH)
@@ -527,17 +700,23 @@ def main() -> None:
 
     X_train, X_test = encode_train_test_features(X_train_raw, X_test_raw)
 
-    if USE_SMOTE_FOR_TRAINING:
+    if args.use_smote:
         smote = SMOTE(random_state=RANDOM_STATE)
         X_train_fit, y_train_fit = smote.fit_resample(X_train, y_train)
     else:
         X_train_fit, y_train_fit = X_train, y_train
+
+    print(
+        f"Training config -> optimize_metric={args.optimize_metric}, "
+        f"use_smote={args.use_smote}, random_state={RANDOM_STATE}"
+    )
 
     results_df, roc_data, fitted_models = train_and_evaluate_models(
         X_train_fit,
         y_train_fit,
         X_test,
         y_test,
+        optimize_metric=args.optimize_metric,
     )
 
     cat_raw_metrics, cat_raw_roc, cat_raw_model, cat_raw_meta = train_and_evaluate_catboost_raw(
@@ -545,6 +724,7 @@ def main() -> None:
         y_train,
         X_test_raw,
         y_test,
+        optimize_metric=args.optimize_metric,
     )
     results_df = pd.concat([results_df, pd.DataFrame([cat_raw_metrics])], ignore_index=True)
     results_df = results_df.sort_values(by=["Accuracy", "ROC-AUC"], ascending=False).reset_index(drop=True)
@@ -561,8 +741,8 @@ def main() -> None:
                     {
                         "Model": "CatBoost Raw",
                         "Best_Threshold": cat_raw_meta["Best_Threshold"],
-                        "Train_Accuracy_At_Best_Threshold": cat_raw_meta[
-                            "Train_Accuracy_At_Best_Threshold"
+                        "Threshold_Validation_Accuracy_At_Best_Threshold": cat_raw_meta[
+                            "Threshold_Validation_Accuracy_At_Best_Threshold"
                         ],
                         "Best_CV_Accuracy": cat_raw_meta["Best_CV_Accuracy"],
                         "Best_Params": cat_raw_meta["Best_Params"],
@@ -582,14 +762,14 @@ def main() -> None:
     xgb_model = fitted_models["XGBoost"]
     plot_confusion_matrix_best(xgb_model, X_test, y_test)
     plot_precision_recall_best(xgb_model, X_test, y_test)
-    plot_shap_summary(xgb_model, X_train_fit, X_test)
+    plot_shap_summary(xgb_model, X_test)
 
     model_artifact = {
         "model": xgb_model,
         "feature_columns": list(X_train.columns),
         "random_state": RANDOM_STATE,
-        "optimization_metric": OPTIMIZE_METRIC,
-        "use_smote_for_training": USE_SMOTE_FOR_TRAINING,
+        "optimization_metric": args.optimize_metric,
+        "use_smote_for_training": args.use_smote,
         "catboost_raw_meta": cat_raw_meta,
     }
     joblib.dump(model_artifact, MODELS_DIR / "xgb_churn_model.pkl")
@@ -600,65 +780,21 @@ def main() -> None:
     else:
         print("\nTarget not met yet. Consider hyperparameter tuning and feature selection.")
 
+    export_predictions_and_roi(
+        xgb_model=xgb_model,
+        results_df=results_df,
+        X_test=X_test,
+        y_test=y_test,
+    )
+
+    if not args.no_run_snapshot:
+        run_dir = snapshot_run_outputs(args=args, results_df=results_df)
+        print(f"Saved run snapshot to: {run_dir.resolve()}")
+
     print(f"\nSaved plots to: {PLOTS_DIR.resolve()}")
     print(f"Saved model to: {(MODELS_DIR / 'xgb_churn_model.pkl').resolve()}")
 
 
 if __name__ == "__main__":
     main()
-
-
-  # ── PREDICTIONS EXPORT FOR EXCEL ──────────────────────────────
-# Add this right after: joblib.dump(model_artifact, ...)
-
-# Get XGBoost predictions on test set
-xgb_threshold = results_df[results_df['Model'] == 'XGBoost']['Best Threshold'].values[0]
-y_prob_xgb    = xgb_model.predict_proba(X_test)[:, 1]
-y_pred_xgb    = (y_prob_xgb >= xgb_threshold).astype(int)
-
-# Build predictions dataframe
-predictions_df = pd.DataFrame({
-    'Actual':           y_test.values,
-    'Predicted':        y_pred_xgb,
-    'Churn_Probability': np.round(y_prob_xgb, 4),
-    'Risk_Segment':     pd.cut(
-                            y_prob_xgb,
-                            bins=[0, 0.30, 0.50, 0.70, 1.0],
-                            labels=['Low Risk', 'Med-Low Risk', 'Med-High Risk', 'High Risk']
-                        )
-})
-predictions_df['Actual_Label']    = predictions_df['Actual'].map({0: 'No Churn', 1: 'Churn'})
-predictions_df['Predicted_Label'] = predictions_df['Predicted'].map({0: 'No Churn', 1: 'Churn'})
-predictions_df['Correct']         = (predictions_df['Actual'] == predictions_df['Predicted'])
-
-predictions_df.to_csv(PLOTS_DIR / 'predictions.csv', index=False)
-
-# ── ROI CALCULATOR DATA ────────────────────────────────────────
-total_customers     = len(y_test) + len(y_train)   # full dataset
-avg_monthly_revenue = 64.76
-high_risk_count     = (y_prob_xgb >= 0.70).sum()   # threshold for "High Risk"
-high_risk_pct       = high_risk_count / len(y_prob_xgb) * 100
-
-roi_data = []
-for retention in [0.20, 0.30, 0.40]:
-    roi_data.append({
-        'Retention_Rate':         f'{int(retention*100)}%',
-        'High_Risk_Customers':    high_risk_count,
-        'Avg_Monthly_Revenue':    avg_monthly_revenue,
-        'Monthly_Revenue_Saved':  round(high_risk_count * avg_monthly_revenue * retention, 2),
-        'Annual_Revenue_Saved':   round(high_risk_count * avg_monthly_revenue * retention * 12, 2)
-    })
-
-roi_df = pd.DataFrame(roi_data)
-roi_df.to_csv(PLOTS_DIR / 'roi_calculator.csv', index=False)
-
-# ── PRINT SUMMARY ─────────────────────────────────────────────
-print("\n" + "="*55)
-print("EXCEL EXPORT SUMMARY")
-print("="*55)
-print(f"predictions.csv rows     : {len(predictions_df)}")
-print(f"High Risk (prob >= 0.70) : {high_risk_count} customers ({high_risk_pct:.1f}%)")
-print(f"\nROI SCENARIOS:")
-print(roi_df.to_string(index=False))
-print(f"\nSaved to: {PLOTS_DIR.resolve()}")
 
