@@ -1,7 +1,0 @@
-Model,Best_Threshold,Threshold_Validation_Accuracy_At_Best_Threshold,Best_CV_Accuracy,Best_Params
-Logistic Regression,0.4600000000000002,0.8592995169082126,0.8546765766160223,"{'model__solver': 'lbfgs', 'model__class_weight': None, 'model__C': 1.0}"
-Random Forest,0.5500000000000003,0.8695652173913043,0.8589042135528409,"{'n_estimators': 500, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}"
-Gradient Boosting,0.5700000000000003,0.8683574879227053,0.8603548754323743,"{'subsample': 1.0, 'n_estimators': 300, 'min_samples_leaf': 4, 'max_depth': 3, 'learning_rate': 0.1}"
-XGBoost,0.5000000000000002,0.8683574879227053,0.862167053431995,"{'subsample': 0.7, 'reg_lambda': 2.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.85}"
-Soft Voting Ensemble,0.5300000000000002,0.9218410244020296,0.8604753808057367,"{'members': ['Random Forest', 'Gradient Boosting', 'XGBoost']}"
-CatBoost Raw,0.49000000000000027,0.8225377107364685,0.8043078520786218,"{'learning_rate': 0.01, 'l2_leaf_reg': 1, 'iterations': 400, 'depth': 4, 'border_count': 254}"

@@ -1,1410 +1,1410 @@
 Actual,Predicted,Churn_Probability,Risk_Segment,Actual_Label,Predicted_Label,Correct
-0,0,0.0201,Low Risk,No Churn,No Churn,True
-0,1,0.9283,High Risk,No Churn,Churn,False
-0,0,0.1279,Low Risk,No Churn,No Churn,True
-0,0,0.2411,Low Risk,No Churn,No Churn,True
-0,0,0.0124,Low Risk,No Churn,No Churn,True
-0,1,0.592,Med-High Risk,No Churn,Churn,False
-0,0,0.3762,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1514,Low Risk,No Churn,No Churn,True
-0,0,0.0059,Low Risk,No Churn,No Churn,True
-1,0,0.4518,Med-Low Risk,Churn,No Churn,False
-0,0,0.3984,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0107,Low Risk,No Churn,No Churn,True
-0,0,0.1537,Low Risk,No Churn,No Churn,True
-1,1,0.7764,High Risk,Churn,Churn,True
-0,0,0.1585,Low Risk,No Churn,No Churn,True
-0,0,0.057,Low Risk,No Churn,No Churn,True
-0,0,0.0179,Low Risk,No Churn,No Churn,True
-0,1,0.8248,High Risk,No Churn,Churn,False
-0,0,0.2045,Low Risk,No Churn,No Churn,True
-0,0,0.0547,Low Risk,No Churn,No Churn,True
-1,1,0.8378,High Risk,Churn,Churn,True
-0,0,0.1581,Low Risk,No Churn,No Churn,True
-0,0,0.0331,Low Risk,No Churn,No Churn,True
-0,0,0.0135,Low Risk,No Churn,No Churn,True
-0,0,0.2994,Low Risk,No Churn,No Churn,True
-0,0,0.2142,Low Risk,No Churn,No Churn,True
-1,0,0.2951,Low Risk,Churn,No Churn,False
-1,1,0.8392,High Risk,Churn,Churn,True
-0,0,0.0648,Low Risk,No Churn,No Churn,True
-1,1,0.717,High Risk,Churn,Churn,True
-0,0,0.421,Med-Low Risk,No Churn,No Churn,True
-0,1,0.6372,Med-High Risk,No Churn,Churn,False
-0,0,0.006,Low Risk,No Churn,No Churn,True
-0,0,0.0052,Low Risk,No Churn,No Churn,True
-1,1,0.7775,High Risk,Churn,Churn,True
-0,0,0.1264,Low Risk,No Churn,No Churn,True
-1,1,0.5814,Med-High Risk,Churn,Churn,True
-0,0,0.0066,Low Risk,No Churn,No Churn,True
-1,1,0.9351,High Risk,Churn,Churn,True
-1,0,0.1494,Low Risk,Churn,No Churn,False
-0,0,0.0114,Low Risk,No Churn,No Churn,True
-0,1,0.9422,High Risk,No Churn,Churn,False
-0,0,0.3727,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2871,Low Risk,No Churn,No Churn,True
-0,0,0.0276,Low Risk,No Churn,No Churn,True
-1,1,0.5694,Med-High Risk,Churn,Churn,True
-0,1,0.7185,High Risk,No Churn,Churn,False
-0,0,0.2286,Low Risk,No Churn,No Churn,True
-0,0,0.0033,Low Risk,No Churn,No Churn,True
-1,0,0.1573,Low Risk,Churn,No Churn,False
-0,0,0.0107,Low Risk,No Churn,No Churn,True
-1,1,0.9249,High Risk,Churn,Churn,True
-0,0,0.3114,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4037,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4935,Med-Low Risk,No Churn,No Churn,True
-1,1,0.632,Med-High Risk,Churn,Churn,True
-0,0,0.0459,Low Risk,No Churn,No Churn,True
-0,0,0.0497,Low Risk,No Churn,No Churn,True
-0,0,0.0734,Low Risk,No Churn,No Churn,True
-0,0,0.0184,Low Risk,No Churn,No Churn,True
-0,0,0.0032,Low Risk,No Churn,No Churn,True
-1,0,0.0166,Low Risk,Churn,No Churn,False
-0,0,0.248,Low Risk,No Churn,No Churn,True
-0,0,0.1614,Low Risk,No Churn,No Churn,True
-1,0,0.3174,Med-Low Risk,Churn,No Churn,False
-1,1,0.5182,Med-High Risk,Churn,Churn,True
-1,0,0.3843,Med-Low Risk,Churn,No Churn,False
-1,0,0.4125,Med-Low Risk,Churn,No Churn,False
-1,0,0.0935,Low Risk,Churn,No Churn,False
-1,1,0.8839,High Risk,Churn,Churn,True
-0,0,0.0008,Low Risk,No Churn,No Churn,True
-0,0,0.0209,Low Risk,No Churn,No Churn,True
-1,1,0.5162,Med-High Risk,Churn,Churn,True
-0,0,0.1587,Low Risk,No Churn,No Churn,True
-0,0,0.0877,Low Risk,No Churn,No Churn,True
-0,0,0.0376,Low Risk,No Churn,No Churn,True
-0,0,0.0786,Low Risk,No Churn,No Churn,True
-1,0,0.4538,Med-Low Risk,Churn,No Churn,False
-0,0,0.1862,Low Risk,No Churn,No Churn,True
-0,0,0.0194,Low Risk,No Churn,No Churn,True
-0,0,0.039,Low Risk,No Churn,No Churn,True
-0,0,0.0252,Low Risk,No Churn,No Churn,True
-1,0,0.2037,Low Risk,Churn,No Churn,False
-1,1,0.9196,High Risk,Churn,Churn,True
-0,0,0.027,Low Risk,No Churn,No Churn,True
-0,0,0.4434,Med-Low Risk,No Churn,No Churn,True
-0,1,0.7409,High Risk,No Churn,Churn,False
-1,1,0.6419,Med-High Risk,Churn,Churn,True
-1,0,0.4091,Med-Low Risk,Churn,No Churn,False
-0,0,0.2079,Low Risk,No Churn,No Churn,True
-1,1,0.5409,Med-High Risk,Churn,Churn,True
-0,0,0.4446,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0108,Low Risk,No Churn,No Churn,True
-1,1,0.6211,Med-High Risk,Churn,Churn,True
-1,1,0.6781,Med-High Risk,Churn,Churn,True
-0,0,0.0114,Low Risk,No Churn,No Churn,True
-0,0,0.4411,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0071,Low Risk,No Churn,No Churn,True
-1,1,0.8005,High Risk,Churn,Churn,True
-0,0,0.1247,Low Risk,No Churn,No Churn,True
-1,1,0.5977,Med-High Risk,Churn,Churn,True
-1,0,0.4571,Med-Low Risk,Churn,No Churn,False
-0,1,0.6727,Med-High Risk,No Churn,Churn,False
-1,0,0.2316,Low Risk,Churn,No Churn,False
-1,0,0.2104,Low Risk,Churn,No Churn,False
-0,0,0.0023,Low Risk,No Churn,No Churn,True
-0,0,0.1645,Low Risk,No Churn,No Churn,True
-0,0,0.0308,Low Risk,No Churn,No Churn,True
-0,0,0.1508,Low Risk,No Churn,No Churn,True
-0,0,0.0794,Low Risk,No Churn,No Churn,True
-0,0,0.0117,Low Risk,No Churn,No Churn,True
-0,1,0.6062,Med-High Risk,No Churn,Churn,False
-0,0,0.2261,Low Risk,No Churn,No Churn,True
-0,1,0.7238,High Risk,No Churn,Churn,False
-1,1,0.8019,High Risk,Churn,Churn,True
-0,0,0.016,Low Risk,No Churn,No Churn,True
-1,1,0.6981,Med-High Risk,Churn,Churn,True
-0,1,0.5623,Med-High Risk,No Churn,Churn,False
-0,0,0.0138,Low Risk,No Churn,No Churn,True
-0,0,0.0513,Low Risk,No Churn,No Churn,True
-0,0,0.0141,Low Risk,No Churn,No Churn,True
-1,1,0.9024,High Risk,Churn,Churn,True
-0,0,0.0143,Low Risk,No Churn,No Churn,True
-0,0,0.039,Low Risk,No Churn,No Churn,True
-1,1,0.9077,High Risk,Churn,Churn,True
-0,0,0.0379,Low Risk,No Churn,No Churn,True
-1,0,0.3565,Med-Low Risk,Churn,No Churn,False
-0,0,0.1074,Low Risk,No Churn,No Churn,True
-1,1,0.5564,Med-High Risk,Churn,Churn,True
-0,0,0.0874,Low Risk,No Churn,No Churn,True
-1,0,0.4451,Med-Low Risk,Churn,No Churn,False
-1,0,0.3574,Med-Low Risk,Churn,No Churn,False
-0,0,0.1223,Low Risk,No Churn,No Churn,True
-0,0,0.0919,Low Risk,No Churn,No Churn,True
-0,0,0.0435,Low Risk,No Churn,No Churn,True
-0,0,0.1395,Low Risk,No Churn,No Churn,True
-0,0,0.0425,Low Risk,No Churn,No Churn,True
-0,0,0.0828,Low Risk,No Churn,No Churn,True
-0,0,0.0098,Low Risk,No Churn,No Churn,True
-1,1,0.5088,Med-High Risk,Churn,Churn,True
-0,0,0.1189,Low Risk,No Churn,No Churn,True
-0,0,0.2273,Low Risk,No Churn,No Churn,True
-0,1,0.5509,Med-High Risk,No Churn,Churn,False
-0,0,0.0419,Low Risk,No Churn,No Churn,True
-0,0,0.0067,Low Risk,No Churn,No Churn,True
-0,0,0.2744,Low Risk,No Churn,No Churn,True
-0,0,0.1101,Low Risk,No Churn,No Churn,True
-1,1,0.5022,Med-High Risk,Churn,Churn,True
-0,0,0.358,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2793,Low Risk,No Churn,No Churn,True
-0,0,0.0326,Low Risk,No Churn,No Churn,True
-0,1,0.6795,Med-High Risk,No Churn,Churn,False
-0,0,0.3015,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3252,Med-Low Risk,No Churn,No Churn,True
-1,1,0.8635,High Risk,Churn,Churn,True
-0,0,0.1661,Low Risk,No Churn,No Churn,True
-0,1,0.5653,Med-High Risk,No Churn,Churn,False
-1,0,0.3893,Med-Low Risk,Churn,No Churn,False
-1,1,0.7995,High Risk,Churn,Churn,True
-1,1,0.707,High Risk,Churn,Churn,True
-0,0,0.1158,Low Risk,No Churn,No Churn,True
-0,0,0.0717,Low Risk,No Churn,No Churn,True
-0,0,0.0011,Low Risk,No Churn,No Churn,True
-0,0,0.0088,Low Risk,No Churn,No Churn,True
-0,0,0.1069,Low Risk,No Churn,No Churn,True
-1,0,0.2427,Low Risk,Churn,No Churn,False
-0,0,0.0359,Low Risk,No Churn,No Churn,True
-1,0,0.2776,Low Risk,Churn,No Churn,False
-0,0,0.1522,Low Risk,No Churn,No Churn,True
-0,0,0.0618,Low Risk,No Churn,No Churn,True
-0,0,0.1597,Low Risk,No Churn,No Churn,True
-1,1,0.9715,High Risk,Churn,Churn,True
-0,0,0.082,Low Risk,No Churn,No Churn,True
-1,0,0.4603,Med-Low Risk,Churn,No Churn,False
-0,1,0.6606,Med-High Risk,No Churn,Churn,False
-0,0,0.4362,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0094,Low Risk,No Churn,No Churn,True
-0,0,0.0095,Low Risk,No Churn,No Churn,True
-0,0,0.3491,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0595,Low Risk,No Churn,No Churn,True
-1,0,0.493,Med-Low Risk,Churn,No Churn,False
-0,0,0.0592,Low Risk,No Churn,No Churn,True
-1,1,0.8455,High Risk,Churn,Churn,True
-1,1,0.6416,Med-High Risk,Churn,Churn,True
-0,0,0.0012,Low Risk,No Churn,No Churn,True
-0,0,0.2317,Low Risk,No Churn,No Churn,True
-0,0,0.0473,Low Risk,No Churn,No Churn,True
-1,1,0.5676,Med-High Risk,Churn,Churn,True
-0,0,0.1257,Low Risk,No Churn,No Churn,True
-0,0,0.0349,Low Risk,No Churn,No Churn,True
-0,0,0.1045,Low Risk,No Churn,No Churn,True
-0,0,0.3527,Med-Low Risk,No Churn,No Churn,True
-1,1,0.5459,Med-High Risk,Churn,Churn,True
-0,0,0.0296,Low Risk,No Churn,No Churn,True
-0,0,0.3919,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4698,Med-Low Risk,No Churn,No Churn,True
-0,1,0.73,High Risk,No Churn,Churn,False
-0,0,0.3484,Med-Low Risk,No Churn,No Churn,True
-0,1,0.5989,Med-High Risk,No Churn,Churn,False
-0,0,0.3784,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2873,Low Risk,No Churn,No Churn,True
-0,0,0.0121,Low Risk,No Churn,No Churn,True
-0,0,0.0436,Low Risk,No Churn,No Churn,True
-0,0,0.0625,Low Risk,No Churn,No Churn,True
-0,0,0.133,Low Risk,No Churn,No Churn,True
-0,0,0.2399,Low Risk,No Churn,No Churn,True
-0,0,0.0469,Low Risk,No Churn,No Churn,True
-0,0,0.0885,Low Risk,No Churn,No Churn,True
-0,1,0.5646,Med-High Risk,No Churn,Churn,False
-0,0,0.0381,Low Risk,No Churn,No Churn,True
-1,0,0.0436,Low Risk,Churn,No Churn,False
-0,0,0.3815,Med-Low Risk,No Churn,No Churn,True
-1,0,0.3626,Med-Low Risk,Churn,No Churn,False
-0,0,0.0646,Low Risk,No Churn,No Churn,True
-0,0,0.0109,Low Risk,No Churn,No Churn,True
-0,0,0.2511,Low Risk,No Churn,No Churn,True
-0,0,0.0136,Low Risk,No Churn,No Churn,True
-0,0,0.4368,Med-Low Risk,No Churn,No Churn,True
-1,1,0.6552,Med-High Risk,Churn,Churn,True
-1,0,0.0644,Low Risk,Churn,No Churn,False
-0,0,0.1106,Low Risk,No Churn,No Churn,True
-0,0,0.0607,Low Risk,No Churn,No Churn,True
-0,1,0.5787,Med-High Risk,No Churn,Churn,False
-0,0,0.0591,Low Risk,No Churn,No Churn,True
-0,1,0.7841,High Risk,No Churn,Churn,False
-0,0,0.0606,Low Risk,No Churn,No Churn,True
-0,0,0.0114,Low Risk,No Churn,No Churn,True
-0,0,0.0523,Low Risk,No Churn,No Churn,True
-1,1,0.7085,High Risk,Churn,Churn,True
-0,1,0.6694,Med-High Risk,No Churn,Churn,False
-0,0,0.3454,Med-Low Risk,No Churn,No Churn,True
-1,1,0.6058,Med-High Risk,Churn,Churn,True
-0,1,0.5232,Med-High Risk,No Churn,Churn,False
-0,0,0.0399,Low Risk,No Churn,No Churn,True
-1,1,0.9054,High Risk,Churn,Churn,True
-1,1,0.841,High Risk,Churn,Churn,True
-1,0,0.1244,Low Risk,Churn,No Churn,False
-0,0,0.3072,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4886,Med-Low Risk,No Churn,No Churn,True
-0,1,0.5949,Med-High Risk,No Churn,Churn,False
-1,1,0.662,Med-High Risk,Churn,Churn,True
-1,1,0.6907,Med-High Risk,Churn,Churn,True
-0,0,0.0962,Low Risk,No Churn,No Churn,True
-0,0,0.2492,Low Risk,No Churn,No Churn,True
-1,1,0.6811,Med-High Risk,Churn,Churn,True
-1,1,0.5171,Med-High Risk,Churn,Churn,True
-1,1,0.7288,High Risk,Churn,Churn,True
-0,0,0.0235,Low Risk,No Churn,No Churn,True
-0,0,0.0136,Low Risk,No Churn,No Churn,True
-0,1,0.5426,Med-High Risk,No Churn,Churn,False
-0,0,0.0203,Low Risk,No Churn,No Churn,True
-0,0,0.0262,Low Risk,No Churn,No Churn,True
-0,0,0.0658,Low Risk,No Churn,No Churn,True
-0,0,0.052,Low Risk,No Churn,No Churn,True
-1,0,0.2814,Low Risk,Churn,No Churn,False
-0,0,0.0274,Low Risk,No Churn,No Churn,True
-0,0,0.0294,Low Risk,No Churn,No Churn,True
-0,1,0.5108,Med-High Risk,No Churn,Churn,False
-0,0,0.3049,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4881,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4401,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1764,Low Risk,No Churn,No Churn,True
-0,0,0.0029,Low Risk,No Churn,No Churn,True
-0,0,0.3048,Med-Low Risk,No Churn,No Churn,True
-1,1,0.7486,High Risk,Churn,Churn,True
-1,0,0.0825,Low Risk,Churn,No Churn,False
-1,1,0.6238,Med-High Risk,Churn,Churn,True
-0,0,0.0285,Low Risk,No Churn,No Churn,True
-0,0,0.3182,Med-Low Risk,No Churn,No Churn,True
-0,1,0.565,Med-High Risk,No Churn,Churn,False
-0,1,0.669,Med-High Risk,No Churn,Churn,False
-0,0,0.0054,Low Risk,No Churn,No Churn,True
-0,0,0.4103,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4323,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0144,Low Risk,No Churn,No Churn,True
-0,1,0.7207,High Risk,No Churn,Churn,False
-1,1,0.7934,High Risk,Churn,Churn,True
-0,0,0.362,Med-Low Risk,No Churn,No Churn,True
-1,1,0.9191,High Risk,Churn,Churn,True
-0,0,0.1834,Low Risk,No Churn,No Churn,True
-0,1,0.5784,Med-High Risk,No Churn,Churn,False
-0,0,0.0585,Low Risk,No Churn,No Churn,True
-0,0,0.4751,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0316,Low Risk,No Churn,No Churn,True
-0,1,0.5997,Med-High Risk,No Churn,Churn,False
-1,1,0.6425,Med-High Risk,Churn,Churn,True
-1,0,0.1236,Low Risk,Churn,No Churn,False
-0,0,0.1347,Low Risk,No Churn,No Churn,True
-1,1,0.6989,Med-High Risk,Churn,Churn,True
-0,0,0.0366,Low Risk,No Churn,No Churn,True
-0,1,0.6713,Med-High Risk,No Churn,Churn,False
-0,0,0.089,Low Risk,No Churn,No Churn,True
-0,0,0.0108,Low Risk,No Churn,No Churn,True
-0,0,0.0366,Low Risk,No Churn,No Churn,True
-0,0,0.0783,Low Risk,No Churn,No Churn,True
-0,0,0.3842,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2452,Low Risk,No Churn,No Churn,True
-1,0,0.0547,Low Risk,Churn,No Churn,False
-0,0,0.0259,Low Risk,No Churn,No Churn,True
-0,0,0.1419,Low Risk,No Churn,No Churn,True
-0,0,0.0018,Low Risk,No Churn,No Churn,True
-1,0,0.3602,Med-Low Risk,Churn,No Churn,False
-0,1,0.5892,Med-High Risk,No Churn,Churn,False
-0,0,0.0645,Low Risk,No Churn,No Churn,True
-1,1,0.8139,High Risk,Churn,Churn,True
-0,0,0.2232,Low Risk,No Churn,No Churn,True
-0,0,0.0595,Low Risk,No Churn,No Churn,True
-0,0,0.1164,Low Risk,No Churn,No Churn,True
-0,0,0.1297,Low Risk,No Churn,No Churn,True
-0,0,0.2193,Low Risk,No Churn,No Churn,True
-0,1,0.6742,Med-High Risk,No Churn,Churn,False
-0,0,0.479,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0521,Low Risk,No Churn,No Churn,True
-0,0,0.0607,Low Risk,No Churn,No Churn,True
-0,0,0.0336,Low Risk,No Churn,No Churn,True
-0,0,0.0261,Low Risk,No Churn,No Churn,True
-0,0,0.2777,Low Risk,No Churn,No Churn,True
-0,0,0.0516,Low Risk,No Churn,No Churn,True
-1,1,0.556,Med-High Risk,Churn,Churn,True
-1,1,0.6151,Med-High Risk,Churn,Churn,True
-0,0,0.2841,Low Risk,No Churn,No Churn,True
-0,1,0.5674,Med-High Risk,No Churn,Churn,False
-1,1,0.6348,Med-High Risk,Churn,Churn,True
-0,0,0.1011,Low Risk,No Churn,No Churn,True
-0,1,0.5894,Med-High Risk,No Churn,Churn,False
-0,0,0.0209,Low Risk,No Churn,No Churn,True
-1,0,0.1338,Low Risk,Churn,No Churn,False
-0,1,0.6355,Med-High Risk,No Churn,Churn,False
-0,0,0.0692,Low Risk,No Churn,No Churn,True
-0,0,0.0207,Low Risk,No Churn,No Churn,True
-0,1,0.5197,Med-High Risk,No Churn,Churn,False
-1,0,0.2029,Low Risk,Churn,No Churn,False
-0,0,0.0353,Low Risk,No Churn,No Churn,True
-0,0,0.1401,Low Risk,No Churn,No Churn,True
-0,0,0.0041,Low Risk,No Churn,No Churn,True
-0,0,0.0024,Low Risk,No Churn,No Churn,True
-1,1,0.5301,Med-High Risk,Churn,Churn,True
-0,0,0.1002,Low Risk,No Churn,No Churn,True
-0,0,0.0116,Low Risk,No Churn,No Churn,True
-0,0,0.016,Low Risk,No Churn,No Churn,True
-0,0,0.0036,Low Risk,No Churn,No Churn,True
-1,1,0.9612,High Risk,Churn,Churn,True
-0,0,0.1119,Low Risk,No Churn,No Churn,True
-1,0,0.4894,Med-Low Risk,Churn,No Churn,False
-1,1,0.9197,High Risk,Churn,Churn,True
-1,0,0.0812,Low Risk,Churn,No Churn,False
-0,0,0.021,Low Risk,No Churn,No Churn,True
-1,0,0.4979,Med-Low Risk,Churn,No Churn,False
-0,0,0.1196,Low Risk,No Churn,No Churn,True
-1,1,0.6242,Med-High Risk,Churn,Churn,True
-0,0,0.0849,Low Risk,No Churn,No Churn,True
-1,0,0.0644,Low Risk,Churn,No Churn,False
-0,0,0.175,Low Risk,No Churn,No Churn,True
-0,0,0.1488,Low Risk,No Churn,No Churn,True
-0,0,0.0007,Low Risk,No Churn,No Churn,True
-0,0,0.3017,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2453,Low Risk,No Churn,No Churn,True
-0,1,0.5775,Med-High Risk,No Churn,Churn,False
-0,0,0.0485,Low Risk,No Churn,No Churn,True
-1,1,0.5833,Med-High Risk,Churn,Churn,True
-1,1,0.8343,High Risk,Churn,Churn,True
-0,0,0.0258,Low Risk,No Churn,No Churn,True
-0,0,0.1221,Low Risk,No Churn,No Churn,True
-0,0,0.4567,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1783,Low Risk,No Churn,No Churn,True
-1,1,0.5104,Med-High Risk,Churn,Churn,True
-0,0,0.1916,Low Risk,No Churn,No Churn,True
-0,0,0.0443,Low Risk,No Churn,No Churn,True
-0,0,0.0158,Low Risk,No Churn,No Churn,True
-0,1,0.5401,Med-High Risk,No Churn,Churn,False
-1,0,0.4881,Med-Low Risk,Churn,No Churn,False
-0,1,0.6259,Med-High Risk,No Churn,Churn,False
-0,0,0.4669,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3141,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2075,Low Risk,Churn,No Churn,False
-0,0,0.1113,Low Risk,No Churn,No Churn,True
-0,0,0.1293,Low Risk,No Churn,No Churn,True
-0,0,0.2464,Low Risk,No Churn,No Churn,True
-1,0,0.078,Low Risk,Churn,No Churn,False
-0,0,0.0326,Low Risk,No Churn,No Churn,True
-0,0,0.121,Low Risk,No Churn,No Churn,True
-0,1,0.6639,Med-High Risk,No Churn,Churn,False
-0,0,0.0075,Low Risk,No Churn,No Churn,True
-0,1,0.7443,High Risk,No Churn,Churn,False
-1,0,0.3413,Med-Low Risk,Churn,No Churn,False
-0,0,0.2151,Low Risk,No Churn,No Churn,True
-1,0,0.4129,Med-Low Risk,Churn,No Churn,False
-1,1,0.6691,Med-High Risk,Churn,Churn,True
-0,0,0.0219,Low Risk,No Churn,No Churn,True
-1,0,0.4709,Med-Low Risk,Churn,No Churn,False
-0,0,0.017,Low Risk,No Churn,No Churn,True
-0,0,0.1043,Low Risk,No Churn,No Churn,True
-0,1,0.58,Med-High Risk,No Churn,Churn,False
-0,0,0.0381,Low Risk,No Churn,No Churn,True
-0,0,0.135,Low Risk,No Churn,No Churn,True
-0,0,0.0919,Low Risk,No Churn,No Churn,True
-0,0,0.0247,Low Risk,No Churn,No Churn,True
-0,0,0.0674,Low Risk,No Churn,No Churn,True
+0,0,0.0132,Low Risk,No Churn,No Churn,True
+0,1,0.9739,High Risk,No Churn,Churn,False
+0,0,0.0947,Low Risk,No Churn,No Churn,True
+0,0,0.1873,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0025,Low Risk,No Churn,No Churn,True
+0,1,0.8005,High Risk,No Churn,Churn,False
+0,0,0.5544,Med-High Risk,No Churn,No Churn,True
+0,0,0.17,Med-Low Risk,No Churn,No Churn,True
 0,0,0.0035,Low Risk,No Churn,No Churn,True
-1,1,0.8295,High Risk,Churn,Churn,True
-0,0,0.0352,Low Risk,No Churn,No Churn,True
-0,0,0.4802,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2814,Low Risk,No Churn,No Churn,True
-0,0,0.1664,Low Risk,No Churn,No Churn,True
-0,0,0.0591,Low Risk,No Churn,No Churn,True
-0,0,0.2114,Low Risk,No Churn,No Churn,True
-1,0,0.0711,Low Risk,Churn,No Churn,False
-0,0,0.4281,Med-Low Risk,No Churn,No Churn,True
-1,1,0.814,High Risk,Churn,Churn,True
-0,0,0.0283,Low Risk,No Churn,No Churn,True
-1,1,0.5604,Med-High Risk,Churn,Churn,True
-1,1,0.5449,Med-High Risk,Churn,Churn,True
-1,1,0.6366,Med-High Risk,Churn,Churn,True
-1,1,0.6079,Med-High Risk,Churn,Churn,True
-0,0,0.0563,Low Risk,No Churn,No Churn,True
-0,0,0.2605,Low Risk,No Churn,No Churn,True
-0,1,0.7335,High Risk,No Churn,Churn,False
-1,1,0.7659,High Risk,Churn,Churn,True
-1,0,0.0215,Low Risk,Churn,No Churn,False
-1,0,0.4747,Med-Low Risk,Churn,No Churn,False
-0,0,0.0895,Low Risk,No Churn,No Churn,True
-0,0,0.0966,Low Risk,No Churn,No Churn,True
-0,0,0.3276,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2352,Low Risk,Churn,No Churn,False
-0,0,0.0087,Low Risk,No Churn,No Churn,True
-0,1,0.6455,Med-High Risk,No Churn,Churn,False
-0,0,0.4771,Med-Low Risk,No Churn,No Churn,True
-0,1,0.7444,High Risk,No Churn,Churn,False
-0,0,0.0347,Low Risk,No Churn,No Churn,True
-0,0,0.0014,Low Risk,No Churn,No Churn,True
-0,0,0.0313,Low Risk,No Churn,No Churn,True
-0,0,0.3722,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0762,Low Risk,No Churn,No Churn,True
-0,0,0.205,Low Risk,No Churn,No Churn,True
-0,0,0.2499,Low Risk,No Churn,No Churn,True
-1,1,0.9039,High Risk,Churn,Churn,True
-0,0,0.0925,Low Risk,No Churn,No Churn,True
-0,0,0.0121,Low Risk,No Churn,No Churn,True
+1,1,0.6858,Med-High Risk,Churn,Churn,True
+0,1,0.705,Med-High Risk,No Churn,Churn,False
+0,0,0.0026,Low Risk,No Churn,No Churn,True
+0,0,0.0626,Low Risk,No Churn,No Churn,True
+1,1,0.9005,High Risk,Churn,Churn,True
+0,0,0.1068,Low Risk,No Churn,No Churn,True
 0,0,0.0643,Low Risk,No Churn,No Churn,True
-0,0,0.3829,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1907,Low Risk,No Churn,No Churn,True
-1,1,0.6102,Med-High Risk,Churn,Churn,True
-0,0,0.0231,Low Risk,No Churn,No Churn,True
-0,0,0.3949,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2984,Low Risk,Churn,No Churn,False
-0,0,0.465,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0749,Low Risk,No Churn,No Churn,True
-0,0,0.0217,Low Risk,No Churn,No Churn,True
-0,0,0.3949,Med-Low Risk,No Churn,No Churn,True
-0,1,0.6665,Med-High Risk,No Churn,Churn,False
-0,1,0.7813,High Risk,No Churn,Churn,False
-0,0,0.1843,Low Risk,No Churn,No Churn,True
-0,0,0.1609,Low Risk,No Churn,No Churn,True
-0,0,0.1398,Low Risk,No Churn,No Churn,True
-0,1,0.8522,High Risk,No Churn,Churn,False
-0,0,0.0015,Low Risk,No Churn,No Churn,True
-1,0,0.234,Low Risk,Churn,No Churn,False
-0,0,0.0038,Low Risk,No Churn,No Churn,True
-0,0,0.0103,Low Risk,No Churn,No Churn,True
-1,1,0.6028,Med-High Risk,Churn,Churn,True
-0,0,0.0323,Low Risk,No Churn,No Churn,True
-1,0,0.1373,Low Risk,Churn,No Churn,False
-0,0,0.4194,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0234,Low Risk,No Churn,No Churn,True
-0,0,0.0074,Low Risk,No Churn,No Churn,True
-0,0,0.0679,Low Risk,No Churn,No Churn,True
-0,0,0.0685,Low Risk,No Churn,No Churn,True
-0,0,0.2603,Low Risk,No Churn,No Churn,True
-0,0,0.1098,Low Risk,No Churn,No Churn,True
-0,0,0.0291,Low Risk,No Churn,No Churn,True
-1,0,0.1595,Low Risk,Churn,No Churn,False
-0,0,0.1993,Low Risk,No Churn,No Churn,True
-0,0,0.1362,Low Risk,No Churn,No Churn,True
-0,0,0.0682,Low Risk,No Churn,No Churn,True
-0,0,0.0597,Low Risk,No Churn,No Churn,True
-0,0,0.0016,Low Risk,No Churn,No Churn,True
-0,0,0.1438,Low Risk,No Churn,No Churn,True
-0,0,0.443,Med-Low Risk,No Churn,No Churn,True
-1,0,0.3773,Med-Low Risk,Churn,No Churn,False
-1,0,0.4368,Med-Low Risk,Churn,No Churn,False
-0,1,0.6317,Med-High Risk,No Churn,Churn,False
-0,1,0.8022,High Risk,No Churn,Churn,False
-0,0,0.0025,Low Risk,No Churn,No Churn,True
-1,0,0.3614,Med-Low Risk,Churn,No Churn,False
-0,1,0.7603,High Risk,No Churn,Churn,False
-0,0,0.0613,Low Risk,No Churn,No Churn,True
-0,0,0.0243,Low Risk,No Churn,No Churn,True
-0,0,0.0075,Low Risk,No Churn,No Churn,True
-1,1,0.784,High Risk,Churn,Churn,True
-0,0,0.3337,Med-Low Risk,No Churn,No Churn,True
-0,1,0.5677,Med-High Risk,No Churn,Churn,False
-0,1,0.5203,Med-High Risk,No Churn,Churn,False
-0,0,0.1546,Low Risk,No Churn,No Churn,True
-0,1,0.7259,High Risk,No Churn,Churn,False
-0,0,0.0065,Low Risk,No Churn,No Churn,True
-0,1,0.7686,High Risk,No Churn,Churn,False
-0,0,0.3448,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2625,Low Risk,Churn,No Churn,False
-0,0,0.0107,Low Risk,No Churn,No Churn,True
-0,0,0.4449,Med-Low Risk,No Churn,No Churn,True
-0,0,0.02,Low Risk,No Churn,No Churn,True
-0,0,0.2078,Low Risk,No Churn,No Churn,True
-0,1,0.5625,Med-High Risk,No Churn,Churn,False
-0,0,0.0008,Low Risk,No Churn,No Churn,True
-0,0,0.109,Low Risk,No Churn,No Churn,True
-0,0,0.0331,Low Risk,No Churn,No Churn,True
-0,0,0.1145,Low Risk,No Churn,No Churn,True
-0,0,0.025,Low Risk,No Churn,No Churn,True
-1,1,0.516,Med-High Risk,Churn,Churn,True
-0,0,0.0319,Low Risk,No Churn,No Churn,True
-1,1,0.9338,High Risk,Churn,Churn,True
-1,0,0.0895,Low Risk,Churn,No Churn,False
-0,0,0.0556,Low Risk,No Churn,No Churn,True
-0,0,0.1471,Low Risk,No Churn,No Churn,True
-1,1,0.5236,Med-High Risk,Churn,Churn,True
-0,0,0.251,Low Risk,No Churn,No Churn,True
-0,0,0.0532,Low Risk,No Churn,No Churn,True
-0,0,0.3373,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3866,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0695,Low Risk,No Churn,No Churn,True
-0,0,0.1284,Low Risk,No Churn,No Churn,True
-0,0,0.2895,Low Risk,No Churn,No Churn,True
-0,0,0.148,Low Risk,No Churn,No Churn,True
-1,1,0.7244,High Risk,Churn,Churn,True
-1,0,0.1304,Low Risk,Churn,No Churn,False
-1,1,0.5592,Med-High Risk,Churn,Churn,True
-0,0,0.2434,Low Risk,No Churn,No Churn,True
-0,0,0.4636,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0996,Low Risk,No Churn,No Churn,True
-0,0,0.0171,Low Risk,No Churn,No Churn,True
-0,0,0.4633,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0909,Low Risk,No Churn,No Churn,True
-0,0,0.3762,Med-Low Risk,No Churn,No Churn,True
-1,1,0.775,High Risk,Churn,Churn,True
-1,0,0.075,Low Risk,Churn,No Churn,False
-0,0,0.2476,Low Risk,No Churn,No Churn,True
-0,0,0.3173,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0131,Low Risk,No Churn,No Churn,True
-1,0,0.3094,Med-Low Risk,Churn,No Churn,False
-1,0,0.3326,Med-Low Risk,Churn,No Churn,False
-1,0,0.2459,Low Risk,Churn,No Churn,False
-0,0,0.1486,Low Risk,No Churn,No Churn,True
-1,1,0.8645,High Risk,Churn,Churn,True
-0,0,0.1031,Low Risk,No Churn,No Churn,True
-1,1,0.7547,High Risk,Churn,Churn,True
-0,0,0.1006,Low Risk,No Churn,No Churn,True
-0,0,0.0427,Low Risk,No Churn,No Churn,True
-0,0,0.0738,Low Risk,No Churn,No Churn,True
-0,1,0.7669,High Risk,No Churn,Churn,False
-0,0,0.0055,Low Risk,No Churn,No Churn,True
-1,0,0.1796,Low Risk,Churn,No Churn,False
-0,0,0.0169,Low Risk,No Churn,No Churn,True
-0,0,0.2612,Low Risk,No Churn,No Churn,True
-0,0,0.1199,Low Risk,No Churn,No Churn,True
-0,0,0.0076,Low Risk,No Churn,No Churn,True
-0,1,0.6732,Med-High Risk,No Churn,Churn,False
-1,1,0.7743,High Risk,Churn,Churn,True
-1,0,0.4481,Med-Low Risk,Churn,No Churn,False
-0,0,0.0572,Low Risk,No Churn,No Churn,True
-0,1,0.7306,High Risk,No Churn,Churn,False
-0,0,0.3314,Med-Low Risk,No Churn,No Churn,True
-1,0,0.4251,Med-Low Risk,Churn,No Churn,False
-1,1,0.5252,Med-High Risk,Churn,Churn,True
-0,0,0.0897,Low Risk,No Churn,No Churn,True
-0,0,0.1522,Low Risk,No Churn,No Churn,True
-0,0,0.3418,Med-Low Risk,No Churn,No Churn,True
-1,1,0.7953,High Risk,Churn,Churn,True
-1,1,0.6594,Med-High Risk,Churn,Churn,True
-1,1,0.754,High Risk,Churn,Churn,True
-1,0,0.4287,Med-Low Risk,Churn,No Churn,False
-0,0,0.0251,Low Risk,No Churn,No Churn,True
-0,1,0.5849,Med-High Risk,No Churn,Churn,False
-1,1,0.5556,Med-High Risk,Churn,Churn,True
-1,1,0.7823,High Risk,Churn,Churn,True
-0,0,0.0148,Low Risk,No Churn,No Churn,True
-1,1,0.6011,Med-High Risk,Churn,Churn,True
-0,0,0.1406,Low Risk,No Churn,No Churn,True
-0,0,0.1043,Low Risk,No Churn,No Churn,True
-0,0,0.0134,Low Risk,No Churn,No Churn,True
-0,0,0.038,Low Risk,No Churn,No Churn,True
-0,0,0.0084,Low Risk,No Churn,No Churn,True
-0,1,0.6441,Med-High Risk,No Churn,Churn,False
-0,0,0.0033,Low Risk,No Churn,No Churn,True
 0,0,0.0027,Low Risk,No Churn,No Churn,True
-0,0,0.0348,Low Risk,No Churn,No Churn,True
-0,0,0.0832,Low Risk,No Churn,No Churn,True
-1,1,0.8305,High Risk,Churn,Churn,True
-0,0,0.0823,Low Risk,No Churn,No Churn,True
-0,0,0.0311,Low Risk,No Churn,No Churn,True
-1,0,0.4069,Med-Low Risk,Churn,No Churn,False
-0,0,0.213,Low Risk,No Churn,No Churn,True
-0,0,0.2978,Low Risk,No Churn,No Churn,True
-0,0,0.2891,Low Risk,No Churn,No Churn,True
-1,1,0.8145,High Risk,Churn,Churn,True
-1,1,0.9237,High Risk,Churn,Churn,True
-0,0,0.1319,Low Risk,No Churn,No Churn,True
-0,0,0.0147,Low Risk,No Churn,No Churn,True
-0,0,0.005,Low Risk,No Churn,No Churn,True
-1,1,0.5301,Med-High Risk,Churn,Churn,True
-0,0,0.0928,Low Risk,No Churn,No Churn,True
-0,0,0.123,Low Risk,No Churn,No Churn,True
-1,1,0.7704,High Risk,Churn,Churn,True
-0,0,0.0045,Low Risk,No Churn,No Churn,True
-1,1,0.8498,High Risk,Churn,Churn,True
-0,1,0.8727,High Risk,No Churn,Churn,False
-0,0,0.0116,Low Risk,No Churn,No Churn,True
-1,0,0.0913,Low Risk,Churn,No Churn,False
-1,0,0.3698,Med-Low Risk,Churn,No Churn,False
-0,0,0.0984,Low Risk,No Churn,No Churn,True
-0,0,0.0066,Low Risk,No Churn,No Churn,True
-0,0,0.0279,Low Risk,No Churn,No Churn,True
-0,0,0.1928,Low Risk,No Churn,No Churn,True
-0,0,0.2143,Low Risk,No Churn,No Churn,True
-1,0,0.3839,Med-Low Risk,Churn,No Churn,False
-0,0,0.0836,Low Risk,No Churn,No Churn,True
-0,0,0.0865,Low Risk,No Churn,No Churn,True
-0,0,0.0048,Low Risk,No Churn,No Churn,True
-0,0,0.0056,Low Risk,No Churn,No Churn,True
-1,1,0.9625,High Risk,Churn,Churn,True
-1,1,0.6664,Med-High Risk,Churn,Churn,True
-0,0,0.0398,Low Risk,No Churn,No Churn,True
-1,1,0.8983,High Risk,Churn,Churn,True
-1,0,0.4756,Med-Low Risk,Churn,No Churn,False
-0,0,0.0011,Low Risk,No Churn,No Churn,True
-0,0,0.0094,Low Risk,No Churn,No Churn,True
-1,0,0.1543,Low Risk,Churn,No Churn,False
-0,0,0.0125,Low Risk,No Churn,No Churn,True
-1,1,0.9439,High Risk,Churn,Churn,True
-1,0,0.4157,Med-Low Risk,Churn,No Churn,False
-0,1,0.9544,High Risk,No Churn,Churn,False
-1,1,0.8589,High Risk,Churn,Churn,True
-0,0,0.0912,Low Risk,No Churn,No Churn,True
-1,0,0.2638,Low Risk,Churn,No Churn,False
-0,0,0.0127,Low Risk,No Churn,No Churn,True
-0,1,0.7126,High Risk,No Churn,Churn,False
-0,0,0.1072,Low Risk,No Churn,No Churn,True
-0,0,0.0407,Low Risk,No Churn,No Churn,True
-0,0,0.1906,Low Risk,No Churn,No Churn,True
-1,0,0.0971,Low Risk,Churn,No Churn,False
-0,0,0.1309,Low Risk,No Churn,No Churn,True
-0,0,0.0062,Low Risk,No Churn,No Churn,True
-0,1,0.8567,High Risk,No Churn,Churn,False
-0,0,0.0609,Low Risk,No Churn,No Churn,True
-0,0,0.0883,Low Risk,No Churn,No Churn,True
-0,0,0.0124,Low Risk,No Churn,No Churn,True
-0,0,0.3593,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2376,Low Risk,No Churn,No Churn,True
-1,1,0.8922,High Risk,Churn,Churn,True
-1,1,0.8481,High Risk,Churn,Churn,True
-1,0,0.0721,Low Risk,Churn,No Churn,False
-1,0,0.4815,Med-Low Risk,Churn,No Churn,False
-0,0,0.3538,Med-Low Risk,No Churn,No Churn,True
-1,0,0.1069,Low Risk,Churn,No Churn,False
-1,1,0.6738,Med-High Risk,Churn,Churn,True
-1,1,0.9421,High Risk,Churn,Churn,True
-0,0,0.0081,Low Risk,No Churn,No Churn,True
-0,0,0.1287,Low Risk,No Churn,No Churn,True
-0,0,0.3592,Med-Low Risk,No Churn,No Churn,True
-0,0,0.26,Low Risk,No Churn,No Churn,True
-0,0,0.0042,Low Risk,No Churn,No Churn,True
-0,0,0.1998,Low Risk,No Churn,No Churn,True
-0,0,0.0309,Low Risk,No Churn,No Churn,True
-0,0,0.0047,Low Risk,No Churn,No Churn,True
-0,1,0.7785,High Risk,No Churn,Churn,False
-0,0,0.0039,Low Risk,No Churn,No Churn,True
-0,0,0.1364,Low Risk,No Churn,No Churn,True
-0,1,0.5225,Med-High Risk,No Churn,Churn,False
-0,0,0.1238,Low Risk,No Churn,No Churn,True
-0,1,0.5842,Med-High Risk,No Churn,Churn,False
-0,0,0.2208,Low Risk,No Churn,No Churn,True
-0,1,0.6673,Med-High Risk,No Churn,Churn,False
-0,0,0.0698,Low Risk,No Churn,No Churn,True
-0,0,0.1917,Low Risk,No Churn,No Churn,True
-0,0,0.2039,Low Risk,No Churn,No Churn,True
-1,1,0.6228,Med-High Risk,Churn,Churn,True
-0,0,0.0259,Low Risk,No Churn,No Churn,True
-0,0,0.0195,Low Risk,No Churn,No Churn,True
-1,0,0.0915,Low Risk,Churn,No Churn,False
-1,1,0.7005,High Risk,Churn,Churn,True
-1,0,0.1302,Low Risk,Churn,No Churn,False
-0,0,0.0153,Low Risk,No Churn,No Churn,True
-0,0,0.0552,Low Risk,No Churn,No Churn,True
-0,0,0.1085,Low Risk,No Churn,No Churn,True
-0,0,0.2967,Low Risk,No Churn,No Churn,True
-0,0,0.4564,Med-Low Risk,No Churn,No Churn,True
-1,1,0.6513,Med-High Risk,Churn,Churn,True
-0,1,0.7544,High Risk,No Churn,Churn,False
-1,0,0.0027,Low Risk,Churn,No Churn,False
-0,1,0.6442,Med-High Risk,No Churn,Churn,False
-0,1,0.6788,Med-High Risk,No Churn,Churn,False
-0,0,0.0314,Low Risk,No Churn,No Churn,True
-0,0,0.0592,Low Risk,No Churn,No Churn,True
-0,0,0.0856,Low Risk,No Churn,No Churn,True
-1,1,0.9117,High Risk,Churn,Churn,True
-0,0,0.0077,Low Risk,No Churn,No Churn,True
-1,0,0.3167,Med-Low Risk,Churn,No Churn,False
-0,0,0.0365,Low Risk,No Churn,No Churn,True
-0,0,0.0909,Low Risk,No Churn,No Churn,True
-0,0,0.0446,Low Risk,No Churn,No Churn,True
-0,0,0.0901,Low Risk,No Churn,No Churn,True
-0,1,0.6932,Med-High Risk,No Churn,Churn,False
-0,1,0.5856,Med-High Risk,No Churn,Churn,False
-0,0,0.0195,Low Risk,No Churn,No Churn,True
-0,0,0.0144,Low Risk,No Churn,No Churn,True
-0,0,0.2127,Low Risk,No Churn,No Churn,True
-0,0,0.0307,Low Risk,No Churn,No Churn,True
-0,0,0.1803,Low Risk,No Churn,No Churn,True
-1,1,0.5662,Med-High Risk,Churn,Churn,True
-0,0,0.0023,Low Risk,No Churn,No Churn,True
-0,0,0.0127,Low Risk,No Churn,No Churn,True
-1,1,0.9286,High Risk,Churn,Churn,True
-0,1,0.7095,High Risk,No Churn,Churn,False
-0,1,0.7398,High Risk,No Churn,Churn,False
-1,1,0.6878,Med-High Risk,Churn,Churn,True
-1,0,0.4828,Med-Low Risk,Churn,No Churn,False
-0,0,0.0658,Low Risk,No Churn,No Churn,True
-0,0,0.3499,Med-Low Risk,No Churn,No Churn,True
-1,0,0.3148,Med-Low Risk,Churn,No Churn,False
-0,1,0.7249,High Risk,No Churn,Churn,False
-0,0,0.0226,Low Risk,No Churn,No Churn,True
-0,0,0.0209,Low Risk,No Churn,No Churn,True
-0,0,0.0066,Low Risk,No Churn,No Churn,True
-0,0,0.1118,Low Risk,No Churn,No Churn,True
-0,0,0.4933,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0642,Low Risk,No Churn,No Churn,True
-0,1,0.6517,Med-High Risk,No Churn,Churn,False
-0,1,0.7121,High Risk,No Churn,Churn,False
-0,0,0.0125,Low Risk,No Churn,No Churn,True
-1,1,0.7816,High Risk,Churn,Churn,True
-1,0,0.2743,Low Risk,Churn,No Churn,False
-0,0,0.3844,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2373,Low Risk,Churn,No Churn,False
-0,0,0.0234,Low Risk,No Churn,No Churn,True
-0,1,0.9376,High Risk,No Churn,Churn,False
-0,1,0.775,High Risk,No Churn,Churn,False
-1,1,0.811,High Risk,Churn,Churn,True
-0,0,0.0861,Low Risk,No Churn,No Churn,True
-0,0,0.1829,Low Risk,No Churn,No Churn,True
-0,0,0.0104,Low Risk,No Churn,No Churn,True
-0,0,0.0653,Low Risk,No Churn,No Churn,True
-1,1,0.9572,High Risk,Churn,Churn,True
-0,1,0.606,Med-High Risk,No Churn,Churn,False
-0,1,0.5241,Med-High Risk,No Churn,Churn,False
-1,1,0.6645,Med-High Risk,Churn,Churn,True
-1,0,0.2199,Low Risk,Churn,No Churn,False
-1,0,0.1356,Low Risk,Churn,No Churn,False
-0,1,0.815,High Risk,No Churn,Churn,False
-0,0,0.0024,Low Risk,No Churn,No Churn,True
-0,0,0.0126,Low Risk,No Churn,No Churn,True
-1,1,0.8955,High Risk,Churn,Churn,True
-0,0,0.0228,Low Risk,No Churn,No Churn,True
-0,0,0.0189,Low Risk,No Churn,No Churn,True
-0,0,0.0751,Low Risk,No Churn,No Churn,True
-0,0,0.294,Low Risk,No Churn,No Churn,True
-0,0,0.0321,Low Risk,No Churn,No Churn,True
-0,0,0.0185,Low Risk,No Churn,No Churn,True
-0,0,0.4092,Med-Low Risk,No Churn,No Churn,True
-1,0,0.1017,Low Risk,Churn,No Churn,False
-1,1,0.5411,Med-High Risk,Churn,Churn,True
-0,0,0.0235,Low Risk,No Churn,No Churn,True
-0,1,0.5259,Med-High Risk,No Churn,Churn,False
-0,0,0.0282,Low Risk,No Churn,No Churn,True
-1,1,0.9055,High Risk,Churn,Churn,True
-0,0,0.3626,Med-Low Risk,No Churn,No Churn,True
-0,1,0.5688,Med-High Risk,No Churn,Churn,False
-0,0,0.3991,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4624,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0738,Low Risk,No Churn,No Churn,True
-0,0,0.1886,Low Risk,No Churn,No Churn,True
-0,0,0.0519,Low Risk,No Churn,No Churn,True
-0,1,0.5845,Med-High Risk,No Churn,Churn,False
-1,1,0.9538,High Risk,Churn,Churn,True
-0,0,0.0671,Low Risk,No Churn,No Churn,True
-0,0,0.3332,Med-Low Risk,No Churn,No Churn,True
-1,1,0.8145,High Risk,Churn,Churn,True
-0,1,0.6217,Med-High Risk,No Churn,Churn,False
-1,1,0.525,Med-High Risk,Churn,Churn,True
-0,0,0.1623,Low Risk,No Churn,No Churn,True
-0,0,0.2714,Low Risk,No Churn,No Churn,True
-0,0,0.0215,Low Risk,No Churn,No Churn,True
-0,0,0.0816,Low Risk,No Churn,No Churn,True
-0,0,0.0356,Low Risk,No Churn,No Churn,True
-0,0,0.0145,Low Risk,No Churn,No Churn,True
-1,1,0.5495,Med-High Risk,Churn,Churn,True
-0,0,0.0238,Low Risk,No Churn,No Churn,True
-0,0,0.0275,Low Risk,No Churn,No Churn,True
-0,0,0.3637,Med-Low Risk,No Churn,No Churn,True
-0,0,0.222,Low Risk,No Churn,No Churn,True
-1,1,0.9072,High Risk,Churn,Churn,True
-0,0,0.1332,Low Risk,No Churn,No Churn,True
-0,0,0.0521,Low Risk,No Churn,No Churn,True
-0,0,0.0518,Low Risk,No Churn,No Churn,True
-0,0,0.0445,Low Risk,No Churn,No Churn,True
-0,0,0.0025,Low Risk,No Churn,No Churn,True
-1,1,0.7713,High Risk,Churn,Churn,True
-0,0,0.0386,Low Risk,No Churn,No Churn,True
-1,0,0.0171,Low Risk,Churn,No Churn,False
-1,1,0.8472,High Risk,Churn,Churn,True
-0,1,0.5768,Med-High Risk,No Churn,Churn,False
-1,0,0.308,Med-Low Risk,Churn,No Churn,False
-0,0,0.0062,Low Risk,No Churn,No Churn,True
-0,1,0.6595,Med-High Risk,No Churn,Churn,False
-0,0,0.0026,Low Risk,No Churn,No Churn,True
-0,0,0.2467,Low Risk,No Churn,No Churn,True
-0,0,0.0279,Low Risk,No Churn,No Churn,True
-0,0,0.0108,Low Risk,No Churn,No Churn,True
-0,0,0.2939,Low Risk,No Churn,No Churn,True
-0,0,0.1682,Low Risk,No Churn,No Churn,True
-0,0,0.0413,Low Risk,No Churn,No Churn,True
-0,0,0.4439,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0856,Low Risk,No Churn,No Churn,True
-0,0,0.2305,Low Risk,No Churn,No Churn,True
-0,0,0.0309,Low Risk,No Churn,No Churn,True
-1,1,0.8909,High Risk,Churn,Churn,True
-0,1,0.8697,High Risk,No Churn,Churn,False
-0,0,0.0237,Low Risk,No Churn,No Churn,True
-1,1,0.916,High Risk,Churn,Churn,True
-0,1,0.5583,Med-High Risk,No Churn,Churn,False
-1,1,0.538,Med-High Risk,Churn,Churn,True
-0,0,0.0193,Low Risk,No Churn,No Churn,True
-0,0,0.374,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3414,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1031,Low Risk,No Churn,No Churn,True
-0,0,0.2294,Low Risk,No Churn,No Churn,True
-0,0,0.0017,Low Risk,No Churn,No Churn,True
-0,0,0.031,Low Risk,No Churn,No Churn,True
-1,0,0.4434,Med-Low Risk,Churn,No Churn,False
-0,0,0.0463,Low Risk,No Churn,No Churn,True
-1,1,0.8729,High Risk,Churn,Churn,True
-1,0,0.3584,Med-Low Risk,Churn,No Churn,False
-1,1,0.8117,High Risk,Churn,Churn,True
-0,0,0.2061,Low Risk,No Churn,No Churn,True
-0,0,0.0668,Low Risk,No Churn,No Churn,True
-1,1,0.773,High Risk,Churn,Churn,True
-0,0,0.2727,Low Risk,No Churn,No Churn,True
-0,0,0.0457,Low Risk,No Churn,No Churn,True
-0,0,0.0988,Low Risk,No Churn,No Churn,True
-0,0,0.0057,Low Risk,No Churn,No Churn,True
-0,0,0.0216,Low Risk,No Churn,No Churn,True
-0,1,0.5855,Med-High Risk,No Churn,Churn,False
-0,0,0.0466,Low Risk,No Churn,No Churn,True
-1,0,0.0537,Low Risk,Churn,No Churn,False
-0,1,0.5348,Med-High Risk,No Churn,Churn,False
-0,0,0.0195,Low Risk,No Churn,No Churn,True
-1,0,0.4029,Med-Low Risk,Churn,No Churn,False
-0,0,0.0236,Low Risk,No Churn,No Churn,True
-0,0,0.2558,Low Risk,No Churn,No Churn,True
-1,1,0.8187,High Risk,Churn,Churn,True
-0,0,0.0469,Low Risk,No Churn,No Churn,True
-1,0,0.0351,Low Risk,Churn,No Churn,False
-0,0,0.0053,Low Risk,No Churn,No Churn,True
-0,0,0.0536,Low Risk,No Churn,No Churn,True
-0,0,0.3076,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0568,Low Risk,No Churn,No Churn,True
-1,1,0.5018,Med-High Risk,Churn,Churn,True
-0,1,0.6664,Med-High Risk,No Churn,Churn,False
-1,0,0.3535,Med-Low Risk,Churn,No Churn,False
-0,1,0.6444,Med-High Risk,No Churn,Churn,False
-0,0,0.1974,Low Risk,No Churn,No Churn,True
-0,0,0.0524,Low Risk,No Churn,No Churn,True
-1,0,0.2243,Low Risk,Churn,No Churn,False
-0,0,0.023,Low Risk,No Churn,No Churn,True
-0,0,0.0284,Low Risk,No Churn,No Churn,True
-0,1,0.5583,Med-High Risk,No Churn,Churn,False
-0,0,0.478,Med-Low Risk,No Churn,No Churn,True
-1,0,0.4096,Med-Low Risk,Churn,No Churn,False
-0,0,0.4686,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0291,Low Risk,No Churn,No Churn,True
-0,0,0.1175,Low Risk,No Churn,No Churn,True
-0,0,0.004,Low Risk,No Churn,No Churn,True
-0,0,0.4571,Med-Low Risk,No Churn,No Churn,True
-0,0,0.121,Low Risk,No Churn,No Churn,True
-1,1,0.9252,High Risk,Churn,Churn,True
-0,0,0.2585,Low Risk,No Churn,No Churn,True
-1,0,0.208,Low Risk,Churn,No Churn,False
-1,0,0.2562,Low Risk,Churn,No Churn,False
-0,0,0.1594,Low Risk,No Churn,No Churn,True
-0,0,0.1398,Low Risk,No Churn,No Churn,True
-0,0,0.3513,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0083,Low Risk,No Churn,No Churn,True
-1,1,0.8362,High Risk,Churn,Churn,True
-0,1,0.6661,Med-High Risk,No Churn,Churn,False
-1,1,0.7003,High Risk,Churn,Churn,True
-0,0,0.1162,Low Risk,No Churn,No Churn,True
-0,0,0.4197,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0134,Low Risk,No Churn,No Churn,True
-0,0,0.076,Low Risk,No Churn,No Churn,True
-0,1,0.5951,Med-High Risk,No Churn,Churn,False
-0,0,0.4065,Med-Low Risk,No Churn,No Churn,True
-0,1,0.9477,High Risk,No Churn,Churn,False
-1,0,0.2564,Low Risk,Churn,No Churn,False
-0,0,0.1053,Low Risk,No Churn,No Churn,True
-0,0,0.2498,Low Risk,No Churn,No Churn,True
-0,0,0.198,Low Risk,No Churn,No Churn,True
-1,1,0.7183,High Risk,Churn,Churn,True
-0,0,0.0137,Low Risk,No Churn,No Churn,True
-1,0,0.3908,Med-Low Risk,Churn,No Churn,False
-0,0,0.0042,Low Risk,No Churn,No Churn,True
-0,1,0.6754,Med-High Risk,No Churn,Churn,False
-0,0,0.094,Low Risk,No Churn,No Churn,True
-0,1,0.8241,High Risk,No Churn,Churn,False
-0,0,0.0579,Low Risk,No Churn,No Churn,True
-0,0,0.1122,Low Risk,No Churn,No Churn,True
-0,0,0.2202,Low Risk,No Churn,No Churn,True
-1,1,0.7398,High Risk,Churn,Churn,True
-0,0,0.0155,Low Risk,No Churn,No Churn,True
-0,1,0.6118,Med-High Risk,No Churn,Churn,False
-1,1,0.6832,Med-High Risk,Churn,Churn,True
-1,0,0.0684,Low Risk,Churn,No Churn,False
-0,0,0.1483,Low Risk,No Churn,No Churn,True
-1,0,0.1766,Low Risk,Churn,No Churn,False
-1,1,0.9032,High Risk,Churn,Churn,True
-0,0,0.0281,Low Risk,No Churn,No Churn,True
-0,0,0.4066,Med-Low Risk,No Churn,No Churn,True
-1,1,0.736,High Risk,Churn,Churn,True
-0,0,0.0581,Low Risk,No Churn,No Churn,True
-0,0,0.3625,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4408,Med-Low Risk,No Churn,No Churn,True
-0,0,0.128,Low Risk,No Churn,No Churn,True
-0,0,0.1009,Low Risk,No Churn,No Churn,True
-0,1,0.7249,High Risk,No Churn,Churn,False
-1,1,0.6259,Med-High Risk,Churn,Churn,True
-0,0,0.1057,Low Risk,No Churn,No Churn,True
-1,0,0.1462,Low Risk,Churn,No Churn,False
-0,0,0.0141,Low Risk,No Churn,No Churn,True
-1,1,0.6825,Med-High Risk,Churn,Churn,True
-0,0,0.0594,Low Risk,No Churn,No Churn,True
-0,0,0.2889,Low Risk,No Churn,No Churn,True
-0,1,0.728,High Risk,No Churn,Churn,False
-0,1,0.5272,Med-High Risk,No Churn,Churn,False
-0,0,0.0514,Low Risk,No Churn,No Churn,True
-1,0,0.0545,Low Risk,Churn,No Churn,False
-0,0,0.1359,Low Risk,No Churn,No Churn,True
-0,0,0.1539,Low Risk,No Churn,No Churn,True
-0,0,0.0181,Low Risk,No Churn,No Churn,True
-0,1,0.6297,Med-High Risk,No Churn,Churn,False
-0,0,0.3861,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0172,Low Risk,No Churn,No Churn,True
-0,0,0.479,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0036,Low Risk,No Churn,No Churn,True
-1,1,0.9495,High Risk,Churn,Churn,True
-0,0,0.0182,Low Risk,No Churn,No Churn,True
-0,0,0.0711,Low Risk,No Churn,No Churn,True
-0,1,0.7825,High Risk,No Churn,Churn,False
-0,0,0.0098,Low Risk,No Churn,No Churn,True
-0,0,0.4612,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0757,Low Risk,No Churn,No Churn,True
-1,1,0.9177,High Risk,Churn,Churn,True
-1,1,0.8,High Risk,Churn,Churn,True
-1,1,0.5328,Med-High Risk,Churn,Churn,True
-1,1,0.7443,High Risk,Churn,Churn,True
-1,0,0.0368,Low Risk,Churn,No Churn,False
-0,1,0.9286,High Risk,No Churn,Churn,False
-0,0,0.0102,Low Risk,No Churn,No Churn,True
-1,1,0.8419,High Risk,Churn,Churn,True
-0,0,0.0047,Low Risk,No Churn,No Churn,True
-0,0,0.376,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4688,Med-Low Risk,No Churn,No Churn,True
-1,1,0.7822,High Risk,Churn,Churn,True
-0,0,0.1142,Low Risk,No Churn,No Churn,True
-1,1,0.596,Med-High Risk,Churn,Churn,True
-0,0,0.0295,Low Risk,No Churn,No Churn,True
-1,0,0.4477,Med-Low Risk,Churn,No Churn,False
-0,0,0.192,Low Risk,No Churn,No Churn,True
-0,0,0.0079,Low Risk,No Churn,No Churn,True
-0,0,0.0287,Low Risk,No Churn,No Churn,True
-1,0,0.4558,Med-Low Risk,Churn,No Churn,False
-0,1,0.5627,Med-High Risk,No Churn,Churn,False
-0,0,0.0062,Low Risk,No Churn,No Churn,True
-0,0,0.0033,Low Risk,No Churn,No Churn,True
-0,0,0.0265,Low Risk,No Churn,No Churn,True
-0,0,0.2617,Low Risk,No Churn,No Churn,True
-0,0,0.1757,Low Risk,No Churn,No Churn,True
-0,1,0.8401,High Risk,No Churn,Churn,False
-0,0,0.0316,Low Risk,No Churn,No Churn,True
-0,0,0.1635,Low Risk,No Churn,No Churn,True
-0,0,0.347,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1491,Low Risk,No Churn,No Churn,True
-0,1,0.5331,Med-High Risk,No Churn,Churn,False
-1,1,0.7762,High Risk,Churn,Churn,True
-1,1,0.5889,Med-High Risk,Churn,Churn,True
-0,0,0.2772,Low Risk,No Churn,No Churn,True
-0,0,0.253,Low Risk,No Churn,No Churn,True
-0,0,0.0212,Low Risk,No Churn,No Churn,True
-0,0,0.0052,Low Risk,No Churn,No Churn,True
-0,0,0.0717,Low Risk,No Churn,No Churn,True
-0,0,0.0521,Low Risk,No Churn,No Churn,True
-1,1,0.7748,High Risk,Churn,Churn,True
-0,0,0.1785,Low Risk,No Churn,No Churn,True
-0,0,0.3777,Med-Low Risk,No Churn,No Churn,True
-0,0,0.104,Low Risk,No Churn,No Churn,True
-0,0,0.0137,Low Risk,No Churn,No Churn,True
-1,0,0.0881,Low Risk,Churn,No Churn,False
-0,0,0.3651,Med-Low Risk,No Churn,No Churn,True
-0,0,0.408,Med-Low Risk,No Churn,No Churn,True
-0,1,0.9508,High Risk,No Churn,Churn,False
-1,1,0.5249,Med-High Risk,Churn,Churn,True
-1,0,0.4965,Med-Low Risk,Churn,No Churn,False
-0,0,0.0537,Low Risk,No Churn,No Churn,True
-0,0,0.3986,Med-Low Risk,No Churn,No Churn,True
-0,0,0.303,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3557,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0718,Low Risk,No Churn,No Churn,True
-0,0,0.0249,Low Risk,No Churn,No Churn,True
-0,0,0.077,Low Risk,No Churn,No Churn,True
-1,0,0.1387,Low Risk,Churn,No Churn,False
-0,0,0.0153,Low Risk,No Churn,No Churn,True
-1,1,0.7049,High Risk,Churn,Churn,True
-0,0,0.0062,Low Risk,No Churn,No Churn,True
-0,0,0.0505,Low Risk,No Churn,No Churn,True
-0,0,0.2845,Low Risk,No Churn,No Churn,True
-0,0,0.0423,Low Risk,No Churn,No Churn,True
-0,0,0.2467,Low Risk,No Churn,No Churn,True
-0,0,0.0125,Low Risk,No Churn,No Churn,True
-0,0,0.2722,Low Risk,No Churn,No Churn,True
-0,0,0.083,Low Risk,No Churn,No Churn,True
-0,0,0.0473,Low Risk,No Churn,No Churn,True
-0,0,0.2302,Low Risk,No Churn,No Churn,True
-0,0,0.2301,Low Risk,No Churn,No Churn,True
-1,1,0.6741,Med-High Risk,Churn,Churn,True
-0,0,0.0163,Low Risk,No Churn,No Churn,True
-0,0,0.0027,Low Risk,No Churn,No Churn,True
-0,0,0.4531,Med-Low Risk,No Churn,No Churn,True
-0,0,0.279,Low Risk,No Churn,No Churn,True
-1,1,0.5241,Med-High Risk,Churn,Churn,True
-0,0,0.0054,Low Risk,No Churn,No Churn,True
-0,0,0.0332,Low Risk,No Churn,No Churn,True
-0,1,0.5423,Med-High Risk,No Churn,Churn,False
-0,0,0.1888,Low Risk,No Churn,No Churn,True
-0,0,0.1755,Low Risk,No Churn,No Churn,True
-0,0,0.0077,Low Risk,No Churn,No Churn,True
-0,0,0.0129,Low Risk,No Churn,No Churn,True
-0,0,0.144,Low Risk,No Churn,No Churn,True
-0,0,0.4153,Med-Low Risk,No Churn,No Churn,True
-1,1,0.8584,High Risk,Churn,Churn,True
-0,1,0.5691,Med-High Risk,No Churn,Churn,False
-0,0,0.1575,Low Risk,No Churn,No Churn,True
-0,0,0.0174,Low Risk,No Churn,No Churn,True
-0,0,0.2049,Low Risk,No Churn,No Churn,True
-0,0,0.1613,Low Risk,No Churn,No Churn,True
-1,1,0.6489,Med-High Risk,Churn,Churn,True
-0,0,0.0603,Low Risk,No Churn,No Churn,True
-0,0,0.119,Low Risk,No Churn,No Churn,True
-0,0,0.0103,Low Risk,No Churn,No Churn,True
-0,0,0.0857,Low Risk,No Churn,No Churn,True
-1,0,0.1573,Low Risk,Churn,No Churn,False
-0,0,0.0546,Low Risk,No Churn,No Churn,True
-0,0,0.0984,Low Risk,No Churn,No Churn,True
-0,1,0.8541,High Risk,No Churn,Churn,False
-1,0,0.1852,Low Risk,Churn,No Churn,False
-0,0,0.1094,Low Risk,No Churn,No Churn,True
-0,0,0.0717,Low Risk,No Churn,No Churn,True
-0,0,0.0458,Low Risk,No Churn,No Churn,True
-0,1,0.629,Med-High Risk,No Churn,Churn,False
-0,0,0.0207,Low Risk,No Churn,No Churn,True
-0,0,0.0209,Low Risk,No Churn,No Churn,True
-1,1,0.6338,Med-High Risk,Churn,Churn,True
-0,0,0.0322,Low Risk,No Churn,No Churn,True
-1,1,0.509,Med-High Risk,Churn,Churn,True
-0,0,0.0219,Low Risk,No Churn,No Churn,True
-0,0,0.0026,Low Risk,No Churn,No Churn,True
-1,0,0.4098,Med-Low Risk,Churn,No Churn,False
-0,0,0.0166,Low Risk,No Churn,No Churn,True
-0,0,0.2477,Low Risk,No Churn,No Churn,True
-1,0,0.2917,Low Risk,Churn,No Churn,False
-0,0,0.294,Low Risk,No Churn,No Churn,True
-1,1,0.7705,High Risk,Churn,Churn,True
-0,1,0.8293,High Risk,No Churn,Churn,False
-0,0,0.0588,Low Risk,No Churn,No Churn,True
-0,0,0.0151,Low Risk,No Churn,No Churn,True
-0,0,0.2963,Low Risk,No Churn,No Churn,True
-0,0,0.1854,Low Risk,No Churn,No Churn,True
-0,0,0.1913,Low Risk,No Churn,No Churn,True
-0,1,0.5299,Med-High Risk,No Churn,Churn,False
-0,1,0.6012,Med-High Risk,No Churn,Churn,False
-0,0,0.1559,Low Risk,No Churn,No Churn,True
-0,0,0.0498,Low Risk,No Churn,No Churn,True
-0,0,0.055,Low Risk,No Churn,No Churn,True
-1,1,0.5406,Med-High Risk,Churn,Churn,True
-0,0,0.14,Low Risk,No Churn,No Churn,True
-0,0,0.0926,Low Risk,No Churn,No Churn,True
-0,0,0.0323,Low Risk,No Churn,No Churn,True
-0,1,0.7847,High Risk,No Churn,Churn,False
-1,1,0.8427,High Risk,Churn,Churn,True
-0,0,0.4527,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3892,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0043,Low Risk,No Churn,No Churn,True
-0,0,0.0131,Low Risk,No Churn,No Churn,True
-1,1,0.8788,High Risk,Churn,Churn,True
-0,0,0.0302,Low Risk,No Churn,No Churn,True
-1,1,0.9759,High Risk,Churn,Churn,True
-0,0,0.1267,Low Risk,No Churn,No Churn,True
-0,1,0.696,Med-High Risk,No Churn,Churn,False
-1,1,0.8256,High Risk,Churn,Churn,True
-0,0,0.4309,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1155,Low Risk,No Churn,No Churn,True
-0,0,0.0203,Low Risk,No Churn,No Churn,True
-0,1,0.6355,Med-High Risk,No Churn,Churn,False
-0,0,0.0816,Low Risk,No Churn,No Churn,True
-1,0,0.0072,Low Risk,Churn,No Churn,False
-1,0,0.1362,Low Risk,Churn,No Churn,False
-1,0,0.4257,Med-Low Risk,Churn,No Churn,False
-0,1,0.5528,Med-High Risk,No Churn,Churn,False
-0,0,0.0179,Low Risk,No Churn,No Churn,True
-0,1,0.5598,Med-High Risk,No Churn,Churn,False
-0,0,0.0215,Low Risk,No Churn,No Churn,True
-0,1,0.6454,Med-High Risk,No Churn,Churn,False
-0,0,0.215,Low Risk,No Churn,No Churn,True
-0,0,0.1992,Low Risk,No Churn,No Churn,True
-1,1,0.9692,High Risk,Churn,Churn,True
-0,0,0.0457,Low Risk,No Churn,No Churn,True
-0,0,0.0196,Low Risk,No Churn,No Churn,True
-0,1,0.5657,Med-High Risk,No Churn,Churn,False
-0,0,0.1607,Low Risk,No Churn,No Churn,True
-0,0,0.0269,Low Risk,No Churn,No Churn,True
-0,0,0.0359,Low Risk,No Churn,No Churn,True
-1,1,0.9298,High Risk,Churn,Churn,True
-1,1,0.7461,High Risk,Churn,Churn,True
-1,1,0.8773,High Risk,Churn,Churn,True
-0,0,0.3305,Med-Low Risk,No Churn,No Churn,True
-1,0,0.3365,Med-Low Risk,Churn,No Churn,False
-0,0,0.0258,Low Risk,No Churn,No Churn,True
-0,0,0.0069,Low Risk,No Churn,No Churn,True
-0,1,0.8024,High Risk,No Churn,Churn,False
-0,0,0.0026,Low Risk,No Churn,No Churn,True
-0,0,0.4771,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4875,Med-Low Risk,No Churn,No Churn,True
-1,1,0.7965,High Risk,Churn,Churn,True
-0,0,0.0196,Low Risk,No Churn,No Churn,True
-0,0,0.018,Low Risk,No Churn,No Churn,True
-0,0,0.0163,Low Risk,No Churn,No Churn,True
-0,0,0.0257,Low Risk,No Churn,No Churn,True
-0,0,0.2051,Low Risk,No Churn,No Churn,True
-1,1,0.7562,High Risk,Churn,Churn,True
-0,0,0.0078,Low Risk,No Churn,No Churn,True
-1,0,0.4839,Med-Low Risk,Churn,No Churn,False
-0,0,0.0092,Low Risk,No Churn,No Churn,True
-1,0,0.3629,Med-Low Risk,Churn,No Churn,False
-1,1,0.8854,High Risk,Churn,Churn,True
-1,1,0.6118,Med-High Risk,Churn,Churn,True
-0,0,0.3512,Med-Low Risk,No Churn,No Churn,True
-1,0,0.2642,Low Risk,Churn,No Churn,False
-0,0,0.0235,Low Risk,No Churn,No Churn,True
-0,0,0.0064,Low Risk,No Churn,No Churn,True
-0,0,0.014,Low Risk,No Churn,No Churn,True
-1,0,0.0518,Low Risk,Churn,No Churn,False
-1,0,0.4628,Med-Low Risk,Churn,No Churn,False
-0,0,0.1324,Low Risk,No Churn,No Churn,True
-1,0,0.458,Med-Low Risk,Churn,No Churn,False
-0,0,0.4587,Med-Low Risk,No Churn,No Churn,True
-1,0,0.4968,Med-Low Risk,Churn,No Churn,False
-1,0,0.2984,Low Risk,Churn,No Churn,False
-0,1,0.6332,Med-High Risk,No Churn,Churn,False
-0,0,0.0068,Low Risk,No Churn,No Churn,True
-0,0,0.0161,Low Risk,No Churn,No Churn,True
-1,0,0.3579,Med-Low Risk,Churn,No Churn,False
-0,0,0.0027,Low Risk,No Churn,No Churn,True
-1,0,0.3557,Med-Low Risk,Churn,No Churn,False
-1,1,0.566,Med-High Risk,Churn,Churn,True
-1,0,0.459,Med-Low Risk,Churn,No Churn,False
-1,0,0.4518,Med-Low Risk,Churn,No Churn,False
-0,0,0.1947,Low Risk,No Churn,No Churn,True
-0,0,0.0156,Low Risk,No Churn,No Churn,True
-1,1,0.5213,Med-High Risk,Churn,Churn,True
-1,1,0.9344,High Risk,Churn,Churn,True
-0,0,0.0176,Low Risk,No Churn,No Churn,True
-0,0,0.0107,Low Risk,No Churn,No Churn,True
-0,0,0.0087,Low Risk,No Churn,No Churn,True
+0,1,0.8471,High Risk,No Churn,Churn,False
+0,0,0.1303,Low Risk,No Churn,No Churn,True
 0,0,0.0338,Low Risk,No Churn,No Churn,True
-0,0,0.3752,Med-Low Risk,No Churn,No Churn,True
-0,0,0.025,Low Risk,No Churn,No Churn,True
-0,1,0.6613,Med-High Risk,No Churn,Churn,False
-0,1,0.779,High Risk,No Churn,Churn,False
-1,0,0.3387,Med-Low Risk,Churn,No Churn,False
-0,0,0.024,Low Risk,No Churn,No Churn,True
-1,1,0.9505,High Risk,Churn,Churn,True
-0,0,0.1093,Low Risk,No Churn,No Churn,True
-0,0,0.1093,Low Risk,No Churn,No Churn,True
-1,1,0.897,High Risk,Churn,Churn,True
-0,0,0.1331,Low Risk,No Churn,No Churn,True
-0,0,0.014,Low Risk,No Churn,No Churn,True
-1,1,0.5512,Med-High Risk,Churn,Churn,True
-0,0,0.4985,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0898,Low Risk,No Churn,No Churn,True
-0,0,0.0585,Low Risk,No Churn,No Churn,True
-0,0,0.0182,Low Risk,No Churn,No Churn,True
-1,1,0.6324,Med-High Risk,Churn,Churn,True
-0,1,0.5115,Med-High Risk,No Churn,Churn,False
-1,1,0.9262,High Risk,Churn,Churn,True
-0,0,0.0553,Low Risk,No Churn,No Churn,True
-0,1,0.6529,Med-High Risk,No Churn,Churn,False
-0,0,0.4835,Med-Low Risk,No Churn,No Churn,True
-0,0,0.4444,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0723,Low Risk,No Churn,No Churn,True
-0,0,0.0041,Low Risk,No Churn,No Churn,True
-0,0,0.1054,Low Risk,No Churn,No Churn,True
-0,0,0.0427,Low Risk,No Churn,No Churn,True
-1,1,0.892,High Risk,Churn,Churn,True
-0,0,0.0966,Low Risk,No Churn,No Churn,True
-0,0,0.0058,Low Risk,No Churn,No Churn,True
-1,0,0.2558,Low Risk,Churn,No Churn,False
-0,0,0.453,Med-Low Risk,No Churn,No Churn,True
-0,0,0.3209,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0601,Low Risk,No Churn,No Churn,True
-0,0,0.022,Low Risk,No Churn,No Churn,True
-1,0,0.3367,Med-Low Risk,Churn,No Churn,False
-0,0,0.145,Low Risk,No Churn,No Churn,True
-0,0,0.4335,Med-Low Risk,No Churn,No Churn,True
-0,1,0.787,High Risk,No Churn,Churn,False
-0,0,0.2831,Low Risk,No Churn,No Churn,True
-0,0,0.0438,Low Risk,No Churn,No Churn,True
-1,1,0.7449,High Risk,Churn,Churn,True
-0,0,0.2604,Low Risk,No Churn,No Churn,True
-0,1,0.8295,High Risk,No Churn,Churn,False
-0,0,0.0641,Low Risk,No Churn,No Churn,True
-0,1,0.8667,High Risk,No Churn,Churn,False
-1,1,0.5828,Med-High Risk,Churn,Churn,True
-1,0,0.3153,Med-Low Risk,Churn,No Churn,False
-0,0,0.0518,Low Risk,No Churn,No Churn,True
-0,0,0.0066,Low Risk,No Churn,No Churn,True
-0,0,0.2653,Low Risk,No Churn,No Churn,True
-1,1,0.9739,High Risk,Churn,Churn,True
-0,1,0.8954,High Risk,No Churn,Churn,False
-1,1,0.6352,Med-High Risk,Churn,Churn,True
-1,0,0.4905,Med-Low Risk,Churn,No Churn,False
-0,0,0.4653,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0987,Low Risk,No Churn,No Churn,True
-0,0,0.046,Low Risk,No Churn,No Churn,True
-0,0,0.0209,Low Risk,No Churn,No Churn,True
-1,1,0.6656,Med-High Risk,Churn,Churn,True
-0,0,0.0186,Low Risk,No Churn,No Churn,True
-0,0,0.1816,Low Risk,No Churn,No Churn,True
-0,0,0.4975,Med-Low Risk,No Churn,No Churn,True
-1,1,0.8968,High Risk,Churn,Churn,True
-0,0,0.2896,Low Risk,No Churn,No Churn,True
-0,0,0.2573,Low Risk,No Churn,No Churn,True
-1,1,0.6398,Med-High Risk,Churn,Churn,True
-0,0,0.0165,Low Risk,No Churn,No Churn,True
-0,0,0.0417,Low Risk,No Churn,No Churn,True
-0,0,0.0059,Low Risk,No Churn,No Churn,True
-0,0,0.0457,Low Risk,No Churn,No Churn,True
-0,0,0.0973,Low Risk,No Churn,No Churn,True
-0,0,0.0782,Low Risk,No Churn,No Churn,True
-0,0,0.2255,Low Risk,No Churn,No Churn,True
-0,0,0.0054,Low Risk,No Churn,No Churn,True
-0,0,0.039,Low Risk,No Churn,No Churn,True
-0,1,0.5005,Med-High Risk,No Churn,Churn,False
-1,0,0.2979,Low Risk,Churn,No Churn,False
-0,0,0.0549,Low Risk,No Churn,No Churn,True
-0,1,0.7606,High Risk,No Churn,Churn,False
-1,1,0.7753,High Risk,Churn,Churn,True
-0,0,0.2361,Low Risk,No Churn,No Churn,True
-1,1,0.9544,High Risk,Churn,Churn,True
-0,0,0.0702,Low Risk,No Churn,No Churn,True
-1,0,0.2991,Low Risk,Churn,No Churn,False
-0,0,0.3366,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0989,Low Risk,No Churn,No Churn,True
-1,1,0.6986,Med-High Risk,Churn,Churn,True
-0,0,0.0597,Low Risk,No Churn,No Churn,True
-1,1,0.9661,High Risk,Churn,Churn,True
-0,0,0.0145,Low Risk,No Churn,No Churn,True
-0,0,0.0181,Low Risk,No Churn,No Churn,True
-0,0,0.0127,Low Risk,No Churn,No Churn,True
-0,0,0.1531,Low Risk,No Churn,No Churn,True
-0,0,0.0846,Low Risk,No Churn,No Churn,True
-0,0,0.0126,Low Risk,No Churn,No Churn,True
-0,0,0.0836,Low Risk,No Churn,No Churn,True
-1,0,0.4596,Med-Low Risk,Churn,No Churn,False
-0,0,0.11,Low Risk,No Churn,No Churn,True
-0,1,0.7501,High Risk,No Churn,Churn,False
-1,1,0.6304,Med-High Risk,Churn,Churn,True
-0,0,0.3632,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0277,Low Risk,No Churn,No Churn,True
-0,0,0.0014,Low Risk,No Churn,No Churn,True
-1,1,0.6492,Med-High Risk,Churn,Churn,True
-0,0,0.2329,Low Risk,No Churn,No Churn,True
-1,0,0.1356,Low Risk,Churn,No Churn,False
-1,0,0.4184,Med-Low Risk,Churn,No Churn,False
-0,0,0.0671,Low Risk,No Churn,No Churn,True
-0,0,0.2048,Low Risk,No Churn,No Churn,True
-0,0,0.3035,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0251,Low Risk,No Churn,No Churn,True
-0,0,0.0052,Low Risk,No Churn,No Churn,True
-0,0,0.1416,Low Risk,No Churn,No Churn,True
-1,0,0.3378,Med-Low Risk,Churn,No Churn,False
-0,1,0.7403,High Risk,No Churn,Churn,False
-1,1,0.7053,High Risk,Churn,Churn,True
-0,0,0.0324,Low Risk,No Churn,No Churn,True
-1,1,0.7198,High Risk,Churn,Churn,True
-1,1,0.9572,High Risk,Churn,Churn,True
-0,0,0.0054,Low Risk,No Churn,No Churn,True
-0,0,0.3714,Med-Low Risk,No Churn,No Churn,True
-1,1,0.5219,Med-High Risk,Churn,Churn,True
-0,0,0.1045,Low Risk,No Churn,No Churn,True
-0,1,0.7527,High Risk,No Churn,Churn,False
-0,0,0.3263,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0465,Low Risk,No Churn,No Churn,True
-0,0,0.0122,Low Risk,No Churn,No Churn,True
-0,1,0.7759,High Risk,No Churn,Churn,False
-0,0,0.4133,Med-Low Risk,No Churn,No Churn,True
-1,1,0.8544,High Risk,Churn,Churn,True
-0,0,0.0412,Low Risk,No Churn,No Churn,True
-0,0,0.048,Low Risk,No Churn,No Churn,True
-0,0,0.0123,Low Risk,No Churn,No Churn,True
-0,0,0.4366,Med-Low Risk,No Churn,No Churn,True
-0,0,0.1257,Low Risk,No Churn,No Churn,True
-0,0,0.0436,Low Risk,No Churn,No Churn,True
-0,1,0.6167,Med-High Risk,No Churn,Churn,False
-0,0,0.0242,Low Risk,No Churn,No Churn,True
-1,0,0.3149,Med-Low Risk,Churn,No Churn,False
-0,0,0.0254,Low Risk,No Churn,No Churn,True
-0,0,0.1742,Low Risk,No Churn,No Churn,True
-0,0,0.1931,Low Risk,No Churn,No Churn,True
-0,0,0.431,Med-Low Risk,No Churn,No Churn,True
-1,0,0.4403,Med-Low Risk,Churn,No Churn,False
-0,0,0.1409,Low Risk,No Churn,No Churn,True
-0,0,0.1648,Low Risk,No Churn,No Churn,True
-0,0,0.1393,Low Risk,No Churn,No Churn,True
-1,0,0.2034,Low Risk,Churn,No Churn,False
+1,1,0.8572,High Risk,Churn,Churn,True
+0,0,0.0692,Low Risk,No Churn,No Churn,True
+0,0,0.0268,Low Risk,No Churn,No Churn,True
+0,0,0.0079,Low Risk,No Churn,No Churn,True
 0,0,0.0727,Low Risk,No Churn,No Churn,True
-1,1,0.6332,Med-High Risk,Churn,Churn,True
-0,0,0.0568,Low Risk,No Churn,No Churn,True
-1,0,0.2291,Low Risk,Churn,No Churn,False
-0,0,0.063,Low Risk,No Churn,No Churn,True
-0,0,0.0736,Low Risk,No Churn,No Churn,True
-0,0,0.1103,Low Risk,No Churn,No Churn,True
-0,0,0.2953,Low Risk,No Churn,No Churn,True
-1,1,0.7565,High Risk,Churn,Churn,True
-0,0,0.0105,Low Risk,No Churn,No Churn,True
-0,0,0.0584,Low Risk,No Churn,No Churn,True
-0,0,0.2091,Low Risk,No Churn,No Churn,True
-1,0,0.2157,Low Risk,Churn,No Churn,False
-0,0,0.4366,Med-Low Risk,No Churn,No Churn,True
-1,1,0.743,High Risk,Churn,Churn,True
-1,1,0.6413,Med-High Risk,Churn,Churn,True
-0,0,0.0186,Low Risk,No Churn,No Churn,True
-0,0,0.0318,Low Risk,No Churn,No Churn,True
-0,0,0.2459,Low Risk,No Churn,No Churn,True
-1,1,0.8154,High Risk,Churn,Churn,True
-1,1,0.625,Med-High Risk,Churn,Churn,True
-0,0,0.0095,Low Risk,No Churn,No Churn,True
-0,0,0.0465,Low Risk,No Churn,No Churn,True
-0,0,0.0369,Low Risk,No Churn,No Churn,True
-0,0,0.1177,Low Risk,No Churn,No Churn,True
-0,0,0.0022,Low Risk,No Churn,No Churn,True
-0,0,0.0241,Low Risk,No Churn,No Churn,True
-1,1,0.7379,High Risk,Churn,Churn,True
-1,0,0.2807,Low Risk,Churn,No Churn,False
-0,0,0.007,Low Risk,No Churn,No Churn,True
-0,1,0.5093,Med-High Risk,No Churn,Churn,False
-0,0,0.0658,Low Risk,No Churn,No Churn,True
-0,0,0.0856,Low Risk,No Churn,No Churn,True
-1,0,0.377,Med-Low Risk,Churn,No Churn,False
-0,0,0.1366,Low Risk,No Churn,No Churn,True
-0,0,0.2896,Low Risk,No Churn,No Churn,True
-0,1,0.828,High Risk,No Churn,Churn,False
-0,0,0.0302,Low Risk,No Churn,No Churn,True
-0,0,0.4501,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0346,Low Risk,No Churn,No Churn,True
-0,0,0.1978,Low Risk,No Churn,No Churn,True
-0,0,0.2232,Low Risk,No Churn,No Churn,True
-1,0,0.1506,Low Risk,Churn,No Churn,False
-1,0,0.1081,Low Risk,Churn,No Churn,False
-0,0,0.1568,Low Risk,No Churn,No Churn,True
-0,1,0.5076,Med-High Risk,No Churn,Churn,False
-0,0,0.2793,Low Risk,No Churn,No Churn,True
-1,1,0.9111,High Risk,Churn,Churn,True
-0,0,0.0086,Low Risk,No Churn,No Churn,True
-0,0,0.267,Low Risk,No Churn,No Churn,True
-0,1,0.7155,High Risk,No Churn,Churn,False
-0,0,0.0248,Low Risk,No Churn,No Churn,True
-0,0,0.2369,Low Risk,No Churn,No Churn,True
-0,0,0.1013,Low Risk,No Churn,No Churn,True
-1,1,0.6487,Med-High Risk,Churn,Churn,True
-1,1,0.5,Med-High Risk,Churn,Churn,True
-0,0,0.0462,Low Risk,No Churn,No Churn,True
-0,0,0.0676,Low Risk,No Churn,No Churn,True
-1,1,0.5018,Med-High Risk,Churn,Churn,True
-1,1,0.5123,Med-High Risk,Churn,Churn,True
-1,1,0.7933,High Risk,Churn,Churn,True
-0,0,0.0537,Low Risk,No Churn,No Churn,True
-0,0,0.2733,Low Risk,No Churn,No Churn,True
-0,0,0.4365,Med-Low Risk,No Churn,No Churn,True
-0,0,0.0073,Low Risk,No Churn,No Churn,True
-0,0,0.1952,Low Risk,No Churn,No Churn,True
-1,0,0.3003,Med-Low Risk,Churn,No Churn,False
-0,0,0.4202,Med-Low Risk,No Churn,No Churn,True
-0,0,0.2237,Low Risk,No Churn,No Churn,True
-1,1,0.501,Med-High Risk,Churn,Churn,True
-0,0,0.0206,Low Risk,No Churn,No Churn,True
-0,1,0.7366,High Risk,No Churn,Churn,False
-0,1,0.6134,Med-High Risk,No Churn,Churn,False
-0,0,0.0145,Low Risk,No Churn,No Churn,True
-1,1,0.9189,High Risk,Churn,Churn,True
-0,0,0.0172,Low Risk,No Churn,No Churn,True
-0,0,0.3201,Med-Low Risk,No Churn,No Churn,True
-0,1,0.6191,Med-High Risk,No Churn,Churn,False
-0,0,0.2101,Low Risk,No Churn,No Churn,True
-0,0,0.0157,Low Risk,No Churn,No Churn,True
-1,1,0.8432,High Risk,Churn,Churn,True
+0,0,0.3758,Med-Low Risk,No Churn,No Churn,True
+1,0,0.204,Med-Low Risk,Churn,No Churn,False
+1,1,0.9615,High Risk,Churn,Churn,True
+0,0,0.014,Low Risk,No Churn,No Churn,True
+1,1,0.7835,High Risk,Churn,Churn,True
+0,0,0.2456,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5483,Med-High Risk,No Churn,No Churn,True
+0,0,0.0027,Low Risk,No Churn,No Churn,True
+0,0,0.004,Low Risk,No Churn,No Churn,True
+1,1,0.7417,High Risk,Churn,Churn,True
+0,0,0.1133,Low Risk,No Churn,No Churn,True
+1,1,0.6644,Med-High Risk,Churn,Churn,True
+0,0,0.0014,Low Risk,No Churn,No Churn,True
+1,1,0.9648,High Risk,Churn,Churn,True
+1,0,0.0498,Low Risk,Churn,No Churn,False
+0,0,0.0042,Low Risk,No Churn,No Churn,True
+0,1,0.9602,High Risk,No Churn,Churn,False
+0,0,0.4018,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1312,Low Risk,No Churn,No Churn,True
+0,0,0.0153,Low Risk,No Churn,No Churn,True
+1,1,0.8111,High Risk,Churn,Churn,True
+0,1,0.6282,Med-High Risk,No Churn,Churn,False
+0,0,0.2166,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+1,0,0.1366,Low Risk,Churn,No Churn,False
+0,0,0.0032,Low Risk,No Churn,No Churn,True
+1,1,0.8065,High Risk,Churn,Churn,True
+0,0,0.2996,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4276,Med-High Risk,No Churn,No Churn,True
+0,0,0.5482,Med-High Risk,No Churn,No Churn,True
+1,1,0.7248,High Risk,Churn,Churn,True
+0,0,0.0495,Low Risk,No Churn,No Churn,True
+0,0,0.0177,Low Risk,No Churn,No Churn,True
+0,0,0.0214,Low Risk,No Churn,No Churn,True
+0,0,0.0115,Low Risk,No Churn,No Churn,True
+0,0,0.001,Low Risk,No Churn,No Churn,True
+1,0,0.0034,Low Risk,Churn,No Churn,False
+0,0,0.1368,Low Risk,No Churn,No Churn,True
+0,0,0.1263,Low Risk,No Churn,No Churn,True
+1,0,0.176,Med-Low Risk,Churn,No Churn,False
+1,0,0.2432,Med-Low Risk,Churn,No Churn,False
+1,0,0.5684,Med-High Risk,Churn,No Churn,False
+1,0,0.3833,Med-Low Risk,Churn,No Churn,False
+1,0,0.0469,Low Risk,Churn,No Churn,False
+1,1,0.7791,High Risk,Churn,Churn,True
+0,0,0.0004,Low Risk,No Churn,No Churn,True
+0,0,0.0089,Low Risk,No Churn,No Churn,True
+1,0,0.5102,Med-High Risk,Churn,No Churn,False
+0,0,0.184,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1477,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0463,Low Risk,No Churn,No Churn,True
+0,0,0.0351,Low Risk,No Churn,No Churn,True
+1,0,0.3948,Med-Low Risk,Churn,No Churn,False
 0,0,0.085,Low Risk,No Churn,No Churn,True
-0,0,0.0254,Low Risk,No Churn,No Churn,True
-0,0,0.0421,Low Risk,No Churn,No Churn,True
-0,0,0.0657,Low Risk,No Churn,No Churn,True
-0,0,0.0704,Low Risk,No Churn,No Churn,True
+0,0,0.0069,Low Risk,No Churn,No Churn,True
+0,0,0.0177,Low Risk,No Churn,No Churn,True
+0,0,0.0042,Low Risk,No Churn,No Churn,True
+1,0,0.102,Low Risk,Churn,No Churn,False
+1,1,0.8961,High Risk,Churn,Churn,True
+0,0,0.0078,Low Risk,No Churn,No Churn,True
+0,0,0.443,Med-High Risk,No Churn,No Churn,True
+0,1,0.8424,High Risk,No Churn,Churn,False
+1,1,0.7498,High Risk,Churn,Churn,True
+1,0,0.3966,Med-Low Risk,Churn,No Churn,False
+0,0,0.2022,Med-Low Risk,No Churn,No Churn,True
+1,0,0.4093,Med-Low Risk,Churn,No Churn,False
+0,0,0.1957,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0063,Low Risk,No Churn,No Churn,True
+1,0,0.5405,Med-High Risk,Churn,No Churn,False
+1,1,0.6955,Med-High Risk,Churn,Churn,True
+0,0,0.0067,Low Risk,No Churn,No Churn,True
+0,0,0.458,Med-High Risk,No Churn,No Churn,True
+0,0,0.001,Low Risk,No Churn,No Churn,True
+1,1,0.924,High Risk,Churn,Churn,True
+0,0,0.0529,Low Risk,No Churn,No Churn,True
+1,1,0.6598,Med-High Risk,Churn,Churn,True
+1,0,0.2866,Med-Low Risk,Churn,No Churn,False
+0,1,0.7917,High Risk,No Churn,Churn,False
+1,0,0.143,Low Risk,Churn,No Churn,False
+1,0,0.263,Med-Low Risk,Churn,No Churn,False
+0,0,0.0036,Low Risk,No Churn,No Churn,True
+0,0,0.1246,Low Risk,No Churn,No Churn,True
+0,0,0.016,Low Risk,No Churn,No Churn,True
+0,0,0.0611,Low Risk,No Churn,No Churn,True
+0,0,0.0238,Low Risk,No Churn,No Churn,True
+0,0,0.0019,Low Risk,No Churn,No Churn,True
+0,0,0.5135,Med-High Risk,No Churn,No Churn,True
+0,0,0.1619,Med-Low Risk,No Churn,No Churn,True
+0,1,0.7606,High Risk,No Churn,Churn,False
+1,1,0.6218,Med-High Risk,Churn,Churn,True
+0,0,0.0269,Low Risk,No Churn,No Churn,True
+1,1,0.7308,High Risk,Churn,Churn,True
+0,0,0.5405,Med-High Risk,No Churn,No Churn,True
+0,0,0.011,Low Risk,No Churn,No Churn,True
+0,0,0.0418,Low Risk,No Churn,No Churn,True
+0,0,0.0088,Low Risk,No Churn,No Churn,True
+1,1,0.9446,High Risk,Churn,Churn,True
+0,0,0.0093,Low Risk,No Churn,No Churn,True
+0,0,0.0053,Low Risk,No Churn,No Churn,True
+1,1,0.8413,High Risk,Churn,Churn,True
+0,0,0.0057,Low Risk,No Churn,No Churn,True
+1,0,0.4119,Med-Low Risk,Churn,No Churn,False
+0,0,0.0888,Low Risk,No Churn,No Churn,True
+1,0,0.5529,Med-High Risk,Churn,No Churn,False
+0,0,0.0533,Low Risk,No Churn,No Churn,True
+1,0,0.3826,Med-Low Risk,Churn,No Churn,False
+1,0,0.3305,Med-Low Risk,Churn,No Churn,False
+0,0,0.0496,Low Risk,No Churn,No Churn,True
+0,0,0.148,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0225,Low Risk,No Churn,No Churn,True
+0,0,0.239,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0298,Low Risk,No Churn,No Churn,True
+0,0,0.037,Low Risk,No Churn,No Churn,True
+0,0,0.0019,Low Risk,No Churn,No Churn,True
+1,0,0.5223,Med-High Risk,Churn,No Churn,False
+0,0,0.0344,Low Risk,No Churn,No Churn,True
+0,0,0.063,Low Risk,No Churn,No Churn,True
+0,0,0.5106,Med-High Risk,No Churn,No Churn,True
+0,0,0.0195,Low Risk,No Churn,No Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+0,0,0.2434,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0227,Low Risk,No Churn,No Churn,True
+1,1,0.6394,Med-High Risk,Churn,Churn,True
+0,0,0.3109,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3062,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0133,Low Risk,No Churn,No Churn,True
+0,1,0.8388,High Risk,No Churn,Churn,False
+0,0,0.144,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5274,Med-High Risk,No Churn,No Churn,True
+1,1,0.9107,High Risk,Churn,Churn,True
+0,0,0.0397,Low Risk,No Churn,No Churn,True
+0,1,0.7784,High Risk,No Churn,Churn,False
+1,0,0.3214,Med-Low Risk,Churn,No Churn,False
+1,1,0.7368,High Risk,Churn,Churn,True
+1,1,0.8649,High Risk,Churn,Churn,True
+0,0,0.0518,Low Risk,No Churn,No Churn,True
+0,0,0.0544,Low Risk,No Churn,No Churn,True
+0,0,0.0007,Low Risk,No Churn,No Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+0,0,0.0526,Low Risk,No Churn,No Churn,True
+1,0,0.0966,Low Risk,Churn,No Churn,False
+0,0,0.0148,Low Risk,No Churn,No Churn,True
+1,0,0.0802,Low Risk,Churn,No Churn,False
+0,0,0.0611,Low Risk,No Churn,No Churn,True
+0,0,0.0425,Low Risk,No Churn,No Churn,True
+0,0,0.2366,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9915,High Risk,Churn,Churn,True
+0,0,0.0859,Low Risk,No Churn,No Churn,True
+1,0,0.5381,Med-High Risk,Churn,No Churn,False
+0,1,0.7357,High Risk,No Churn,Churn,False
+0,0,0.3988,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0041,Low Risk,No Churn,No Churn,True
+0,0,0.004,Low Risk,No Churn,No Churn,True
+0,0,0.3348,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0187,Low Risk,No Churn,No Churn,True
+1,0,0.3729,Med-Low Risk,Churn,No Churn,False
+0,0,0.0439,Low Risk,No Churn,No Churn,True
+1,1,0.8726,High Risk,Churn,Churn,True
+1,1,0.5887,Med-High Risk,Churn,Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+0,0,0.2256,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0179,Low Risk,No Churn,No Churn,True
+1,0,0.4796,Med-High Risk,Churn,No Churn,False
+0,0,0.2827,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0207,Low Risk,No Churn,No Churn,True
+0,0,0.0162,Low Risk,No Churn,No Churn,True
+0,0,0.0836,Low Risk,No Churn,No Churn,True
+1,0,0.5675,Med-High Risk,Churn,No Churn,False
 0,0,0.006,Low Risk,No Churn,No Churn,True
-0,0,0.0736,Low Risk,No Churn,No Churn,True
+0,0,0.3158,Med-Low Risk,No Churn,No Churn,True
+0,1,0.5758,Med-High Risk,No Churn,Churn,False
+0,1,0.8414,High Risk,No Churn,Churn,False
+0,0,0.227,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6118,Med-High Risk,No Churn,Churn,False
+0,0,0.1835,Med-Low Risk,No Churn,No Churn,True
+0,0,0.375,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0074,Low Risk,No Churn,No Churn,True
+0,0,0.0246,Low Risk,No Churn,No Churn,True
+0,0,0.0426,Low Risk,No Churn,No Churn,True
+0,0,0.0759,Low Risk,No Churn,No Churn,True
+0,0,0.0683,Low Risk,No Churn,No Churn,True
+0,0,0.0231,Low Risk,No Churn,No Churn,True
+0,0,0.0326,Low Risk,No Churn,No Churn,True
+0,1,0.7848,High Risk,No Churn,Churn,False
+0,0,0.0074,Low Risk,No Churn,No Churn,True
+1,0,0.0468,Low Risk,Churn,No Churn,False
+0,0,0.4247,Med-High Risk,No Churn,No Churn,True
+1,0,0.3363,Med-Low Risk,Churn,No Churn,False
+0,0,0.0134,Low Risk,No Churn,No Churn,True
+0,0,0.0059,Low Risk,No Churn,No Churn,True
+0,0,0.4437,Med-High Risk,No Churn,No Churn,True
+0,0,0.014,Low Risk,No Churn,No Churn,True
+0,0,0.4034,Med-Low Risk,No Churn,No Churn,True
+1,1,0.7933,High Risk,Churn,Churn,True
+1,0,0.0581,Low Risk,Churn,No Churn,False
+0,0,0.1312,Low Risk,No Churn,No Churn,True
+0,0,0.1294,Low Risk,No Churn,No Churn,True
+0,0,0.4449,Med-High Risk,No Churn,No Churn,True
+0,0,0.029,Low Risk,No Churn,No Churn,True
+0,1,0.7983,High Risk,No Churn,Churn,False
+0,0,0.0574,Low Risk,No Churn,No Churn,True
+0,0,0.0045,Low Risk,No Churn,No Churn,True
+0,0,0.0236,Low Risk,No Churn,No Churn,True
+1,1,0.6465,Med-High Risk,Churn,Churn,True
+0,1,0.6782,Med-High Risk,No Churn,Churn,False
+0,0,0.1818,Med-Low Risk,No Churn,No Churn,True
+1,1,0.677,Med-High Risk,Churn,Churn,True
+0,0,0.4811,Med-High Risk,No Churn,No Churn,True
+0,0,0.0147,Low Risk,No Churn,No Churn,True
+1,1,0.858,High Risk,Churn,Churn,True
+1,1,0.8743,High Risk,Churn,Churn,True
+1,0,0.1113,Low Risk,Churn,No Churn,False
+0,0,0.2333,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3688,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5178,Med-High Risk,No Churn,No Churn,True
+1,1,0.779,High Risk,Churn,Churn,True
+1,1,0.6278,Med-High Risk,Churn,Churn,True
+0,0,0.0764,Low Risk,No Churn,No Churn,True
+0,0,0.2244,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8505,High Risk,Churn,Churn,True
+1,1,0.699,Med-High Risk,Churn,Churn,True
+1,1,0.8926,High Risk,Churn,Churn,True
+0,0,0.0141,Low Risk,No Churn,No Churn,True
+0,0,0.0095,Low Risk,No Churn,No Churn,True
+0,0,0.4156,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0039,Low Risk,No Churn,No Churn,True
+0,0,0.0054,Low Risk,No Churn,No Churn,True
+0,0,0.031,Low Risk,No Churn,No Churn,True
+0,0,0.0255,Low Risk,No Churn,No Churn,True
+1,0,0.1421,Low Risk,Churn,No Churn,False
+0,0,0.0112,Low Risk,No Churn,No Churn,True
+0,0,0.0182,Low Risk,No Churn,No Churn,True
+0,0,0.2136,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2886,Med-Low Risk,No Churn,No Churn,True
+0,1,0.715,High Risk,No Churn,Churn,False
+0,0,0.3456,Med-Low Risk,No Churn,No Churn,True
+0,0,0.208,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0063,Low Risk,No Churn,No Churn,True
+0,0,0.2831,Med-Low Risk,No Churn,No Churn,True
+1,0,0.5682,Med-High Risk,Churn,No Churn,False
+1,0,0.0935,Low Risk,Churn,No Churn,False
+1,1,0.5803,Med-High Risk,Churn,Churn,True
+0,0,0.0324,Low Risk,No Churn,No Churn,True
+0,0,0.251,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4384,Med-High Risk,No Churn,No Churn,True
+0,1,0.7127,High Risk,No Churn,Churn,False
+0,0,0.003,Low Risk,No Churn,No Churn,True
+0,0,0.4457,Med-High Risk,No Churn,No Churn,True
+0,0,0.1339,Low Risk,No Churn,No Churn,True
+0,0,0.0033,Low Risk,No Churn,No Churn,True
+0,1,0.7307,High Risk,No Churn,Churn,False
+1,1,0.7097,High Risk,Churn,Churn,True
+0,0,0.2873,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8977,High Risk,Churn,Churn,True
+0,0,0.2804,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5298,Med-High Risk,No Churn,No Churn,True
+0,0,0.0486,Low Risk,No Churn,No Churn,True
+0,0,0.1917,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0135,Low Risk,No Churn,No Churn,True
+0,1,0.6518,Med-High Risk,No Churn,Churn,False
+1,1,0.681,Med-High Risk,Churn,Churn,True
+1,0,0.1758,Med-Low Risk,Churn,No Churn,False
+0,0,0.0372,Low Risk,No Churn,No Churn,True
+1,0,0.5002,Med-High Risk,Churn,No Churn,False
+0,0,0.007,Low Risk,No Churn,No Churn,True
+0,1,0.6267,Med-High Risk,No Churn,Churn,False
+0,0,0.0335,Low Risk,No Churn,No Churn,True
+0,0,0.0032,Low Risk,No Churn,No Churn,True
+0,0,0.05,Low Risk,No Churn,No Churn,True
+0,0,0.1087,Low Risk,No Churn,No Churn,True
+0,0,0.161,Med-Low Risk,No Churn,No Churn,True
+0,0,0.389,Med-Low Risk,No Churn,No Churn,True
+1,0,0.0164,Low Risk,Churn,No Churn,False
+0,0,0.0055,Low Risk,No Churn,No Churn,True
+0,0,0.0741,Low Risk,No Churn,No Churn,True
+0,0,0.0003,Low Risk,No Churn,No Churn,True
+1,0,0.1079,Low Risk,Churn,No Churn,False
+0,0,0.4334,Med-High Risk,No Churn,No Churn,True
+0,0,0.0577,Low Risk,No Churn,No Churn,True
+1,1,0.8788,High Risk,Churn,Churn,True
+0,0,0.29,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3178,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0698,Low Risk,No Churn,No Churn,True
+0,0,0.148,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1645,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6247,Med-High Risk,No Churn,Churn,False
+0,0,0.5202,Med-High Risk,No Churn,No Churn,True
+0,0,0.0177,Low Risk,No Churn,No Churn,True
+0,0,0.0398,Low Risk,No Churn,No Churn,True
+0,0,0.0249,Low Risk,No Churn,No Churn,True
+0,0,0.0261,Low Risk,No Churn,No Churn,True
+0,0,0.1022,Low Risk,No Churn,No Churn,True
+0,0,0.0272,Low Risk,No Churn,No Churn,True
+1,1,0.6083,Med-High Risk,Churn,Churn,True
+1,1,0.8029,High Risk,Churn,Churn,True
+0,0,0.4134,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6601,Med-High Risk,No Churn,Churn,False
+1,1,0.8727,High Risk,Churn,Churn,True
+0,0,0.068,Low Risk,No Churn,No Churn,True
+0,1,0.6656,Med-High Risk,No Churn,Churn,False
+0,0,0.0148,Low Risk,No Churn,No Churn,True
+1,0,0.2842,Med-Low Risk,Churn,No Churn,False
+0,1,0.6643,Med-High Risk,No Churn,Churn,False
+0,0,0.0176,Low Risk,No Churn,No Churn,True
+0,0,0.0142,Low Risk,No Churn,No Churn,True
+0,0,0.4983,Med-High Risk,No Churn,No Churn,True
+1,0,0.1734,Med-Low Risk,Churn,No Churn,False
+0,0,0.0308,Low Risk,No Churn,No Churn,True
+0,0,0.3849,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+1,0,0.328,Med-Low Risk,Churn,No Churn,False
+0,0,0.1098,Low Risk,No Churn,No Churn,True
+0,0,0.0021,Low Risk,No Churn,No Churn,True
+0,0,0.0086,Low Risk,No Churn,No Churn,True
+0,0,0.0013,Low Risk,No Churn,No Churn,True
+1,1,0.9878,High Risk,Churn,Churn,True
+0,0,0.0527,Low Risk,No Churn,No Churn,True
+1,0,0.4856,Med-High Risk,Churn,No Churn,False
+1,1,0.9596,High Risk,Churn,Churn,True
+1,0,0.0316,Low Risk,Churn,No Churn,False
+0,0,0.0037,Low Risk,No Churn,No Churn,True
+1,0,0.356,Med-Low Risk,Churn,No Churn,False
+0,0,0.035,Low Risk,No Churn,No Churn,True
+1,0,0.5375,Med-High Risk,Churn,No Churn,False
+0,0,0.0845,Low Risk,No Churn,No Churn,True
+1,0,0.0324,Low Risk,Churn,No Churn,False
+0,0,0.0616,Low Risk,No Churn,No Churn,True
+0,0,0.109,Low Risk,No Churn,No Churn,True
+0,0,0.0007,Low Risk,No Churn,No Churn,True
+0,0,0.1757,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3523,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3237,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0183,Low Risk,No Churn,No Churn,True
+1,0,0.3503,Med-Low Risk,Churn,No Churn,False
+1,1,0.8009,High Risk,Churn,Churn,True
+0,0,0.021,Low Risk,No Churn,No Churn,True
+0,0,0.0864,Low Risk,No Churn,No Churn,True
+0,0,0.1187,Low Risk,No Churn,No Churn,True
+0,0,0.1548,Med-Low Risk,No Churn,No Churn,True
+1,0,0.564,Med-High Risk,Churn,No Churn,False
+0,0,0.2216,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0949,Low Risk,No Churn,No Churn,True
+0,0,0.0061,Low Risk,No Churn,No Churn,True
+0,0,0.564,Med-High Risk,No Churn,No Churn,True
+1,0,0.394,Med-Low Risk,Churn,No Churn,False
+0,1,0.8021,High Risk,No Churn,Churn,False
+0,1,0.6565,Med-High Risk,No Churn,Churn,False
+0,0,0.3143,Med-Low Risk,No Churn,No Churn,True
+1,0,0.1253,Low Risk,Churn,No Churn,False
+0,0,0.1467,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1263,Low Risk,No Churn,No Churn,True
+0,0,0.0873,Low Risk,No Churn,No Churn,True
+1,0,0.0797,Low Risk,Churn,No Churn,False
+0,0,0.0066,Low Risk,No Churn,No Churn,True
+0,0,0.0832,Low Risk,No Churn,No Churn,True
+0,1,0.6781,Med-High Risk,No Churn,Churn,False
+0,0,0.005,Low Risk,No Churn,No Churn,True
+0,1,0.88,High Risk,No Churn,Churn,False
+1,0,0.1546,Med-Low Risk,Churn,No Churn,False
+0,0,0.1109,Low Risk,No Churn,No Churn,True
+1,0,0.3159,Med-Low Risk,Churn,No Churn,False
+1,1,0.7271,High Risk,Churn,Churn,True
+0,0,0.0207,Low Risk,No Churn,No Churn,True
+1,0,0.5392,Med-High Risk,Churn,No Churn,False
+0,0,0.003,Low Risk,No Churn,No Churn,True
+0,0,0.0366,Low Risk,No Churn,No Churn,True
+0,1,0.7007,Med-High Risk,No Churn,Churn,False
+0,0,0.0035,Low Risk,No Churn,No Churn,True
+0,0,0.1275,Low Risk,No Churn,No Churn,True
+0,0,0.0529,Low Risk,No Churn,No Churn,True
+0,0,0.0072,Low Risk,No Churn,No Churn,True
+0,0,0.0374,Low Risk,No Churn,No Churn,True
+0,0,0.0013,Low Risk,No Churn,No Churn,True
+1,1,0.8847,High Risk,Churn,Churn,True
+0,0,0.0244,Low Risk,No Churn,No Churn,True
+0,0,0.315,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1549,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0931,Low Risk,No Churn,No Churn,True
+0,0,0.0269,Low Risk,No Churn,No Churn,True
+0,0,0.1671,Med-Low Risk,No Churn,No Churn,True
+1,0,0.0703,Low Risk,Churn,No Churn,False
+0,0,0.1852,Med-Low Risk,No Churn,No Churn,True
+1,1,0.903,High Risk,Churn,Churn,True
+0,0,0.0161,Low Risk,No Churn,No Churn,True
+1,0,0.5036,Med-High Risk,Churn,No Churn,False
+1,1,0.6599,Med-High Risk,Churn,Churn,True
+1,1,0.7418,High Risk,Churn,Churn,True
+1,1,0.606,Med-High Risk,Churn,Churn,True
+0,0,0.0208,Low Risk,No Churn,No Churn,True
+0,0,0.2016,Med-Low Risk,No Churn,No Churn,True
+0,1,0.679,Med-High Risk,No Churn,Churn,False
+1,1,0.7167,High Risk,Churn,Churn,True
+1,0,0.0134,Low Risk,Churn,No Churn,False
+1,1,0.6297,Med-High Risk,Churn,Churn,True
+0,0,0.1209,Low Risk,No Churn,No Churn,True
+0,0,0.048,Low Risk,No Churn,No Churn,True
+0,0,0.3621,Med-Low Risk,No Churn,No Churn,True
+1,0,0.235,Med-Low Risk,Churn,No Churn,False
+0,0,0.0074,Low Risk,No Churn,No Churn,True
+0,1,0.7175,High Risk,No Churn,Churn,False
+0,1,0.7217,High Risk,No Churn,Churn,False
+0,1,0.7045,Med-High Risk,No Churn,Churn,False
+0,0,0.0053,Low Risk,No Churn,No Churn,True
+0,0,0.0008,Low Risk,No Churn,No Churn,True
+0,0,0.0095,Low Risk,No Churn,No Churn,True
+0,0,0.3405,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0409,Low Risk,No Churn,No Churn,True
+0,0,0.0622,Low Risk,No Churn,No Churn,True
+0,0,0.0955,Low Risk,No Churn,No Churn,True
+1,1,0.9361,High Risk,Churn,Churn,True
+0,0,0.1682,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0224,Low Risk,No Churn,No Churn,True
+0,0,0.0836,Low Risk,No Churn,No Churn,True
+0,0,0.4473,Med-High Risk,No Churn,No Churn,True
+0,0,0.1365,Low Risk,No Churn,No Churn,True
+1,0,0.4731,Med-High Risk,Churn,No Churn,False
+0,0,0.0292,Low Risk,No Churn,No Churn,True
+0,0,0.182,Med-Low Risk,No Churn,No Churn,True
+1,0,0.1282,Low Risk,Churn,No Churn,False
+0,0,0.3943,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0367,Low Risk,No Churn,No Churn,True
+0,0,0.0328,Low Risk,No Churn,No Churn,True
+0,0,0.4085,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6629,Med-High Risk,No Churn,Churn,False
+0,1,0.8214,High Risk,No Churn,Churn,False
+0,0,0.0304,Low Risk,No Churn,No Churn,True
+0,0,0.1145,Low Risk,No Churn,No Churn,True
+0,0,0.0567,Low Risk,No Churn,No Churn,True
+0,1,0.884,High Risk,No Churn,Churn,False
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+1,0,0.5394,Med-High Risk,Churn,No Churn,False
+0,0,0.0017,Low Risk,No Churn,No Churn,True
+0,0,0.007,Low Risk,No Churn,No Churn,True
+1,0,0.3803,Med-Low Risk,Churn,No Churn,False
+0,0,0.0209,Low Risk,No Churn,No Churn,True
+1,0,0.0747,Low Risk,Churn,No Churn,False
+0,0,0.3825,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0037,Low Risk,No Churn,No Churn,True
+0,0,0.0014,Low Risk,No Churn,No Churn,True
+0,0,0.0618,Low Risk,No Churn,No Churn,True
+0,0,0.082,Low Risk,No Churn,No Churn,True
+0,0,0.1745,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0837,Low Risk,No Churn,No Churn,True
+0,0,0.0162,Low Risk,No Churn,No Churn,True
+1,0,0.1572,Med-Low Risk,Churn,No Churn,False
+0,0,0.2777,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0557,Low Risk,No Churn,No Churn,True
+0,0,0.0912,Low Risk,No Churn,No Churn,True
+0,0,0.0774,Low Risk,No Churn,No Churn,True
+0,0,0.0006,Low Risk,No Churn,No Churn,True
+0,0,0.084,Low Risk,No Churn,No Churn,True
+0,0,0.5197,Med-High Risk,No Churn,No Churn,True
+1,0,0.3589,Med-Low Risk,Churn,No Churn,False
+1,0,0.2782,Med-Low Risk,Churn,No Churn,False
+0,1,0.695,Med-High Risk,No Churn,Churn,False
+0,1,0.788,High Risk,No Churn,Churn,False
+0,0,0.0007,Low Risk,No Churn,No Churn,True
+1,0,0.2226,Med-Low Risk,Churn,No Churn,False
+0,1,0.8692,High Risk,No Churn,Churn,False
+0,0,0.0228,Low Risk,No Churn,No Churn,True
+0,0,0.0088,Low Risk,No Churn,No Churn,True
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+1,1,0.6941,Med-High Risk,Churn,Churn,True
+0,0,0.1734,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5574,Med-High Risk,No Churn,No Churn,True
+0,0,0.1937,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1751,Med-Low Risk,No Churn,No Churn,True
+0,1,0.8781,High Risk,No Churn,Churn,False
+0,0,0.0049,Low Risk,No Churn,No Churn,True
+0,1,0.816,High Risk,No Churn,Churn,False
+0,0,0.2089,Med-Low Risk,No Churn,No Churn,True
+1,0,0.4041,Med-Low Risk,Churn,No Churn,False
+0,0,0.005,Low Risk,No Churn,No Churn,True
+0,0,0.3378,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0087,Low Risk,No Churn,No Churn,True
+0,0,0.3316,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6784,Med-High Risk,No Churn,Churn,False
+0,0,0.0003,Low Risk,No Churn,No Churn,True
+0,0,0.0781,Low Risk,No Churn,No Churn,True
+0,0,0.0185,Low Risk,No Churn,No Churn,True
+0,0,0.0875,Low Risk,No Churn,No Churn,True
+0,0,0.0542,Low Risk,No Churn,No Churn,True
+1,0,0.4172,Med-Low Risk,Churn,No Churn,False
+0,0,0.0403,Low Risk,No Churn,No Churn,True
+1,1,0.9464,High Risk,Churn,Churn,True
+1,0,0.0689,Low Risk,Churn,No Churn,False
+0,0,0.0183,Low Risk,No Churn,No Churn,True
+0,0,0.0768,Low Risk,No Churn,No Churn,True
+1,0,0.5165,Med-High Risk,Churn,No Churn,False
+0,0,0.207,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0365,Low Risk,No Churn,No Churn,True
+0,0,0.2058,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6434,Med-High Risk,No Churn,Churn,False
+0,0,0.0495,Low Risk,No Churn,No Churn,True
+0,0,0.1826,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2013,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0559,Low Risk,No Churn,No Churn,True
+1,1,0.7369,High Risk,Churn,Churn,True
+1,0,0.2103,Med-Low Risk,Churn,No Churn,False
+1,0,0.4377,Med-High Risk,Churn,No Churn,False
+0,0,0.1078,Low Risk,No Churn,No Churn,True
+0,1,0.627,Med-High Risk,No Churn,Churn,False
+0,0,0.0292,Low Risk,No Churn,No Churn,True
+0,0,0.0037,Low Risk,No Churn,No Churn,True
+0,0,0.2767,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0338,Low Risk,No Churn,No Churn,True
+0,0,0.1791,Med-Low Risk,No Churn,No Churn,True
+1,1,0.7965,High Risk,Churn,Churn,True
+1,0,0.0452,Low Risk,Churn,No Churn,False
+0,0,0.1368,Low Risk,No Churn,No Churn,True
+0,0,0.0921,Low Risk,No Churn,No Churn,True
+0,0,0.0173,Low Risk,No Churn,No Churn,True
+1,0,0.2962,Med-Low Risk,Churn,No Churn,False
+1,0,0.3508,Med-Low Risk,Churn,No Churn,False
+1,0,0.1341,Low Risk,Churn,No Churn,False
+0,0,0.1165,Low Risk,No Churn,No Churn,True
+1,1,0.8034,High Risk,Churn,Churn,True
+0,0,0.0576,Low Risk,No Churn,No Churn,True
+1,1,0.8314,High Risk,Churn,Churn,True
+0,0,0.0149,Low Risk,No Churn,No Churn,True
+0,0,0.0385,Low Risk,No Churn,No Churn,True
+0,0,0.0791,Low Risk,No Churn,No Churn,True
+0,1,0.8205,High Risk,No Churn,Churn,False
+0,0,0.0016,Low Risk,No Churn,No Churn,True
+1,0,0.032,Low Risk,Churn,No Churn,False
+0,0,0.0048,Low Risk,No Churn,No Churn,True
+0,0,0.2515,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1756,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0146,Low Risk,No Churn,No Churn,True
+0,1,0.7136,High Risk,No Churn,Churn,False
+1,1,0.7064,High Risk,Churn,Churn,True
+1,0,0.2331,Med-Low Risk,Churn,No Churn,False
+0,0,0.1221,Low Risk,No Churn,No Churn,True
+0,1,0.7354,High Risk,No Churn,Churn,False
+0,0,0.2669,Med-Low Risk,No Churn,No Churn,True
+1,1,0.6678,Med-High Risk,Churn,Churn,True
+1,0,0.5244,Med-High Risk,Churn,No Churn,False
+0,0,0.0704,Low Risk,No Churn,No Churn,True
+0,0,0.2266,Med-Low Risk,No Churn,No Churn,True
+0,0,0.143,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9063,High Risk,Churn,Churn,True
+1,1,0.6896,Med-High Risk,Churn,Churn,True
+1,1,0.6533,Med-High Risk,Churn,Churn,True
+1,1,0.6428,Med-High Risk,Churn,Churn,True
+0,0,0.0395,Low Risk,No Churn,No Churn,True
+0,1,0.6511,Med-High Risk,No Churn,Churn,False
+1,1,0.7683,High Risk,Churn,Churn,True
+1,1,0.853,High Risk,Churn,Churn,True
+0,0,0.0063,Low Risk,No Churn,No Churn,True
+1,1,0.6915,Med-High Risk,Churn,Churn,True
+0,0,0.0388,Low Risk,No Churn,No Churn,True
+0,0,0.0193,Low Risk,No Churn,No Churn,True
+0,0,0.0034,Low Risk,No Churn,No Churn,True
+0,0,0.0316,Low Risk,No Churn,No Churn,True
+0,0,0.0029,Low Risk,No Churn,No Churn,True
+0,0,0.5267,Med-High Risk,No Churn,No Churn,True
+0,0,0.0012,Low Risk,No Churn,No Churn,True
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+0,0,0.0321,Low Risk,No Churn,No Churn,True
+0,0,0.0918,Low Risk,No Churn,No Churn,True
+1,1,0.8832,High Risk,Churn,Churn,True
+0,0,0.0201,Low Risk,No Churn,No Churn,True
+0,0,0.0135,Low Risk,No Churn,No Churn,True
+1,0,0.4737,Med-High Risk,Churn,No Churn,False
+0,0,0.1009,Low Risk,No Churn,No Churn,True
+0,0,0.531,Med-High Risk,No Churn,No Churn,True
+0,0,0.1569,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8243,High Risk,Churn,Churn,True
+1,1,0.967,High Risk,Churn,Churn,True
+0,0,0.2071,Med-Low Risk,No Churn,No Churn,True
+0,0,0.007,Low Risk,No Churn,No Churn,True
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+1,0,0.5454,Med-High Risk,Churn,No Churn,False
+0,0,0.0631,Low Risk,No Churn,No Churn,True
+0,0,0.1102,Low Risk,No Churn,No Churn,True
+1,1,0.8992,High Risk,Churn,Churn,True
+0,0,0.0098,Low Risk,No Churn,No Churn,True
+1,1,0.9555,High Risk,Churn,Churn,True
+0,1,0.9826,High Risk,No Churn,Churn,False
+0,0,0.0054,Low Risk,No Churn,No Churn,True
+1,0,0.037,Low Risk,Churn,No Churn,False
+1,0,0.3336,Med-Low Risk,Churn,No Churn,False
+0,0,0.1456,Med-Low Risk,No Churn,No Churn,True
+0,0,0.005,Low Risk,No Churn,No Churn,True
+0,0,0.0393,Low Risk,No Churn,No Churn,True
+0,0,0.1195,Low Risk,No Churn,No Churn,True
+0,0,0.1521,Med-Low Risk,No Churn,No Churn,True
+1,0,0.1786,Med-Low Risk,Churn,No Churn,False
+0,0,0.071,Low Risk,No Churn,No Churn,True
+0,0,0.0606,Low Risk,No Churn,No Churn,True
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+0,0,0.0028,Low Risk,No Churn,No Churn,True
+1,1,0.9851,High Risk,Churn,Churn,True
+1,1,0.6773,Med-High Risk,Churn,Churn,True
+0,0,0.0131,Low Risk,No Churn,No Churn,True
+1,1,0.8664,High Risk,Churn,Churn,True
+1,0,0.3647,Med-Low Risk,Churn,No Churn,False
+0,0,0.0006,Low Risk,No Churn,No Churn,True
+0,0,0.0054,Low Risk,No Churn,No Churn,True
+1,0,0.4141,Med-Low Risk,Churn,No Churn,False
+0,0,0.0109,Low Risk,No Churn,No Churn,True
+1,1,0.9169,High Risk,Churn,Churn,True
+1,0,0.1582,Med-Low Risk,Churn,No Churn,False
+0,1,0.9807,High Risk,No Churn,Churn,False
+1,1,0.9145,High Risk,Churn,Churn,True
+0,0,0.0372,Low Risk,No Churn,No Churn,True
+1,0,0.1904,Med-Low Risk,Churn,No Churn,False
+0,0,0.0066,Low Risk,No Churn,No Churn,True
+0,1,0.8323,High Risk,No Churn,Churn,False
+0,0,0.0777,Low Risk,No Churn,No Churn,True
+0,0,0.032,Low Risk,No Churn,No Churn,True
+0,0,0.0237,Low Risk,No Churn,No Churn,True
+1,0,0.0393,Low Risk,Churn,No Churn,False
+0,0,0.2466,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0049,Low Risk,No Churn,No Churn,True
+0,1,0.8438,High Risk,No Churn,Churn,False
+0,0,0.1128,Low Risk,No Churn,No Churn,True
+0,0,0.0335,Low Risk,No Churn,No Churn,True
+0,0,0.0039,Low Risk,No Churn,No Churn,True
+0,0,0.4383,Med-High Risk,No Churn,No Churn,True
+0,0,0.0714,Low Risk,No Churn,No Churn,True
+1,1,0.6892,Med-High Risk,Churn,Churn,True
+1,1,0.7788,High Risk,Churn,Churn,True
+1,0,0.049,Low Risk,Churn,No Churn,False
+1,0,0.3349,Med-Low Risk,Churn,No Churn,False
+0,0,0.2913,Med-Low Risk,No Churn,No Churn,True
+1,0,0.0329,Low Risk,Churn,No Churn,False
+1,0,0.5341,Med-High Risk,Churn,No Churn,False
+1,1,0.9432,High Risk,Churn,Churn,True
+0,0,0.0028,Low Risk,No Churn,No Churn,True
+0,0,0.0069,Low Risk,No Churn,No Churn,True
+0,0,0.1452,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2075,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+0,0,0.0525,Low Risk,No Churn,No Churn,True
+0,0,0.0167,Low Risk,No Churn,No Churn,True
+0,0,0.0025,Low Risk,No Churn,No Churn,True
+0,1,0.8248,High Risk,No Churn,Churn,False
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+0,0,0.0841,Low Risk,No Churn,No Churn,True
+0,0,0.3716,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1124,Low Risk,No Churn,No Churn,True
+0,1,0.628,Med-High Risk,No Churn,Churn,False
+0,0,0.1472,Med-Low Risk,No Churn,No Churn,True
+0,1,0.8062,High Risk,No Churn,Churn,False
+0,0,0.0258,Low Risk,No Churn,No Churn,True
+0,0,0.0864,Low Risk,No Churn,No Churn,True
+0,0,0.1176,Low Risk,No Churn,No Churn,True
+1,0,0.4733,Med-High Risk,Churn,No Churn,False
+0,0,0.0044,Low Risk,No Churn,No Churn,True
+0,0,0.0083,Low Risk,No Churn,No Churn,True
+1,0,0.1542,Med-Low Risk,Churn,No Churn,False
+1,1,0.6629,Med-High Risk,Churn,Churn,True
+1,0,0.0603,Low Risk,Churn,No Churn,False
+0,0,0.0056,Low Risk,No Churn,No Churn,True
+0,0,0.0251,Low Risk,No Churn,No Churn,True
+0,0,0.0407,Low Risk,No Churn,No Churn,True
+0,0,0.3102,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4913,Med-High Risk,No Churn,No Churn,True
+1,0,0.4955,Med-High Risk,Churn,No Churn,False
+0,1,0.8432,High Risk,No Churn,Churn,False
+1,0,0.0026,Low Risk,Churn,No Churn,False
+0,1,0.748,High Risk,No Churn,Churn,False
+0,1,0.7702,High Risk,No Churn,Churn,False
+0,0,0.0149,Low Risk,No Churn,No Churn,True
+0,0,0.0368,Low Risk,No Churn,No Churn,True
+0,0,0.0999,Low Risk,No Churn,No Churn,True
+1,1,0.9285,High Risk,Churn,Churn,True
+0,0,0.0019,Low Risk,No Churn,No Churn,True
+1,0,0.2136,Med-Low Risk,Churn,No Churn,False
+0,0,0.0394,Low Risk,No Churn,No Churn,True
+0,0,0.0593,Low Risk,No Churn,No Churn,True
+0,0,0.0146,Low Risk,No Churn,No Churn,True
+0,0,0.0535,Low Risk,No Churn,No Churn,True
+0,1,0.7173,High Risk,No Churn,Churn,False
+0,0,0.2805,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0131,Low Risk,No Churn,No Churn,True
+0,0,0.0029,Low Risk,No Churn,No Churn,True
+0,0,0.154,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0163,Low Risk,No Churn,No Churn,True
+0,0,0.1704,Med-Low Risk,No Churn,No Churn,True
+1,1,0.6698,Med-High Risk,Churn,Churn,True
+0,0,0.001,Low Risk,No Churn,No Churn,True
+0,0,0.0115,Low Risk,No Churn,No Churn,True
+1,1,0.9644,High Risk,Churn,Churn,True
+0,1,0.9175,High Risk,No Churn,Churn,False
+0,1,0.8269,High Risk,No Churn,Churn,False
+1,1,0.6701,Med-High Risk,Churn,Churn,True
+1,0,0.4577,Med-High Risk,Churn,No Churn,False
+0,0,0.0813,Low Risk,No Churn,No Churn,True
+0,0,0.4653,Med-High Risk,No Churn,No Churn,True
+1,0,0.5237,Med-High Risk,Churn,No Churn,False
+0,1,0.7986,High Risk,No Churn,Churn,False
+0,0,0.006,Low Risk,No Churn,No Churn,True
+0,0,0.0101,Low Risk,No Churn,No Churn,True
+0,0,0.0035,Low Risk,No Churn,No Churn,True
 0,0,0.0553,Low Risk,No Churn,No Churn,True
+0,0,0.3632,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0368,Low Risk,No Churn,No Churn,True
+0,0,0.5101,Med-High Risk,No Churn,No Churn,True
+0,0,0.4591,Med-High Risk,No Churn,No Churn,True
+0,0,0.0109,Low Risk,No Churn,No Churn,True
+1,1,0.7519,High Risk,Churn,Churn,True
+1,0,0.2405,Med-Low Risk,Churn,No Churn,False
+0,0,0.5341,Med-High Risk,No Churn,No Churn,True
+1,0,0.2339,Med-Low Risk,Churn,No Churn,False
+0,0,0.1195,Low Risk,No Churn,No Churn,True
+0,1,0.9799,High Risk,No Churn,Churn,False
+0,1,0.7532,High Risk,No Churn,Churn,False
+1,1,0.878,High Risk,Churn,Churn,True
+0,0,0.058,Low Risk,No Churn,No Churn,True
+0,0,0.1478,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0029,Low Risk,No Churn,No Churn,True
+0,0,0.0275,Low Risk,No Churn,No Churn,True
+1,1,0.9869,High Risk,Churn,Churn,True
+0,0,0.5672,Med-High Risk,No Churn,No Churn,True
+0,0,0.5437,Med-High Risk,No Churn,No Churn,True
+1,1,0.7711,High Risk,Churn,Churn,True
+1,0,0.0987,Low Risk,Churn,No Churn,False
+1,0,0.0462,Low Risk,Churn,No Churn,False
+0,1,0.8608,High Risk,No Churn,Churn,False
+0,0,0.0005,Low Risk,No Churn,No Churn,True
+0,0,0.0073,Low Risk,No Churn,No Churn,True
+1,1,0.9054,High Risk,Churn,Churn,True
+0,0,0.0054,Low Risk,No Churn,No Churn,True
+0,0,0.0133,Low Risk,No Churn,No Churn,True
+0,0,0.0285,Low Risk,No Churn,No Churn,True
+0,0,0.2975,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0089,Low Risk,No Churn,No Churn,True
+0,0,0.0124,Low Risk,No Churn,No Churn,True
+0,0,0.2877,Med-Low Risk,No Churn,No Churn,True
+1,0,0.1369,Low Risk,Churn,No Churn,False
+1,0,0.4925,Med-High Risk,Churn,No Churn,False
+0,0,0.0051,Low Risk,No Churn,No Churn,True
+0,1,0.7675,High Risk,No Churn,Churn,False
+0,0,0.0651,Low Risk,No Churn,No Churn,True
+1,1,0.9121,High Risk,Churn,Churn,True
+0,0,0.418,Med-Low Risk,No Churn,No Churn,True
+0,1,0.7831,High Risk,No Churn,Churn,False
+0,0,0.3505,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3288,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0256,Low Risk,No Churn,No Churn,True
+0,0,0.3395,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0326,Low Risk,No Churn,No Churn,True
+0,1,0.6424,Med-High Risk,No Churn,Churn,False
+1,1,0.9764,High Risk,Churn,Churn,True
+0,0,0.0577,Low Risk,No Churn,No Churn,True
+0,0,0.3143,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8144,High Risk,Churn,Churn,True
+0,1,0.7656,High Risk,No Churn,Churn,False
+1,0,0.2724,Med-Low Risk,Churn,No Churn,False
+0,0,0.1441,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1188,Low Risk,No Churn,No Churn,True
+0,0,0.0041,Low Risk,No Churn,No Churn,True
+0,0,0.0237,Low Risk,No Churn,No Churn,True
+0,0,0.0266,Low Risk,No Churn,No Churn,True
+0,0,0.0159,Low Risk,No Churn,No Churn,True
+1,0,0.3943,Med-Low Risk,Churn,No Churn,False
+0,0,0.0171,Low Risk,No Churn,No Churn,True
+0,0,0.029,Low Risk,No Churn,No Churn,True
+0,0,0.2496,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0726,Low Risk,No Churn,No Churn,True
+1,1,0.9115,High Risk,Churn,Churn,True
+0,0,0.0989,Low Risk,No Churn,No Churn,True
+0,0,0.0394,Low Risk,No Churn,No Churn,True
+0,0,0.0125,Low Risk,No Churn,No Churn,True
+0,0,0.0108,Low Risk,No Churn,No Churn,True
+0,0,0.0007,Low Risk,No Churn,No Churn,True
+1,1,0.8784,High Risk,Churn,Churn,True
+0,0,0.0065,Low Risk,No Churn,No Churn,True
+1,0,0.0064,Low Risk,Churn,No Churn,False
+1,1,0.8834,High Risk,Churn,Churn,True
+0,1,0.6647,Med-High Risk,No Churn,Churn,False
+1,0,0.264,Med-Low Risk,Churn,No Churn,False
+0,0,0.0012,Low Risk,No Churn,No Churn,True
+0,1,0.7793,High Risk,No Churn,Churn,False
+0,0,0.0006,Low Risk,No Churn,No Churn,True
+0,0,0.1431,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0139,Low Risk,No Churn,No Churn,True
+0,0,0.0027,Low Risk,No Churn,No Churn,True
+0,0,0.1158,Low Risk,No Churn,No Churn,True
+0,0,0.1176,Low Risk,No Churn,No Churn,True
+0,0,0.0293,Low Risk,No Churn,No Churn,True
+0,0,0.4824,Med-High Risk,No Churn,No Churn,True
+0,0,0.0534,Low Risk,No Churn,No Churn,True
+0,0,0.1442,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0057,Low Risk,No Churn,No Churn,True
+1,1,0.9582,High Risk,Churn,Churn,True
+0,1,0.8213,High Risk,No Churn,Churn,False
+0,0,0.0076,Low Risk,No Churn,No Churn,True
+1,1,0.9431,High Risk,Churn,Churn,True
+0,1,0.7974,High Risk,No Churn,Churn,False
+1,1,0.5987,Med-High Risk,Churn,Churn,True
+0,0,0.0138,Low Risk,No Churn,No Churn,True
+0,0,0.3307,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3836,Med-Low Risk,No Churn,No Churn,True
+0,0,0.089,Low Risk,No Churn,No Churn,True
+0,0,0.0705,Low Risk,No Churn,No Churn,True
+0,0,0.0014,Low Risk,No Churn,No Churn,True
+0,0,0.0618,Low Risk,No Churn,No Churn,True
+1,1,0.5787,Med-High Risk,Churn,Churn,True
+0,0,0.0354,Low Risk,No Churn,No Churn,True
+1,1,0.9156,High Risk,Churn,Churn,True
+1,0,0.1514,Med-Low Risk,Churn,No Churn,False
+1,1,0.8125,High Risk,Churn,Churn,True
+0,0,0.1112,Low Risk,No Churn,No Churn,True
+0,0,0.0142,Low Risk,No Churn,No Churn,True
+1,1,0.8492,High Risk,Churn,Churn,True
+0,0,0.177,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0733,Low Risk,No Churn,No Churn,True
+0,0,0.058,Low Risk,No Churn,No Churn,True
+0,0,0.0032,Low Risk,No Churn,No Churn,True
+0,0,0.0049,Low Risk,No Churn,No Churn,True
+0,1,0.7206,High Risk,No Churn,Churn,False
+0,0,0.0189,Low Risk,No Churn,No Churn,True
+1,0,0.0305,Low Risk,Churn,No Churn,False
+0,1,0.6256,Med-High Risk,No Churn,Churn,False
+0,0,0.0266,Low Risk,No Churn,No Churn,True
+1,0,0.4547,Med-High Risk,Churn,No Churn,False
+0,0,0.0091,Low Risk,No Churn,No Churn,True
+0,0,0.0648,Low Risk,No Churn,No Churn,True
+1,1,0.857,High Risk,Churn,Churn,True
+0,0,0.0144,Low Risk,No Churn,No Churn,True
+1,0,0.0709,Low Risk,Churn,No Churn,False
+0,0,0.003,Low Risk,No Churn,No Churn,True
+0,0,0.0468,Low Risk,No Churn,No Churn,True
+0,0,0.3955,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0918,Low Risk,No Churn,No Churn,True
+1,0,0.3599,Med-Low Risk,Churn,No Churn,False
+0,1,0.6773,Med-High Risk,No Churn,Churn,False
+1,0,0.4171,Med-Low Risk,Churn,No Churn,False
+0,0,0.3587,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2018,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0149,Low Risk,No Churn,No Churn,True
+1,0,0.1265,Low Risk,Churn,No Churn,False
+0,0,0.0157,Low Risk,No Churn,No Churn,True
+0,0,0.0032,Low Risk,No Churn,No Churn,True
+0,0,0.516,Med-High Risk,No Churn,No Churn,True
+0,0,0.5683,Med-High Risk,No Churn,No Churn,True
+1,0,0.3743,Med-Low Risk,Churn,No Churn,False
+0,1,0.5889,Med-High Risk,No Churn,Churn,False
+0,0,0.0342,Low Risk,No Churn,No Churn,True
+0,0,0.029,Low Risk,No Churn,No Churn,True
+0,0,0.0031,Low Risk,No Churn,No Churn,True
+0,0,0.1695,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0847,Low Risk,No Churn,No Churn,True
+1,1,0.9832,High Risk,Churn,Churn,True
+0,0,0.0558,Low Risk,No Churn,No Churn,True
+1,0,0.1691,Med-Low Risk,Churn,No Churn,False
+1,0,0.1729,Med-Low Risk,Churn,No Churn,False
+0,0,0.1703,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0589,Low Risk,No Churn,No Churn,True
+0,0,0.2015,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0035,Low Risk,No Churn,No Churn,True
+1,1,0.9347,High Risk,Churn,Churn,True
+0,1,0.8399,High Risk,No Churn,Churn,False
+1,1,0.658,Med-High Risk,Churn,Churn,True
+0,0,0.09,Low Risk,No Churn,No Churn,True
+0,0,0.4277,Med-High Risk,No Churn,No Churn,True
+0,0,0.0255,Low Risk,No Churn,No Churn,True
+0,0,0.0475,Low Risk,No Churn,No Churn,True
+0,1,0.666,Med-High Risk,No Churn,Churn,False
+0,0,0.5372,Med-High Risk,No Churn,No Churn,True
+0,1,0.948,High Risk,No Churn,Churn,False
+1,0,0.4419,Med-High Risk,Churn,No Churn,False
+0,0,0.1246,Low Risk,No Churn,No Churn,True
+0,0,0.1243,Low Risk,No Churn,No Churn,True
+0,0,0.3666,Med-Low Risk,No Churn,No Churn,True
+1,1,0.7406,High Risk,Churn,Churn,True
+0,0,0.0068,Low Risk,No Churn,No Churn,True
+1,0,0.5085,Med-High Risk,Churn,No Churn,False
+0,0,0.0019,Low Risk,No Churn,No Churn,True
+0,1,0.7117,High Risk,No Churn,Churn,False
+0,0,0.1111,Low Risk,No Churn,No Churn,True
+0,1,0.9163,High Risk,No Churn,Churn,False
+0,0,0.0364,Low Risk,No Churn,No Churn,True
+0,0,0.0617,Low Risk,No Churn,No Churn,True
+0,0,0.1502,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8202,High Risk,Churn,Churn,True
+0,0,0.0032,Low Risk,No Churn,No Churn,True
+0,1,0.5936,Med-High Risk,No Churn,Churn,False
+1,1,0.7241,High Risk,Churn,Churn,True
+1,0,0.0458,Low Risk,Churn,No Churn,False
+0,0,0.1681,Med-Low Risk,No Churn,No Churn,True
+1,0,0.113,Low Risk,Churn,No Churn,False
+1,1,0.8195,High Risk,Churn,Churn,True
+0,0,0.0065,Low Risk,No Churn,No Churn,True
+0,0,0.2581,Med-Low Risk,No Churn,No Churn,True
+1,0,0.5429,Med-High Risk,Churn,No Churn,False
+0,0,0.0459,Low Risk,No Churn,No Churn,True
+0,0,0.2591,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4649,Med-High Risk,No Churn,No Churn,True
+0,0,0.0191,Low Risk,No Churn,No Churn,True
+0,0,0.0696,Low Risk,No Churn,No Churn,True
+0,1,0.8972,High Risk,No Churn,Churn,False
+1,1,0.5843,Med-High Risk,Churn,Churn,True
+0,0,0.0814,Low Risk,No Churn,No Churn,True
+1,0,0.1256,Low Risk,Churn,No Churn,False
+0,0,0.0077,Low Risk,No Churn,No Churn,True
+1,1,0.7065,High Risk,Churn,Churn,True
+0,0,0.0046,Low Risk,No Churn,No Churn,True
+0,0,0.4308,Med-High Risk,No Churn,No Churn,True
+0,1,0.8047,High Risk,No Churn,Churn,False
+0,0,0.3845,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0923,Low Risk,No Churn,No Churn,True
+1,0,0.0583,Low Risk,Churn,No Churn,False
+0,0,0.0715,Low Risk,No Churn,No Churn,True
+0,0,0.1093,Low Risk,No Churn,No Churn,True
+0,0,0.0076,Low Risk,No Churn,No Churn,True
+0,0,0.4208,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4937,Med-High Risk,No Churn,No Churn,True
+0,0,0.0057,Low Risk,No Churn,No Churn,True
+0,0,0.3299,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0006,Low Risk,No Churn,No Churn,True
+1,1,0.9592,High Risk,Churn,Churn,True
+0,0,0.0065,Low Risk,No Churn,No Churn,True
+0,0,0.0517,Low Risk,No Churn,No Churn,True
+0,1,0.7696,High Risk,No Churn,Churn,False
+0,0,0.0016,Low Risk,No Churn,No Churn,True
+0,0,0.3417,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0498,Low Risk,No Churn,No Churn,True
+1,1,0.9686,High Risk,Churn,Churn,True
+1,1,0.7845,High Risk,Churn,Churn,True
+1,1,0.605,Med-High Risk,Churn,Churn,True
+1,1,0.7908,High Risk,Churn,Churn,True
+1,0,0.0124,Low Risk,Churn,No Churn,False
+0,1,0.9591,High Risk,No Churn,Churn,False
+0,0,0.0051,Low Risk,No Churn,No Churn,True
+1,1,0.8783,High Risk,Churn,Churn,True
+0,0,0.0016,Low Risk,No Churn,No Churn,True
+0,0,0.1584,Med-Low Risk,No Churn,No Churn,True
+0,1,0.5831,Med-High Risk,No Churn,Churn,False
+1,1,0.6573,Med-High Risk,Churn,Churn,True
+0,0,0.1316,Low Risk,No Churn,No Churn,True
+1,0,0.524,Med-High Risk,Churn,No Churn,False
+0,0,0.0093,Low Risk,No Churn,No Churn,True
+1,0,0.3649,Med-Low Risk,Churn,No Churn,False
+0,0,0.3575,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+0,0,0.0103,Low Risk,No Churn,No Churn,True
+1,1,0.5943,Med-High Risk,Churn,Churn,True
+0,0,0.5029,Med-High Risk,No Churn,No Churn,True
+0,0,0.0012,Low Risk,No Churn,No Churn,True
+0,0,0.0025,Low Risk,No Churn,No Churn,True
+0,0,0.0114,Low Risk,No Churn,No Churn,True
+0,0,0.1148,Low Risk,No Churn,No Churn,True
+0,0,0.2338,Med-Low Risk,No Churn,No Churn,True
+0,1,0.8994,High Risk,No Churn,Churn,False
+0,0,0.0144,Low Risk,No Churn,No Churn,True
+0,0,0.124,Low Risk,No Churn,No Churn,True
+0,0,0.2197,Med-Low Risk,No Churn,No Churn,True
+0,0,0.094,Low Risk,No Churn,No Churn,True
+0,0,0.4134,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9078,High Risk,Churn,Churn,True
+1,1,0.5819,Med-High Risk,Churn,Churn,True
+0,0,0.5634,Med-High Risk,No Churn,No Churn,True
+0,0,0.1393,Low Risk,No Churn,No Churn,True
+0,0,0.004,Low Risk,No Churn,No Churn,True
+0,0,0.0027,Low Risk,No Churn,No Churn,True
+0,0,0.0438,Low Risk,No Churn,No Churn,True
+0,0,0.016,Low Risk,No Churn,No Churn,True
+1,1,0.8026,High Risk,Churn,Churn,True
+0,0,0.1539,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4669,Med-High Risk,No Churn,No Churn,True
+0,0,0.0852,Low Risk,No Churn,No Churn,True
+0,0,0.0094,Low Risk,No Churn,No Churn,True
+1,0,0.0799,Low Risk,Churn,No Churn,False
+0,1,0.6663,Med-High Risk,No Churn,Churn,False
+0,0,0.3041,Med-Low Risk,No Churn,No Churn,True
+0,1,0.917,High Risk,No Churn,Churn,False
+1,0,0.5098,Med-High Risk,Churn,No Churn,False
+1,0,0.503,Med-High Risk,Churn,No Churn,False
+0,0,0.0155,Low Risk,No Churn,No Churn,True
+0,0,0.4093,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2423,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2939,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0291,Low Risk,No Churn,No Churn,True
+0,0,0.0207,Low Risk,No Churn,No Churn,True
+0,0,0.0847,Low Risk,No Churn,No Churn,True
+1,0,0.2364,Med-Low Risk,Churn,No Churn,False
+0,0,0.0228,Low Risk,No Churn,No Churn,True
+1,1,0.6548,Med-High Risk,Churn,Churn,True
+0,0,0.001,Low Risk,No Churn,No Churn,True
+0,0,0.0092,Low Risk,No Churn,No Churn,True
+0,0,0.1258,Low Risk,No Churn,No Churn,True
+0,0,0.042,Low Risk,No Churn,No Churn,True
+0,0,0.172,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0023,Low Risk,No Churn,No Churn,True
+0,0,0.2075,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1094,Low Risk,No Churn,No Churn,True
+0,0,0.0211,Low Risk,No Churn,No Churn,True
+0,0,0.2257,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1794,Med-Low Risk,No Churn,No Churn,True
+1,1,0.681,Med-High Risk,Churn,Churn,True
+0,0,0.0069,Low Risk,No Churn,No Churn,True
+0,0,0.0042,Low Risk,No Churn,No Churn,True
+0,0,0.5412,Med-High Risk,No Churn,No Churn,True
+0,0,0.1477,Med-Low Risk,No Churn,No Churn,True
+1,0,0.503,Med-High Risk,Churn,No Churn,False
+0,0,0.0114,Low Risk,No Churn,No Churn,True
+0,0,0.0065,Low Risk,No Churn,No Churn,True
+0,0,0.3587,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0992,Low Risk,No Churn,No Churn,True
+0,0,0.1924,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0072,Low Risk,No Churn,No Churn,True
+0,0,0.009,Low Risk,No Churn,No Churn,True
+0,0,0.1451,Med-Low Risk,No Churn,No Churn,True
+0,0,0.324,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8585,High Risk,Churn,Churn,True
+0,1,0.6805,Med-High Risk,No Churn,Churn,False
+0,0,0.1246,Low Risk,No Churn,No Churn,True
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+0,0,0.273,Med-Low Risk,No Churn,No Churn,True
+0,0,0.081,Low Risk,No Churn,No Churn,True
+1,1,0.836,High Risk,Churn,Churn,True
+0,0,0.0813,Low Risk,No Churn,No Churn,True
+0,0,0.0958,Low Risk,No Churn,No Churn,True
+0,0,0.0062,Low Risk,No Churn,No Churn,True
+0,0,0.0118,Low Risk,No Churn,No Churn,True
+1,0,0.0365,Low Risk,Churn,No Churn,False
+0,0,0.0114,Low Risk,No Churn,No Churn,True
+0,0,0.0562,Low Risk,No Churn,No Churn,True
+0,1,0.8581,High Risk,No Churn,Churn,False
+1,0,0.1188,Low Risk,Churn,No Churn,False
+0,0,0.0581,Low Risk,No Churn,No Churn,True
+0,0,0.0422,Low Risk,No Churn,No Churn,True
+0,0,0.0198,Low Risk,No Churn,No Churn,True
+0,1,0.7469,High Risk,No Churn,Churn,False
+0,0,0.0213,Low Risk,No Churn,No Churn,True
+0,0,0.003,Low Risk,No Churn,No Churn,True
+1,1,0.7596,High Risk,Churn,Churn,True
+0,0,0.0077,Low Risk,No Churn,No Churn,True
+1,1,0.6562,Med-High Risk,Churn,Churn,True
+0,0,0.0078,Low Risk,No Churn,No Churn,True
+0,0,0.0004,Low Risk,No Churn,No Churn,True
+1,0,0.4839,Med-High Risk,Churn,No Churn,False
+0,0,0.0067,Low Risk,No Churn,No Churn,True
+0,1,0.6733,Med-High Risk,No Churn,Churn,False
+1,0,0.1254,Low Risk,Churn,No Churn,False
+0,0,0.1393,Low Risk,No Churn,No Churn,True
+1,1,0.8067,High Risk,Churn,Churn,True
+0,1,0.8554,High Risk,No Churn,Churn,False
+0,0,0.0127,Low Risk,No Churn,No Churn,True
+0,0,0.0208,Low Risk,No Churn,No Churn,True
+0,0,0.2041,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2417,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2493,Med-Low Risk,No Churn,No Churn,True
+0,1,0.5831,Med-High Risk,No Churn,Churn,False
+0,1,0.595,Med-High Risk,No Churn,Churn,False
+0,0,0.1262,Low Risk,No Churn,No Churn,True
+0,0,0.0466,Low Risk,No Churn,No Churn,True
+0,0,0.0146,Low Risk,No Churn,No Churn,True
+1,0,0.3499,Med-Low Risk,Churn,No Churn,False
+0,0,0.1031,Low Risk,No Churn,No Churn,True
+0,0,0.0854,Low Risk,No Churn,No Churn,True
+0,0,0.063,Low Risk,No Churn,No Churn,True
+0,1,0.7468,High Risk,No Churn,Churn,False
+1,1,0.7398,High Risk,Churn,Churn,True
+0,1,0.6064,Med-High Risk,No Churn,Churn,False
+0,0,0.4252,Med-High Risk,No Churn,No Churn,True
+0,0,0.0009,Low Risk,No Churn,No Churn,True
+0,0,0.0039,Low Risk,No Churn,No Churn,True
+1,1,0.9079,High Risk,Churn,Churn,True
+0,0,0.029,Low Risk,No Churn,No Churn,True
+1,1,0.9809,High Risk,Churn,Churn,True
+0,0,0.2102,Med-Low Risk,No Churn,No Churn,True
+0,1,0.6432,Med-High Risk,No Churn,Churn,False
+1,1,0.8875,High Risk,Churn,Churn,True
+0,0,0.4197,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0979,Low Risk,No Churn,No Churn,True
+0,0,0.0079,Low Risk,No Churn,No Churn,True
+0,1,0.7035,Med-High Risk,No Churn,Churn,False
+0,0,0.0138,Low Risk,No Churn,No Churn,True
+1,0,0.0077,Low Risk,Churn,No Churn,False
+1,0,0.0599,Low Risk,Churn,No Churn,False
+1,1,0.6359,Med-High Risk,Churn,Churn,True
+0,0,0.5549,Med-High Risk,No Churn,No Churn,True
+0,0,0.0058,Low Risk,No Churn,No Churn,True
+0,1,0.6686,Med-High Risk,No Churn,Churn,False
+0,0,0.0125,Low Risk,No Churn,No Churn,True
+0,1,0.6678,Med-High Risk,No Churn,Churn,False
+0,0,0.1583,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0859,Low Risk,No Churn,No Churn,True
+1,1,0.988,High Risk,Churn,Churn,True
+0,0,0.0388,Low Risk,No Churn,No Churn,True
+0,0,0.01,Low Risk,No Churn,No Churn,True
+0,0,0.4543,Med-High Risk,No Churn,No Churn,True
+0,0,0.1161,Low Risk,No Churn,No Churn,True
+0,0,0.0324,Low Risk,No Churn,No Churn,True
+0,0,0.0334,Low Risk,No Churn,No Churn,True
+1,1,0.9631,High Risk,Churn,Churn,True
+1,1,0.7309,High Risk,Churn,Churn,True
+1,1,0.9487,High Risk,Churn,Churn,True
+0,0,0.1467,Med-Low Risk,No Churn,No Churn,True
+1,0,0.4761,Med-High Risk,Churn,No Churn,False
+0,0,0.004,Low Risk,No Churn,No Churn,True
+0,0,0.0031,Low Risk,No Churn,No Churn,True
+0,1,0.6398,Med-High Risk,No Churn,Churn,False
+0,0,0.0024,Low Risk,No Churn,No Churn,True
+0,0,0.183,Med-Low Risk,No Churn,No Churn,True
+0,0,0.4907,Med-High Risk,No Churn,No Churn,True
+1,1,0.8232,High Risk,Churn,Churn,True
+0,0,0.0055,Low Risk,No Churn,No Churn,True
+0,0,0.0082,Low Risk,No Churn,No Churn,True
 0,0,0.0047,Low Risk,No Churn,No Churn,True
+0,0,0.0111,Low Risk,No Churn,No Churn,True
+0,0,0.0932,Low Risk,No Churn,No Churn,True
+1,1,0.8492,High Risk,Churn,Churn,True
+0,0,0.0037,Low Risk,No Churn,No Churn,True
+1,1,0.6623,Med-High Risk,Churn,Churn,True
+0,0,0.0031,Low Risk,No Churn,No Churn,True
+1,0,0.3957,Med-Low Risk,Churn,No Churn,False
+1,1,0.9226,High Risk,Churn,Churn,True
+1,1,0.6733,Med-High Risk,Churn,Churn,True
+0,0,0.4407,Med-High Risk,No Churn,No Churn,True
+1,0,0.0398,Low Risk,Churn,No Churn,False
+0,0,0.0042,Low Risk,No Churn,No Churn,True
+0,0,0.0054,Low Risk,No Churn,No Churn,True
+0,0,0.0017,Low Risk,No Churn,No Churn,True
+1,0,0.0133,Low Risk,Churn,No Churn,False
+1,0,0.1382,Low Risk,Churn,No Churn,False
+0,0,0.0599,Low Risk,No Churn,No Churn,True
+1,0,0.4962,Med-High Risk,Churn,No Churn,False
+0,0,0.2785,Med-Low Risk,No Churn,No Churn,True
+1,0,0.5068,Med-High Risk,Churn,No Churn,False
+1,0,0.2246,Med-Low Risk,Churn,No Churn,False
+0,1,0.6994,Med-High Risk,No Churn,Churn,False
+0,0,0.0019,Low Risk,No Churn,No Churn,True
+0,0,0.0025,Low Risk,No Churn,No Churn,True
+1,0,0.2697,Med-Low Risk,Churn,No Churn,False
+0,0,0.0012,Low Risk,No Churn,No Churn,True
+1,0,0.281,Med-Low Risk,Churn,No Churn,False
+1,1,0.6167,Med-High Risk,Churn,Churn,True
+1,0,0.2639,Med-Low Risk,Churn,No Churn,False
+1,0,0.301,Med-Low Risk,Churn,No Churn,False
+0,0,0.0854,Low Risk,No Churn,No Churn,True
+0,0,0.0095,Low Risk,No Churn,No Churn,True
+1,0,0.4405,Med-High Risk,Churn,No Churn,False
+1,1,0.948,High Risk,Churn,Churn,True
+0,0,0.0096,Low Risk,No Churn,No Churn,True
+0,0,0.0064,Low Risk,No Churn,No Churn,True
+0,0,0.0026,Low Risk,No Churn,No Churn,True
+0,0,0.0073,Low Risk,No Churn,No Churn,True
+0,0,0.2842,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0485,Low Risk,No Churn,No Churn,True
+0,1,0.7756,High Risk,No Churn,Churn,False
+0,1,0.6475,Med-High Risk,No Churn,Churn,False
+1,0,0.3496,Med-Low Risk,Churn,No Churn,False
+0,0,0.0169,Low Risk,No Churn,No Churn,True
+1,1,0.9678,High Risk,Churn,Churn,True
+0,0,0.095,Low Risk,No Churn,No Churn,True
+0,0,0.0534,Low Risk,No Churn,No Churn,True
+1,1,0.9466,High Risk,Churn,Churn,True
+0,0,0.1138,Low Risk,No Churn,No Churn,True
+0,0,0.0062,Low Risk,No Churn,No Churn,True
+1,0,0.3641,Med-Low Risk,Churn,No Churn,False
+0,0,0.4282,Med-High Risk,No Churn,No Churn,True
+0,0,0.0394,Low Risk,No Churn,No Churn,True
+0,0,0.0658,Low Risk,No Churn,No Churn,True
+0,0,0.0097,Low Risk,No Churn,No Churn,True
+1,0,0.5202,Med-High Risk,Churn,No Churn,False
+0,0,0.224,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9756,High Risk,Churn,Churn,True
+0,0,0.0242,Low Risk,No Churn,No Churn,True
+0,1,0.666,Med-High Risk,No Churn,Churn,False
+0,0,0.3541,Med-Low Risk,No Churn,No Churn,True
+0,0,0.5431,Med-High Risk,No Churn,No Churn,True
+0,0,0.0294,Low Risk,No Churn,No Churn,True
+0,0,0.0018,Low Risk,No Churn,No Churn,True
+0,0,0.1316,Low Risk,No Churn,No Churn,True
+0,0,0.014,Low Risk,No Churn,No Churn,True
+1,1,0.9486,High Risk,Churn,Churn,True
+0,0,0.0401,Low Risk,No Churn,No Churn,True
+0,0,0.0061,Low Risk,No Churn,No Churn,True
+1,0,0.4711,Med-High Risk,Churn,No Churn,False
+0,0,0.4563,Med-High Risk,No Churn,No Churn,True
+0,0,0.4375,Med-High Risk,No Churn,No Churn,True
+0,0,0.0508,Low Risk,No Churn,No Churn,True
+0,0,0.0086,Low Risk,No Churn,No Churn,True
+1,0,0.2017,Med-Low Risk,Churn,No Churn,False
+0,0,0.0995,Low Risk,No Churn,No Churn,True
+0,1,0.8202,High Risk,No Churn,Churn,False
+0,1,0.8202,High Risk,No Churn,Churn,False
+0,0,0.2976,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0712,Low Risk,No Churn,No Churn,True
+1,1,0.7706,High Risk,Churn,Churn,True
+0,0,0.2532,Med-Low Risk,No Churn,No Churn,True
+0,1,0.8847,High Risk,No Churn,Churn,False
+0,0,0.0213,Low Risk,No Churn,No Churn,True
+0,1,0.8538,High Risk,No Churn,Churn,False
+1,1,0.5721,Med-High Risk,Churn,Churn,True
+1,0,0.3733,Med-Low Risk,Churn,No Churn,False
+0,0,0.0329,Low Risk,No Churn,No Churn,True
+0,0,0.0068,Low Risk,No Churn,No Churn,True
+0,0,0.2548,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9835,High Risk,Churn,Churn,True
+0,1,0.9033,High Risk,No Churn,Churn,False
+1,1,0.7849,High Risk,Churn,Churn,True
+1,0,0.4498,Med-High Risk,Churn,No Churn,False
+0,1,0.667,Med-High Risk,No Churn,Churn,False
+0,0,0.1009,Low Risk,No Churn,No Churn,True
+0,0,0.0143,Low Risk,No Churn,No Churn,True
+0,0,0.0075,Low Risk,No Churn,No Churn,True
+1,1,0.7452,High Risk,Churn,Churn,True
+0,0,0.0113,Low Risk,No Churn,No Churn,True
+0,0,0.181,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2579,Med-Low Risk,No Churn,No Churn,True
+1,1,0.7973,High Risk,Churn,Churn,True
+0,0,0.2332,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2008,Med-Low Risk,No Churn,No Churn,True
+1,1,0.5873,Med-High Risk,Churn,Churn,True
+0,0,0.0049,Low Risk,No Churn,No Churn,True
+0,0,0.0617,Low Risk,No Churn,No Churn,True
+0,0,0.0035,Low Risk,No Churn,No Churn,True
+0,0,0.0181,Low Risk,No Churn,No Churn,True
+0,0,0.0428,Low Risk,No Churn,No Churn,True
+0,0,0.0391,Low Risk,No Churn,No Churn,True
+0,0,0.0899,Low Risk,No Churn,No Churn,True
+0,0,0.0089,Low Risk,No Churn,No Churn,True
+0,0,0.0122,Low Risk,No Churn,No Churn,True
+0,0,0.3046,Med-Low Risk,No Churn,No Churn,True
+1,0,0.4562,Med-High Risk,Churn,No Churn,False
+0,0,0.0308,Low Risk,No Churn,No Churn,True
+0,1,0.9352,High Risk,No Churn,Churn,False
+1,1,0.6618,Med-High Risk,Churn,Churn,True
+0,0,0.2183,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9807,High Risk,Churn,Churn,True
+0,0,0.0282,Low Risk,No Churn,No Churn,True
+1,0,0.3063,Med-Low Risk,Churn,No Churn,False
+0,0,0.3662,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0454,Low Risk,No Churn,No Churn,True
+1,1,0.6655,Med-High Risk,Churn,Churn,True
+0,0,0.0431,Low Risk,No Churn,No Churn,True
+1,1,0.9856,High Risk,Churn,Churn,True
+0,0,0.0033,Low Risk,No Churn,No Churn,True
+0,0,0.0113,Low Risk,No Churn,No Churn,True
+0,0,0.0058,Low Risk,No Churn,No Churn,True
+0,0,0.0954,Low Risk,No Churn,No Churn,True
+0,0,0.0808,Low Risk,No Churn,No Churn,True
+0,0,0.0073,Low Risk,No Churn,No Churn,True
+0,0,0.0652,Low Risk,No Churn,No Churn,True
+1,0,0.2714,Med-Low Risk,Churn,No Churn,False
+0,0,0.0759,Low Risk,No Churn,No Churn,True
+0,1,0.7824,High Risk,No Churn,Churn,False
+1,1,0.7273,High Risk,Churn,Churn,True
+0,0,0.2154,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0151,Low Risk,No Churn,No Churn,True
+0,0,0.0011,Low Risk,No Churn,No Churn,True
+1,1,0.6104,Med-High Risk,Churn,Churn,True
+0,0,0.1768,Med-Low Risk,No Churn,No Churn,True
+1,0,0.0917,Low Risk,Churn,No Churn,False
+1,0,0.3176,Med-Low Risk,Churn,No Churn,False
+0,0,0.0154,Low Risk,No Churn,No Churn,True
+0,0,0.1972,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1737,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0231,Low Risk,No Churn,No Churn,True
+0,0,0.0017,Low Risk,No Churn,No Churn,True
+0,0,0.0628,Low Risk,No Churn,No Churn,True
+1,0,0.3129,Med-Low Risk,Churn,No Churn,False
+0,1,0.7479,High Risk,No Churn,Churn,False
+1,1,0.618,Med-High Risk,Churn,Churn,True
+0,0,0.0173,Low Risk,No Churn,No Churn,True
+1,1,0.8406,High Risk,Churn,Churn,True
+1,1,0.9868,High Risk,Churn,Churn,True
+0,0,0.0025,Low Risk,No Churn,No Churn,True
+0,0,0.1949,Med-Low Risk,No Churn,No Churn,True
+1,0,0.3034,Med-Low Risk,Churn,No Churn,False
+0,0,0.0781,Low Risk,No Churn,No Churn,True
+0,1,0.7647,High Risk,No Churn,Churn,False
+0,0,0.4441,Med-High Risk,No Churn,No Churn,True
+0,0,0.0119,Low Risk,No Churn,No Churn,True
+0,0,0.0037,Low Risk,No Churn,No Churn,True
+0,1,0.6939,Med-High Risk,No Churn,Churn,False
+0,0,0.3178,Med-Low Risk,No Churn,No Churn,True
+1,1,0.9194,High Risk,Churn,Churn,True
+0,0,0.0241,Low Risk,No Churn,No Churn,True
+0,0,0.0253,Low Risk,No Churn,No Churn,True
+0,0,0.0232,Low Risk,No Churn,No Churn,True
+0,0,0.3307,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0856,Low Risk,No Churn,No Churn,True
+0,0,0.0141,Low Risk,No Churn,No Churn,True
+0,1,0.5772,Med-High Risk,No Churn,Churn,False
+0,0,0.0176,Low Risk,No Churn,No Churn,True
+1,0,0.1509,Med-Low Risk,Churn,No Churn,False
+0,0,0.0088,Low Risk,No Churn,No Churn,True
+0,0,0.2711,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0713,Low Risk,No Churn,No Churn,True
+0,0,0.4767,Med-High Risk,No Churn,No Churn,True
+1,0,0.4097,Med-Low Risk,Churn,No Churn,False
+0,0,0.1323,Low Risk,No Churn,No Churn,True
+0,0,0.0825,Low Risk,No Churn,No Churn,True
+0,0,0.1007,Low Risk,No Churn,No Churn,True
+1,0,0.2804,Med-Low Risk,Churn,No Churn,False
+0,0,0.0227,Low Risk,No Churn,No Churn,True
+1,1,0.738,High Risk,Churn,Churn,True
+0,0,0.0096,Low Risk,No Churn,No Churn,True
+1,0,0.3601,Med-Low Risk,Churn,No Churn,False
+0,0,0.069,Low Risk,No Churn,No Churn,True
+0,0,0.0124,Low Risk,No Churn,No Churn,True
+0,0,0.0726,Low Risk,No Churn,No Churn,True
+0,0,0.2648,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8688,High Risk,Churn,Churn,True
+0,0,0.0047,Low Risk,No Churn,No Churn,True
+0,0,0.0571,Low Risk,No Churn,No Churn,True
+0,1,0.6178,Med-High Risk,No Churn,Churn,False
+1,0,0.1445,Med-Low Risk,Churn,No Churn,False
+0,0,0.2398,Med-Low Risk,No Churn,No Churn,True
+1,1,0.6927,Med-High Risk,Churn,Churn,True
+1,1,0.593,Med-High Risk,Churn,Churn,True
+0,0,0.0097,Low Risk,No Churn,No Churn,True
+0,0,0.0142,Low Risk,No Churn,No Churn,True
+0,0,0.0892,Low Risk,No Churn,No Churn,True
+1,1,0.8024,High Risk,Churn,Churn,True
+1,0,0.4316,Med-High Risk,Churn,No Churn,False
+0,0,0.0053,Low Risk,No Churn,No Churn,True
+0,0,0.0615,Low Risk,No Churn,No Churn,True
+0,0,0.0732,Low Risk,No Churn,No Churn,True
+0,0,0.1259,Low Risk,No Churn,No Churn,True
+0,0,0.0008,Low Risk,No Churn,No Churn,True
+0,0,0.0134,Low Risk,No Churn,No Churn,True
+1,1,0.8545,High Risk,Churn,Churn,True
+1,0,0.1645,Med-Low Risk,Churn,No Churn,False
+0,0,0.0013,Low Risk,No Churn,No Churn,True
+0,0,0.4749,Med-High Risk,No Churn,No Churn,True
+0,0,0.0601,Low Risk,No Churn,No Churn,True
+0,0,0.0833,Low Risk,No Churn,No Churn,True
+1,0,0.1677,Med-Low Risk,Churn,No Churn,False
+0,0,0.0948,Low Risk,No Churn,No Churn,True
+0,0,0.2168,Med-Low Risk,No Churn,No Churn,True
+0,1,0.8226,High Risk,No Churn,Churn,False
+0,0,0.0145,Low Risk,No Churn,No Churn,True
+0,0,0.355,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0186,Low Risk,No Churn,No Churn,True
+0,0,0.2023,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0848,Low Risk,No Churn,No Churn,True
+1,0,0.1583,Med-Low Risk,Churn,No Churn,False
+1,0,0.0955,Low Risk,Churn,No Churn,False
+0,0,0.1349,Low Risk,No Churn,No Churn,True
+0,0,0.3702,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3843,Med-Low Risk,No Churn,No Churn,True
+1,1,0.8342,High Risk,Churn,Churn,True
+0,0,0.0021,Low Risk,No Churn,No Churn,True
+0,0,0.4181,Med-Low Risk,No Churn,No Churn,True
+0,1,0.7029,Med-High Risk,No Churn,Churn,False
+0,0,0.0166,Low Risk,No Churn,No Churn,True
+0,0,0.2804,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0796,Low Risk,No Churn,No Churn,True
+1,1,0.7919,High Risk,Churn,Churn,True
+1,0,0.5387,Med-High Risk,Churn,No Churn,False
+0,0,0.0198,Low Risk,No Churn,No Churn,True
+0,0,0.0126,Low Risk,No Churn,No Churn,True
+1,0,0.5218,Med-High Risk,Churn,No Churn,False
+1,0,0.3265,Med-Low Risk,Churn,No Churn,False
+1,1,0.8896,High Risk,Churn,Churn,True
+0,0,0.0183,Low Risk,No Churn,No Churn,True
+0,0,0.4132,Med-Low Risk,No Churn,No Churn,True
+0,0,0.3924,Med-Low Risk,No Churn,No Churn,True
+0,0,0.0015,Low Risk,No Churn,No Churn,True
+0,0,0.1816,Med-Low Risk,No Churn,No Churn,True
+1,0,0.0665,Low Risk,Churn,No Churn,False
+0,0,0.3683,Med-Low Risk,No Churn,No Churn,True
+0,0,0.2815,Med-Low Risk,No Churn,No Churn,True
+1,0,0.4653,Med-High Risk,Churn,No Churn,False
+0,0,0.0088,Low Risk,No Churn,No Churn,True
+0,1,0.8659,High Risk,No Churn,Churn,False
+0,1,0.5851,Med-High Risk,No Churn,Churn,False
+0,0,0.001,Low Risk,No Churn,No Churn,True
+1,1,0.9724,High Risk,Churn,Churn,True
+0,0,0.0216,Low Risk,No Churn,No Churn,True
+0,0,0.4545,Med-High Risk,No Churn,No Churn,True
+0,0,0.4234,Med-Low Risk,No Churn,No Churn,True
+0,0,0.1139,Low Risk,No Churn,No Churn,True
+0,0,0.0033,Low Risk,No Churn,No Churn,True
+1,1,0.7307,High Risk,Churn,Churn,True
+0,0,0.0262,Low Risk,No Churn,No Churn,True
+0,0,0.0182,Low Risk,No Churn,No Churn,True
+0,0,0.0307,Low Risk,No Churn,No Churn,True
+0,0,0.0386,Low Risk,No Churn,No Churn,True
+0,0,0.024,Low Risk,No Churn,No Churn,True
+0,0,0.0141,Low Risk,No Churn,No Churn,True
+0,0,0.048,Low Risk,No Churn,No Churn,True
+0,0,0.2126,Med-Low Risk,No Churn,No Churn,True
+0,0,0.002,Low Risk,No Churn,No Churn,True

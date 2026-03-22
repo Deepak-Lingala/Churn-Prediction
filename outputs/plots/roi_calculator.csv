@@ -1,4 +1,5 @@
-Retention_Rate,High_Risk_Customers,Avg_Monthly_Revenue,Monthly_Revenue_Saved,Annual_Revenue_Saved
-20%,185,64.76,2396.12,28753.44
-30%,185,64.76,3594.18,43130.16
-40%,185,64.76,4792.24,57506.88
+Retention_Rate,High_Risk_Customers,Avg_Monthly_Revenue_USD,Monthly_Saved_USD,Annual_Saved_USD
+20%,212,64.76,2745.82,32949.84
+30%,212,64.76,4118.74,49424.88
+40%,212,64.76,5491.65,65899.8
+50%,212,64.76,6864.56,82374.72

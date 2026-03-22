@@ -1,0 +1,5 @@
+Risk_Segment,Customer_Count,Avg_Churn_Prob,Actual_Churn_Rate
+High Risk,212,0.8471,0.6321
+Low Risk,704,0.0395,0.081
+Med-High Risk,211,0.5694,0.4739
+Med-Low Risk,282,0.2673,0.2943

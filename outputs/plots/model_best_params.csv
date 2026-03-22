@@ -1,7 +1,7 @@
-Model,Best_Threshold,Threshold_Validation_Accuracy_At_Best_Threshold,Best_CV_Accuracy,Best_Params
-Logistic Regression,0.4600000000000002,0.8592995169082126,0.8546765766160223,"{'model__solver': 'lbfgs', 'model__class_weight': None, 'model__C': 1.0}"
-Random Forest,0.5500000000000003,0.8695652173913043,0.8589042135528409,"{'n_estimators': 500, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}"
-Gradient Boosting,0.5700000000000003,0.8683574879227053,0.8603548754323743,"{'subsample': 1.0, 'n_estimators': 300, 'min_samples_leaf': 4, 'max_depth': 3, 'learning_rate': 0.1}"
-XGBoost,0.5000000000000002,0.8683574879227053,0.862167053431995,"{'subsample': 0.7, 'reg_lambda': 2.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.85}"
-Soft Voting Ensemble,0.5300000000000002,0.9218410244020296,0.8604753808057367,"{'members': ['Random Forest', 'Gradient Boosting', 'XGBoost']}"
-CatBoost Raw,0.49000000000000027,0.8225377107364685,0.8043078520786218,"{'learning_rate': 0.01, 'l2_leaf_reg': 1, 'iterations': 400, 'depth': 4, 'border_count': 254}"
+Model,Best_Threshold,Threshold_Val_Acc,Best_CV_Score,Best_Params
+Logistic Regression,0.48000000000000026,0.8611111111111112,0.8555227169899441,"{'model__solver': 'liblinear', 'model__class_weight': 'balanced', 'model__C': 10.0}"
+Random Forest,0.5600000000000003,0.8756038647342995,0.8595082242363208,"{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 16}"
+Gradient Boosting,0.5600000000000003,0.8677536231884058,0.86119919144154,"{'subsample': 0.7, 'n_estimators': 600, 'min_samples_leaf': 2, 'max_depth': 5, 'learning_rate': 0.05}"
+XGBoost,0.5700000000000003,0.8719806763285024,0.859629362056132,"{'subsample': 0.8, 'scale_pos_weight': 1.0, 'reg_lambda': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'gamma': 0.0, 'colsample_bytree': 1.0}"
+LightGBM,0.5900000000000003,0.8756038647342995,0.8607172672475445,"{'subsample': 1.0, 'reg_lambda': 0.0, 'reg_alpha': 0.0, 'num_leaves': 31, 'n_estimators': 200, 'min_child_samples': 20, 'max_depth': -1, 'learning_rate': 0.1, 'colsample_bytree': 0.7}"
+Soft Voting Ensemble,0.5400000000000003,0.9752355641459289,0.8599516178466659,"{'members': ['Random Forest', 'LightGBM', 'XGBoost'], 'weights': [0.3355756560089588, 0.333152188424212, 0.3312721555668291]}"

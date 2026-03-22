@@ -5,14 +5,12 @@ __pycache__/
 *.pyo
 *.pyd
 .ipynb_checkpoints/
-catboost_info/
 .pytest_cache/
 .mypy_cache/
-
-# Generated model artifacts and plots
-outputs/models/*.pkl
-outputs/plots/*.png
 
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Environment secrets
+.env
