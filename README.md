@@ -1,5 +1,7 @@
 # Customer Churn Prediction (Telco)
 
+![Power BI Executive Dashboard](dashboard_preview.png)
+
 ## 📌 Business Problem
 A telecommunications company loses roughly 20% of its customers monthly but struggles to identify at-risk profiles from 7k+ messy customer records spread across billing and usage tables. 
 
@@ -144,6 +146,8 @@ Main outputs (latest run):
 - `outputs/models/xgb_churn_model.pkl` — serialized best model
 
 ## Power BI Integration
+
+You can view the interactive dashboard by downloading the [Customer Churn Prediction Power BI File](customer_churn_prediction.pbix).
 
 Import these files directly into Power BI:
 
